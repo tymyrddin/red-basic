@@ -1,6 +1,6 @@
 # Attack Trees
 
-![Publish Attack Trees using Sphinx](https://github.com/tymyrddin/attack-trees/workflows/Publish%20Attack%20Trees%20using%20Sphinx/badge.svg?branch=main) Deployment: https://tymyrddin.github.io/documentation
+![Publish Attack Trees using Sphinx](https://github.com/tymyrddin/attack-trees/workflows/Publish%20Attack%20Trees%20using%20Sphinx/badge.svg?branch=main)
  Deployed: https://tymyrddin.github.io/attack-trees/
 
 Built with [Sphinx](https://www.sphinx-doc.org) using a [theme](https://github.com/readthedocs/sphinx_rtd_theme) provided
