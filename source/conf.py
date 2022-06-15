@@ -58,18 +58,19 @@ html_theme_options = {
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': True,
+    'github_url': 'https://github.com/tymyrddin/attack-trees',
     # Toc options
     'collapse_navigation': False,
     'sticky_navigation': False,
     'navigation_depth': 3,
     'includehidden': True,
-    'titles_only': False
+    'titles_only': True
 }
 
 html_title = "Attack trees"
 html_logo = "img/logo.png"
 html_favicon = "img/favicon.ico"
-github_url = "https://github.com/tymyrddin/attack-trees"
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
