@@ -69,6 +69,7 @@ html_theme_options = {
 html_title = "Attack trees"
 html_logo = "img/logo.png"
 html_favicon = "img/favicon.ico"
+github_url = "https://github.com/tymyrddin/attack-trees"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
