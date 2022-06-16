@@ -1,16 +1,8 @@
 # Port redirection
 
-In port redirection, an adversary uses a machine with access to the internal network to pass traffic through a port on the firewall or access control list (ACL). The port in question normally denies traffic, but with redirection a hacker can bypass security measures and open a tunnel for communication.
+## Attack tree
 
-For example,  most organisations have a demilitarized zone (DMZ). Servers that communicate from the DMZ and the internal network may have a trust relationship established. The internal devices may be set up to trust information that is received from a DMZ server, and often also vv. When an adversary can compromise a DMZ server she can initiate a connection to the internal network. There are a lot of ways that port redirection can be used to get around obstacles.
-
-* Leverage network access by compromising one system to attack another.
-* Access a service that is being blocked by a firewall.
-* Evading an intrusion detection system by sending traffic through an encrypted tunnel.
-
-## Attack
-
-```
+```text
 1 Compromise host in DMZ gaining direct access on port 80/tcp only (AND)
 2 Compromise host in internal network by setting a bind shell to listen on port 23 (AND)
 3 Redirect
@@ -77,3 +69,14 @@ For example,  most organisations have a demilitarized zone (DMZ). Servers that c
         3.9.5 Initiate a telnet connection to local forwarder 
                 (telnet localhost 23)
 ```
+
+## Notes
+
+In port redirection, an adversary uses a machine with access to the internal network to pass traffic through a port on the firewall or access control list (ACL). The port in question normally denies traffic, but with redirection a hacker can bypass security measures and open a tunnel for communication.
+
+For example,  most organisations have a demilitarized zone (DMZ). Servers that communicate from the DMZ and the internal network may have a trust relationship established. The internal devices may be set up to trust information that is received from a DMZ server, and often also vv. When an adversary can compromise a DMZ server she can initiate a connection to the internal network. There are a lot of ways that port redirection can be used to get around obstacles.
+
+* Leverage network access by compromising one system to attack another.
+* Access a service that is being blocked by a firewall.
+* Evading an intrusion detection system by sending traffic through an encrypted tunnel.
+

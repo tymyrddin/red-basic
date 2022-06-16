@@ -12,6 +12,15 @@ Attack Trees represent often used movements and can help organise our thoughts a
    :glob:
    :maxdepth: 1
    :includehidden:
+   :caption: Testlabs
+
+   docs/lab/README.md
+   docs/lab/*
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
    :caption: Reconnaissance
 
    docs/reconnaissance/README.md
@@ -95,3 +104,12 @@ Attack Trees represent often used movements and can help organise our thoughts a
 
    docs/crypto/README.md
    docs/crypto/*
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Troubleshooting
+
+   docs/trouble/README.md
+   docs/trouble/*

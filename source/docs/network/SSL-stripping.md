@@ -2,9 +2,9 @@
 
 SSL stripping downgrades a HTTPS connection to HTTP by intercepting the TLS authentication sent from the application to the user. The adversary sends an unencrypted version of the application’s site to the user while maintaining the secured session with the application. The user’s session is visible to the adversary.
 
-## Attack
+## Attack tree
 
-```
+```text
 1 Strip SSL (AND)
     1.1 Install SSLStrip (AND)
     1.2 Configure attack machine for IP forwarding (echo 1 > /proc/sys/net/ipv4/ip_forward or sysctl -w net.ipv4.ip_forward=1) (AND)
@@ -16,9 +16,11 @@ SSL stripping downgrades a HTTPS connection to HTTP by intercepting the TLS auth
 3 Sniff traffic 
 ```
 
-## Resources
+## Demo scripts
 * [simple ARP spoofer](https://github.com/tymyrddin/ymrir/tree/master/arp_spoofer)
 * [simple packet sniffer](https://github.com/tymyrddin/ymrir/tree/master/packet_sniffer)
+
+
 * [Bettercap sslstrip not working](https://github.com/tymyrddin/ymrir/wiki/bettercap.md)
 * [Undesired HTTPS redirects](https://github.com/tymyrddin/ymrir/wiki/https-browser.md)
 * [Correctly configured HSTS](https://github.com/tymyrddin/ymrir/wiki/hsts.md)

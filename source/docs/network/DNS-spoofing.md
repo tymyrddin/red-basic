@@ -53,8 +53,6 @@ DNS spoofing can be achieved by DNS redirection, an attack in which an adversary
 * DNS server spoofing attacks are often used to spread computer worms and viruses.
 * This kind of attack is also often used for pharming.
 
-## Resources
-
-### Scripts (ty myrddin)
+## Demo scripts
 
 * [Hijack local DNS](https://github.com/tymyrddin/ymrir/tree/master/dns_spoofer)

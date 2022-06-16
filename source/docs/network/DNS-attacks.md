@@ -16,8 +16,6 @@
 * DNS amplification attacks exploit the open nature of DNS services to strengthen the force of distributed denial of service [DDoS](DDoS.md) attacks.
 * A DDoS attack against a DNS server can cause it to crash, rendering the users who rely on the sever unable to browse the web (users will still be able to reach recently visited websites if the DNS record is saved in a local cache).
 
-## Resources
-
-### Scripts (ty myrddin)
+## Demo scripts
 
 * [Hijack local DNS](https://github.com/tymyrddin/ymrir/tree/master/dns_spoofer)

@@ -2,9 +2,9 @@
 
 Depending on the network topology, there are many ways of gaining read-access to a network to conduct passive attacks. The most common method compromises a general purpose operating system on the segment and installs sniffer software that puts a network interface card in promiscuous mode and captures traffic. [ARP/MAC spoofing](ARP-spoofing.md) may be necessary to sniff traffic on switched networks.
 
-## Attack
+## Attack tree
 
-```
+```text
 1 Get into a good spot (AND)
     1.1 Gain local network access to a segment (OR)
         1.1.1 Compromise server (AND)
@@ -21,9 +21,11 @@ Depending on the network topology, there are many ways of gaining read-access to
     2.6 DNS traffic
 ```
 
-## Resources
+## Demo scripts
 
 * [simple sniffer script](https://github.com/tymyrddin/ymrir/tree/master/packet_sniffer)
+
+## Network tools
 * [BetterCAP](https://www.bettercap.org/)
 * [EtterCAP](https://www.ettercap-project.org/)
 * [Wireshark](https://www.wireshark.org/)
@@ -32,6 +34,7 @@ Depending on the network topology, there are many ways of gaining read-access to
 * [OmniPeek](https://store.liveaction.com/product/omnipeek-network-protocol-analyzer/)
 * [Dsniff](https://www.monkey.org/~dugsong/dsniff/)
 * [EtherApe](https://etherape.sourceforge.io/) available as package
+
 
 
 
