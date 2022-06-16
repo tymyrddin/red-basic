@@ -1,10 +1,8 @@
 # Denial of Service (DoS)
 
-The two most devastating variations of Denial of Service attacks are the [distributed denial of service (DDoS)](DDoS.md) and the [distributed deflection denial of service (DrDoS)](DrDoS.md). Both types enlist the assistance of others, voluntary or not, to assist in the attack. This significantly increases the size of the attack, shields the source, and makes defending from it harder.
+## Attack tree
 
-## Attack
-
-```
+```text
 1 Physical destruction of router (OR)
 2 Link layer attacks (OR)
     2.1 Protocol attack using link layer protocol (OR)
@@ -35,5 +33,6 @@ The two most devastating variations of Denial of Service attacks are the [distri
 
 ## Notes
 
+The two most devastating variations of Denial of Service attacks are the [distributed denial of service (DDoS)](DDoS.md) and the [distributed deflection denial of service (DrDoS)](DrDoS.md). Both types enlist the assistance of others, voluntary or not, to assist in the attack. This significantly increases the size of the attack, shields the source, and makes defending from it harder.
 
 

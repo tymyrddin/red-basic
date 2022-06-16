@@ -1,13 +1,8 @@
 # DNS spoofing
 
-DNS spoofing can be achieved by DNS redirection, an attack in which an adversary modifies a DNS server in order to redirect a specific domain name to a different IP address. In many cases, the new IP address will be for a server controlled by the adversary which contains files infected with malware. Cache poisoning is another way to achieve DNS spoofing, without relying on DNS hijacking (physically taking over the DNS settings). An adversary inserts a forged DNS entry, containing an alternative IP destination for the same domain name, after which the DNS server resolves the domain to the spoofed website, until the cache is refreshed.
+## Attack tree
 
-* DNS server spoofing attacks are often used to spread computer worms and viruses.
-* This kind of attack is also often used for pharming.
-
-## Attack
-
-```
+```text
 1 Hijack a local DNS (OR)
     1.1 Install malware on host
     1.2 Change local DNS settings for a redirect
@@ -51,6 +46,15 @@ DNS spoofing can be achieved by DNS redirection, an attack in which an adversary
     5.3 Zone enumeration (Only NSEC, NSEC3 and NSEC5 publish hashed records of hostnames)
 ```
 
+## Notes
+
+DNS spoofing can be achieved by DNS redirection, an attack in which an adversary modifies a DNS server in order to redirect a specific domain name to a different IP address. In many cases, the new IP address will be for a server controlled by the adversary which contains files infected with malware. Cache poisoning is another way to achieve DNS spoofing, without relying on DNS hijacking (physically taking over the DNS settings). An adversary inserts a forged DNS entry, containing an alternative IP destination for the same domain name, after which the DNS server resolves the domain to the spoofed website, until the cache is refreshed.
+
+* DNS server spoofing attacks are often used to spread computer worms and viruses.
+* This kind of attack is also often used for pharming.
+
 ## Resources
+
+### Scripts (ty myrddin)
 
 * [Hijack local DNS](https://github.com/tymyrddin/ymrir/tree/master/dns_spoofer)

@@ -1,8 +1,8 @@
 # Attack domestic WiFi
 
-## Attack
+## Attack tree
 
-```
+```text
     1 Sniff WiFi traffic (AND)
     2 Gain access (OR)
         2.1 Connect to unencrypted network (OR)
