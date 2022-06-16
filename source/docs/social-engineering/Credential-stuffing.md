@@ -1,14 +1,8 @@
 # Credential stuffing
 
-Credential stuffing is currently one of the most common techniques used to take-over user accounts. Credential spilling is when credentials gained from data breaches are sold to other adversaries. Credential stuffing is the large scale use of automated means to test stolen passwords against other unrelated websites. This is a possible and often successful attack because of the tendency for users to recycle their passwords for multiple accounts.
+## Attack tree
 
-Adversaries no longer need advanced technical skills, specialized equipment, or insider knowledge to successfully attack major websites. Tools are available that bypass traditional security controls, like IP rate limits, reputation lists, blacklists, and other forms of IP-based analysis. CAPTCHA and other controls designed to impede automated interaction with user interfaces are bypassed with Optical Character Recognition (OCR) software and other complementary mechanisms to read and solve those challenges the way that a human user would. A number of forums offer a wide variety of working configurations for various websites for the tools.
-
-Successful logins (usually 0.1-0.2%) allow the adversary to drain the associated accounts of stored values, credit card numbers, and other personally identifiable information and/or to use the account for impersonation, and for actions like sending spam.
-
-## Attack
-
-```
+```text
 1 Use a credential stuffing tool such as Sentry MBA (OR)
     1.1 Configure tool (AND)
         1.1.1 The url for the website's login page
@@ -30,4 +24,13 @@ Successful logins (usually 0.1-0.2%) allow the adversary to drain the associated
             2.2.2.3 Simulate user with OCR and/or database with possible CAPTCHA images and answers.
             2.2.2.3 Try logins with breached credentials 
 ```
+
+## Notes
+
+
+Credential stuffing is currently one of the most common techniques used to take-over user accounts. Credential spilling is when credentials gained from data breaches are sold to other adversaries. Credential stuffing is the large scale use of automated means to test stolen passwords against other unrelated websites. This is a possible and often successful attack because of the tendency for users to recycle their passwords for multiple accounts.
+
+Adversaries no longer need advanced technical skills, specialized equipment, or insider knowledge to successfully attack major websites. Tools are available that bypass traditional security controls, like IP rate limits, reputation lists, blacklists, and other forms of IP-based analysis. CAPTCHA and other controls designed to impede automated interaction with user interfaces are bypassed with Optical Character Recognition (OCR) software and other complementary mechanisms to read and solve those challenges the way that a human user would. A number of forums offer a wide variety of working configurations for various websites for the tools.
+
+Successful logins (usually 0.1-0.2%) allow the adversary to drain the associated accounts of stored values, credit card numbers, and other personally identifiable information and/or to use the account for impersonation, and for actions like sending spam.
 

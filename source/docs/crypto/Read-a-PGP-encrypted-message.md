@@ -1,8 +1,8 @@
 # Read a PGP encrypted message
 
-## Attack
+## Attack tree
 
-```
+```text
 1 Decrypt the message itself (OR)
     1.1 Break asymmetric encryption (OR)
         1.1.1 Brute force break asymmetric encryption (OR)
@@ -62,7 +62,7 @@
     4.4 Implant malware (virus) to expose private key
     4.5 Generate insecure private/public key pair for recipient
 ```
-## Resources
+## Articles
 
 * [Reading a PGP encrypted message](https://www.schneier.com/academic/archives/1999/12/attack_trees.html), Schneier
 

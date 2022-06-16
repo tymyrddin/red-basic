@@ -1,10 +1,8 @@
 # Port scanning
 
-The most common type of scan in the discovery phase is a `SYN` scan (or SYN stealth scan), named for the `TCP SYN` flag used in the `TCP` connection sequence. To perform the default SYN (`-sS`)scans, privileges are required. If privileges are insufficient a TCP connect (`-sT`) scan is used. 
-
 ## Attack tree
 
-```
+```text
 1 Port scanning (AND)
     1.1 Do a TCP scan (OR)
             1.1.2 Use the default SYN (`-sS`)scans (privileges are required) (OR)
@@ -12,6 +10,10 @@ The most common type of scan in the discovery phase is a `SYN` scan (or SYN stea
     1.2 Do a UDP scan
 2 Check for potential known problems with found ports
 ```
+## Notes
+
+* There are many ports scanners that all operate in pretty much the same way. 
+* The most common type of scan in the discovery phase is a `SYN` scan (or SYN stealth scan), named for the `TCP SYN` flag used in the `TCP` connection sequence. To perform the default SYN (`-sS`)scans, privileges are required. If privileges are insufficient a TCP connect (`-sT`) scan is used. 
 
 ## Examples
 
@@ -143,9 +145,7 @@ Network Distance: 0 hops
 OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 3 IP addresses (3 hosts up) scanned in 3.57 seconds
 ```
-## Resources
-
-There are many different ports scanners that all operate in pretty much the same way. 
+## Cheatsheets
 
 * [Nmap cheatsheet](https://github.com/tymyrddin/nest-egg/blob/main/cheatsheets/Nmap-cheatsheet.md)
 * [Nessus](https://github.com/tymyrddin/nest-egg/blob/main/cheatsheets/Nessus-cheatsheet.md)

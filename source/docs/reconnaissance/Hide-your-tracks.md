@@ -21,5 +21,6 @@ The methods used by pirates to hide their tracks
 * After a hack, shred all related data, delete the entire hard drive, and install a fresh operating system from bootable disc or USB drive (erase and format the drive’s partitions) to return to normal function.
 * Learn about Digital Forensics, keep up to date.
 
-## Resources
+## Cheatsheets
+
 * [Linux log commands](https://github.com/tymyrddin/nest-egg/blob/main/cheatsheets/Linux-log-commands.md)

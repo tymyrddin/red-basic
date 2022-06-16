@@ -1,10 +1,8 @@
 # Gain unauthorised access
 
-Use, disclosure, alteration, and destruction of information, including gaining access to the network to gain access to the information and/or gaining access to the building with the devices the information resides on. In the context of network attacks, the first objective of an adversary is to gain initial access, so additional reconnaissance can be done to scout out resources, IP addresses, and perhaps even a network discovery (mapping) program or a sniffer-type packet-capturing utility, to capture administrative-level passwords.
+## Attack tree
 
-## Attack
-
-```
+```text
     1 Gain credentials of an authorised user in a vulnerable physical context (OR)
         1.1 Ask for a temporary use of password from an already authorised user (OR)
         1.2 Cooperate with an already authorised user to receive credentials (OR)
@@ -46,3 +44,7 @@ Use, disclosure, alteration, and destruction of information, including gaining a
     5 Discover implementation flaw in (access control) protocol
     6 Discover new attack 
 ```
+
+## Notes
+
+Use, disclosure, alteration, and destruction of information, including gaining access to the network to gain access to the information and/or gaining access to the building with the devices the information resides on. In the context of network attacks, the first objective of an adversary is to gain initial access, so additional reconnaissance can be done to scout out resources, IP addresses, and perhaps even a network discovery (mapping) program or a sniffer-type packet-capturing utility, to capture administrative-level passwords.

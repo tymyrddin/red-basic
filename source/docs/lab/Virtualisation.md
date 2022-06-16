@@ -1,4 +1,4 @@
-# Set up a small pentesting lab
+# Small lab with virtualisation
 
 Create a testlab with:
 

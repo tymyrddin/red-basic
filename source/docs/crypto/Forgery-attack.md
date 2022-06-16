@@ -1,10 +1,8 @@
 # Forgery attack
 
-This attack can be mounted by an E2EE adversary, able to bypass the client-to-server transport encryption. 
-
 ## Attack tree
 
-```
+```text
 1 Intercept a packet D sent by a group member by monitoring the traffic between the group member and the 
 service server (AND)
 2 Derive salt from D and derive Key and Initialisation Vector from a group key and a public key (AND)
@@ -14,4 +12,7 @@ and a tag T′ (AND)
 5 Broadcast D′ including C′,T′ and associated data to all group members except the targeted group member and 
 send the original D to the targeted member via the service server.
 ```
+## Notes
+
+This attack can be mounted by an E2EE adversary, able to bypass the client-to-server transport encryption. 
 

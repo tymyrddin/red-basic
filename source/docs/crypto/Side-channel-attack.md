@@ -1,10 +1,8 @@
 # Side-channel attack
 
-A side-channel attack (SCA) is a security exploit that involves collecting information about what a computing device does when it is performing cryptographic operations.
-
 ## Attack tree
 
-```
+```text
 1 Monitor the emissions produced by electronic circuits when the target's computer 
     is being used to exploit information about power consumption and electromagnetic fields for 
     reverse engineering (side-channel attack) (OR)
@@ -18,13 +16,17 @@ A side-channel attack (SCA) is a security exploit that involves collecting infor
 6 Monitor the electromagnetic fields produced by data as it moves through the computer (Van Eck phreaking)
 ```
 
-## Mitigations
+## Notes
 
-# Development
+A side-channel attack (SCA) is a security exploit that involves collecting information about what a computing device does when it is performing cryptographic operations.
+
+## Mitigation
+
+### Development
 * Randomise the order of operations on data within the system to make it more difficult for an adversary.
 * Increase the amount of noise in a channel.
 
-# Individuals
+### Individuals
 * Faraday cages can also be used to reduce electromagnetic leaks. This is akin to wearing aluminium hats.
 
 

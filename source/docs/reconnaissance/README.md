@@ -6,7 +6,7 @@ Although pentesting is by no means a linear process, reconnaissance is usually t
 
 Two types of reconnaissance are commonly used:
 
-* An adversary uses publicly available information for guessing user names of accounts and making organisational maps. Once user names are known, adversaries can choose tools for gaining access.
+* An adversary uses publicly available information for guessing usernames of accounts and making organisational maps. Once user names are known, adversaries can choose tools for gaining access.
 * An adversary in a structured attack uses electronic reconnaissance to find where the resources are logically located, and to probe and scan the network for vulnerable hosts, applications, or infrastructure equipment.
 
 ## Why?

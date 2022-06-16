@@ -2,7 +2,7 @@
 
 ## Attack tree
 
-```
+```text
 1 Get information from
     1.1 Settings: Users and usernames (AND)
     1.2 Applications: some run on defaults, or there may be null or blank passwords (AND)

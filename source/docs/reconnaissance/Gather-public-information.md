@@ -12,6 +12,6 @@ Gather as much information as possible on the target by using public sources.
 * Learn more about the organisation and people on finder sites and check public records
 * Domain Naming Systems (DNS) is another publicly available system that can provide a wealth of information regarding the IP addressing and naming strategies of virtually any organisation or company connected to the Internet. 
 
-## Resources
+## Cheatsheets
 
 * [Gathering public information](https://github.com/tymyrddin/nest-egg/blob/main/cheatsheets/Gathering-public-information.md)

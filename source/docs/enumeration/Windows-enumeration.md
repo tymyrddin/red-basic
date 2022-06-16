@@ -2,7 +2,7 @@
 
 ## Attack tree
 
-```
+```text
 1 Get information
     1.1 Usernames
     1.2 Default configurations
@@ -19,10 +19,9 @@
 
 ## Notes
 
-NetBIOS is outdated but still lives on in some older systems, sometimes for backward compatability. It is the equivalent of broadcasting names to look for each other but is not routable. It is local network only. If no one on the other network can use it for your network, then no one there can access your NetBIOS shared folders and printers, unless one has gained access to your local network. You can also access NetBIOS machines with a WINS server. That is the NetBIOS equivalent of a DNS server. 
+NetBIOS is outdated but still lives on in some older systems, sometimes for backward compatability. It is the equivalent of broadcasting names to look for each other but is not routable. It is local network only. If no one on the other network can use it for your network, then no one there can access your NetBIOS shared folders and printers, unless one has gained access to your local network. You can also access NetBIOS machines with a WINS server. That is the NetBIOS equivalent of a DNS server.
 
-
-## Resources
+## Network tools
  
 * [Net commands](https://www.computerhope.com/nethlp.htm) can be used to glean almost any aspect of a local network and its settings including network shares, network printers and print jobs, network users, policies!, etc. It is available from within the Command Prompt in all Windows operating systems including Windows 10, Windows 8, Windows 7, Windows Vista, Windows XP, and further back. The availability of certain net command switches and other net command syntax may differ from operating system to operating system. 
 * [WinFingerprint](https://www.softpedia.com/get/Security/Security-Related/winfingerprint.shtml) iss a Win32 MFC VC++ .NET based security tool that is able to Determine OS, enumerate users, groups, shares, SIDs, transports, sessions, services, service pack and hotfix level, date and time, disks, and open tcp and udp ports. It is GUI-based and you can use checkboxes to indicate which information is desired. 

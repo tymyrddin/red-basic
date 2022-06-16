@@ -1,11 +1,8 @@
 # Unauthorised privilege escalation on hosts
 
-* In horizontal privilege escalation an adversary expands privileges by taking over another account.
-* In vertical privilege escalation an attacker attempts to gain more permissions or access with an existing compromised account.
+## Attack tree
 
-## Attack
-
-```
+```text
     1 Privilege escalation Windows
         1.1 Manipulate access token (OR)
             1.1.1 Duplicate an access token and assign the token to a thread
@@ -34,3 +31,8 @@
                 2.2.2.4 Other commands that are allowed to be executed with root permissions to invoke a shell
         2.3 Other privilege escalation
 ```
+
+## Notes
+
+* In horizontal privilege escalation an adversary expands privileges by taking over another account.
+* In vertical privilege escalation an attacker attempts to gain more permissions or access with an existing compromised account.

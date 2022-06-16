@@ -1,20 +1,10 @@
 # SEO poisoning
 
-The phrase search engine optimization poisoning (SEO poisoning) is in use to describe one of two types of activities:
+## Attack tree
 
-* Black hat SEO techniques used to achieve high search engine ranking, usually (but not only) to attack visitors. The techniques often involve content spamming, (all sorts of) link spamming, cloaking, doorway pages and redirection. These attacks often follow trending search terms. For example during natural disasters, when attackers attempt to have victims send monetary aid to fake accounts or during major political campaigns and other major world events. If its intent is malicious, the attacker aims to install malware such as trojans, attack the user’s machine, or trick the user into providing sensitive data (see attack tree).
-* Exploiting typical web vulnerabilities on existing high-ranking web pages and using them to spread malware. If, for example, a high-ranking web page has a stored XSS vulnerability, the code may either directly attempt to spread malware or redirect the user to a different site (using redirection like used in black hat SEO).
+The below search engine poisoning attack tree can be used for feature extraction.
 
-Any search engine software can expect the same search fraud problem as on the internet with similar impacts.
-
-* Spam web pages will need to be weeded out from the index.
-* Combating spam is intertwined with search engine poisoning as that attack uses SEO fraud techniques.
-* The below search engine poisoning attack tree can be used for feature extraction.
-
-
-## Attack
-
-```
+```text
 1 Set up branching logic (usually PHP script) (AND)
     1.1 Identify crawlers (OR)
         1.1.1 Query IP of page request ($_SERVER['REMOTE_ADDR']) and compare against usual 
@@ -122,5 +112,18 @@ Any search engine software can expect the same search fraud problem as on the in
         4.4.2 Redirection to a MaaS (Malware-as-a-Service) platform which starts a redirection 
         chain leading to final landing page
 ```
+
+## Notes
+
+
+The phrase search engine optimization poisoning (SEO poisoning) is in use to describe one of two types of activities:
+
+* Black hat SEO techniques used to achieve high search engine ranking, usually (but not only) to attack visitors. The techniques often involve content spamming, (all sorts of) link spamming, cloaking, doorway pages and redirection. These attacks often follow trending search terms. For example during natural disasters, when attackers attempt to have victims send monetary aid to fake accounts or during major political campaigns and other major world events. If its intent is malicious, the attacker aims to install malware such as trojans, attack the user’s machine, or trick the user into providing sensitive data (see attack tree).
+* Exploiting typical web vulnerabilities on existing high-ranking web pages and using them to spread malware. If, for example, a high-ranking web page has a stored XSS vulnerability, the code may either directly attempt to spread malware or redirect the user to a different site (using redirection like used in black hat SEO).
+
+Any search engine software can expect the same search fraud problem as on the internet with similar impacts.
+
+* Spam web pages will need to be weeded out from the index.
+* Combating spam is intertwined with search engine poisoning as that attack uses SEO fraud techniques.
 
 

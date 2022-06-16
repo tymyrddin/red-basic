@@ -2,7 +2,7 @@
 
 ## Attack tree
 
-```
+```text
 1 Get information
     1.1 LDAP can reveal possible shares, users and other resources on a windows network (AND)
     1.2 SNMP can have default community strings (passwords) set (AND)

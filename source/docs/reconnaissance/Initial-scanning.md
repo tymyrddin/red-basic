@@ -215,7 +215,7 @@ OS detection performed. Please report any incorrect results at https://nmap.org/
 Nmap done: 3 IP addresses (3 hosts up) scanned in 41.76 seconds
 ```
 
-## Resources
+## Cheatsheets
 
 * [Nmap cheatsheet](https://github.com/tymyrddin/nest-egg/blob/main/cheatsheets/Nmap-cheatsheet.md)
 * [Ports cheatsheet](https://github.com/tymyrddin/nest-egg/blob/main/cheatsheets/Ports-cheatsheet.md)

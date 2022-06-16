@@ -1,17 +1,8 @@
 # Create a botnet
 
- A botnet (“robot network”) is a network of computers infected by malware that are under the control of a single attacking party.
+## Attack tree
 
-Botnets are typically used in:
-
-* Email spam campaigns. These botnets are the largest. The spam messages can include malware, and can also be used to recruit more computers to the botnet.
-* DDoS attacks that target organisations for personal or political motives or to extort payment in exchange for ceasing the attack.
-* Credential stuffing to gain access to accounts from data breaches to drain the associated accounts of stored values, credit card information, personally identifiable information and/or to use the account for impersonation, and for actions like sending spam.
-* Targeted intrusions where typically small botnets compromise high-value systems of organisations from which attackers can penetrate and intrude further into the network. With just one zombie in an organisation, the adversary can now read email and monitor traffic and communications for sniffing out passwords, identifying databases, and looking for users with more administrative powers. The assets an adversary can look for include password databases, financial data, research and development, intellectual property, and customer information. Botnet infiltration works incredibly fast because most people will trust files that appear to have originated with other employees inside the network and will pass along files from sources they know. A botnet is not just a malware infection, it is like having an adversary inside the network.
-
-## Attack
-
-```
+```text
 1 Set up a command-and-control infrastructure
     1.1 Set up a webserver (AND)
     1.2 Get a botnet builder tool for malware such as Ice IX (AND)
@@ -29,3 +20,14 @@ Botnets are typically used in:
     2.3 Credential stuffing (buy credentials that have been leaked through data breaches or other means)
     2.4 Other tactics
 ```
+
+## Notes
+
+A botnet (“robot network”) is a network of computers infected by malware that are under the control of a single attacking party.
+
+Botnets are typically used in:
+
+* Email spam campaigns. These botnets are the largest. The spam messages can include malware, and can also be used to recruit more computers to the botnet.
+* DDoS attacks that target organisations for personal or political motives or to extort payment in exchange for ceasing the attack.
+* Credential stuffing to gain access to accounts from data breaches to drain the associated accounts of stored values, credit card information, personally identifiable information and/or to use the account for impersonation, and for actions like sending spam.
+* Targeted intrusions where typically small botnets compromise high-value systems of organisations from which attackers can penetrate and intrude further into the network. With just one zombie in an organisation, the adversary can now read email and monitor traffic and communications for sniffing out passwords, identifying databases, and looking for users with more administrative powers. The assets an adversary can look for include password databases, financial data, research and development, intellectual property, and customer information. Botnet infiltration works incredibly fast because most people will trust files that appear to have originated with other employees inside the network and will pass along files from sources they know. A botnet is not just a malware infection, it is like having an adversary inside the network.

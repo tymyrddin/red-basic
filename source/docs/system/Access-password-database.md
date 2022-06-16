@@ -1,8 +1,8 @@
 # Access password database
 
-## Attack
+## Attack tree
 
-```
+```text
 1 Copy database files (USB, network drive, ftp, http) (OR)
     1.1 Unprotected database (OR)
     1.2 Protected database (Master password enabled)
