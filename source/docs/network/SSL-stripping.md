@@ -19,8 +19,3 @@ SSL stripping downgrades a HTTPS connection to HTTP by intercepting the TLS auth
 ## Demo scripts
 * [simple ARP spoofer](https://github.com/tymyrddin/ymrir/tree/master/arp_spoofer)
 * [simple packet sniffer](https://github.com/tymyrddin/ymrir/tree/master/packet_sniffer)
-
-
-* [Bettercap sslstrip not working](https://github.com/tymyrddin/ymrir/wiki/bettercap.md)
-* [Undesired HTTPS redirects](https://github.com/tymyrddin/ymrir/wiki/https-browser.md)
-* [Correctly configured HSTS](https://github.com/tymyrddin/ymrir/wiki/hsts.md)
