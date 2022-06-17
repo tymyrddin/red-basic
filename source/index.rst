@@ -60,6 +60,7 @@ Attack Trees represent often used movements and can help organise our thoughts a
    :caption: Malware
 
    docs/malware/README.md
+   docs/malware/*
 
 .. toctree::
    :glob:
