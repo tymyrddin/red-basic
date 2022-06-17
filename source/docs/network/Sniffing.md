@@ -21,7 +21,7 @@ Depending on the network topology, there are many ways of gaining read-access to
     2.6 DNS traffic
 ```
 
-## Demo scripts
+## Scripting
 
 * [simple sniffer script](https://github.com/tymyrddin/ymrir/tree/master/packet_sniffer)
 
