@@ -3,7 +3,7 @@
 ## Attack tree
 
 ```text
-1 Physical destruction of router (OR)
+1 Physical destruction of machine (OR)
 2 Link layer attacks (OR)
     2.1 Protocol attack using link layer protocol (OR)
     2.2 Physical link attack

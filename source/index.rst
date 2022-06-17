@@ -87,6 +87,7 @@ Attack Trees represent often used movements and can help organise our thoughts a
    :caption: Server
 
    docs/server/README.md
+   docs/server/*
 
 .. toctree::
    :glob:
