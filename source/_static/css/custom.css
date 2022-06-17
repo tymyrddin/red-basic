@@ -6,6 +6,10 @@ a {
   color: #DD0000;
 }
 
+a:hover {
+  color: #FF0000;
+}
+
 .wy-nav .wy-menu-vertical header {
   color: #DD0000
 }
