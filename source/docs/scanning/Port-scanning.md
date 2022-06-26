@@ -147,9 +147,9 @@ Nmap done: 3 IP addresses (3 hosts up) scanned in 3.57 seconds
 ```
 ## Cheatsheets
 
-* [Nmap cheatsheet](https://github.com/tymyrddin/nest-egg/blob/main/cheatsheets/Nmap-cheatsheet.md)
-* [Nessus](https://github.com/tymyrddin/nest-egg/blob/main/cheatsheets/Nessus-cheatsheet.md)
-* [Metasploit cheatsheet](https://github.com/tymyrddin/nest-egg/blob/main/guides/Metasploit-cheatsheet.pdf)
-* [Unicornscan cheatsheet](https://github.com/tymyrddin/nest-egg/blob/main/cheatsheets/Unicornscan-cheatsheet.md)
-* [Ports cheatsheet](https://github.com/tymyrddin/nest-egg/blob/main/cheatsheets/Ports-cheatsheet.md)
-* [IKE-scan cheatsheet](https://github.com/tymyrddin/nest-egg/blob/main/cheatsheets/IKE-scan-cheatsheet.md)
+* [Nmap cheatsheet](https://tymyrddin.github.io/cheatsheets/docs/scanning/Nmap-cheatsheet.html)
+* [Nessus](https://tymyrddin.github.io/cheatsheets/docs/scanning/Nessus-cheatsheet.html)
+* [Metasploit cheatsheet](https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/blt2666925c05bfae0c/5e34a63e07e2907e353a2f5b/metasploit-cheat-sheet-2.pdf)
+* [Unicornscan cheatsheet](https://tymyrddin.github.io/cheatsheets/docs/scanning/Unicornscan-cheatsheet.html)
+* [Ports cheatsheet](https://tymyrddin.github.io/cheatsheets/docs/scanning/Ports-cheatsheet.html)
+* [IKE-scan cheatsheet](https://tymyrddin.github.io/cheatsheets/docs/scanning/IKE-scan-cheatsheet.html)

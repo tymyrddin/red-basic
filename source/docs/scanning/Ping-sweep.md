@@ -40,4 +40,4 @@ Nmap done: 256 IP addresses (3 hosts up) scanned in 2.04 seconds
 
 ## Cheatsheets
 
-* [Nmap cheatsheet](https://github.com/tymyrddin/nest-egg/blob/main/cheatsheets/Nmap-cheatsheet.md)
+* [Nmap cheatsheet](https://tymyrddin.github.io/cheatsheets/docs/scanning/Nmap-cheatsheet.html)

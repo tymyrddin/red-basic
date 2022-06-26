@@ -4,4 +4,4 @@ Use traceroute to perform a detailed analysis of the network paths. The tool wil
 
 ## Cheatsheets
 
-* [Traceroute cheatsheet](https://github.com/tymyrddin/nest-egg/blob/main/cheatsheets/Traceroute-cheatsheet.md)
+* [Traceroute cheatsheet](https://tymyrddin.github.io/cheatsheets/docs/scanning/Traceroute-cheatsheet.html)

@@ -14,6 +14,6 @@ These attacks have their limitations. These include the amount of time it takes 
 
 ## Cheatsheets
 
-* [Wardriving links](https://github.com/tymyrddin/nest-egg/blob/main/cheatsheets/Wardriving-links.md)
+* [Wardriving links](https://tymyrddin.github.io/cheatsheets/docs/reconnaissance/Wardriving-links.html)
 
 

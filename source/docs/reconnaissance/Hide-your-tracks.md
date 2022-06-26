@@ -23,4 +23,4 @@ The methods used by pirates to hide their tracks
 
 ## Cheatsheets
 
-* [Linux log commands](https://github.com/tymyrddin/nest-egg/blob/main/cheatsheets/Linux-log-commands.md)
+* [Linux log commands](https://tymyrddin.github.io/cheatsheets/docs/linux/Linux-log-commands.html)
