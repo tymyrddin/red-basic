@@ -1,10 +1,12 @@
-# Gather information
+# Gather application information
 
 ## Attack tree
 
+```
 1 Find info about the owner of the target (AND)
 2 Discover technologies used on the target (AND)
 3 Gather info about each public-facing website of the target
+```
 
 ## Notes
 
