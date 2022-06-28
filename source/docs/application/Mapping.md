@@ -14,7 +14,11 @@
     2.2 Brute force hidden urls
 ```
 
-## Resources
+## Tools
+
+* [Dirb](https://www.kali.org/tools/dirb/), already installed on Kali, to brute-force find sensitive files
+
+## Scripts
 
 * [Simple crawler](https://github.com/tymyrddin/reomais/blob/main/crawler)
 * [Simple spider](https://github.com/tymyrddin/reomais/blob/main/spider)
