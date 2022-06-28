@@ -6,26 +6,23 @@
 1 Find info about the owner of the target (AND)
 2 Discover technologies used on the target (AND)
 3 Gather info about each public-facing website of the target
+    3.1 Discover websites on the same server
+    3.2 Discover subdomains
+    3.3 Discover sensitive files
 ```
 
 ## Notes
 
-Look for:
-
-* IP addresses
-* Domain name information
-* Technologies used
-* Other websites on the same server
-* DNS records
-* Unlisted files, sub-domains, directories, neighbours
+Use [search engines](Gather-public-information.md), [DNS tools](Gather-DNS-information.md) to discover IP addresses, 
+domain name information, technologies used, other websites on the same server, DNS records, unlisted files, 
+sub-domains, directories, neighbours, ...
 
 ## Tools
 
-* [WhoIs LookUp DomainTools](https://whois.domaintools.com/)
 * [Netcraft: Site Report](https://sitereport.netcraft.com/)
 * [Netcraft: Search Web by Domain](https://searchdns.netcraft.com/)
 * [Netcraft: Site's neighbours](https://sitereport.netcraft.com/netblock)
-* [Robtex](https://www.robtex.com/)
+* [Knock](https://github.com/guelfoweb/knock)
 
 ## Scripts
 

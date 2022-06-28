@@ -9,6 +9,11 @@
         2.2 from other web sources
         2.3 from cli command
 ```
+## Tools
+
+* [WhoIs LookUp DomainTools](https://whois.domaintools.com/)
+* [Robtex](https://www.robtex.com/)
+* [DNSDumpster](https://dnsdumpster.com/)
 
 ## Cheatsheets
 
