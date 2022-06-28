@@ -21,7 +21,7 @@ sub-domains, directories, neighbours, ...
 * [Netcraft: Site's neighbours](https://sitereport.netcraft.com/netblock)
 * [Bing search engine](https://www.bing.com/), use `ip:<IP address>` as search term to find neighbours
 * [Dirb](https://www.kali.org/tools/dirb/), already installed on Kali, to brute-force find sensitive files
-
+* [Maltego](https://www.maltego.com), preinstalled in kali
 
 ## Scripts
 
