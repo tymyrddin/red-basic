@@ -23,9 +23,6 @@ If PHP is configured to `allow_url_fopen` and `allow_url_include` (in `etc/php5/
 
 If playing with metasploitable2, set these two to `On` and restart apache2: `sudo /etc/init.d/apache2 restart`
 
-## Tools
-* [Burp suite CE proxy](https://portswigger.net/burp/documentation/desktop/getting-started/intercepting-http-traffic)
-
 ## Cheatsheets
 * [Remote file inclusion](https://tymyrddin.github.io/cheatsheets/docs/application/rfi.html)
 * [Reverse shell commands](https://tymyrddin.github.io/cheatsheets/docs/application/reverse-shell-commands.html)
