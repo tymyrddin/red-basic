@@ -84,6 +84,15 @@ Attack Trees represent often used movements and can help organise our thoughts a
    :glob:
    :maxdepth: 1
    :includehidden:
+   :caption: Databases
+
+   docs/databases/README.md
+   docs/databases/*
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
    :caption: Server
 
    docs/server/README.md

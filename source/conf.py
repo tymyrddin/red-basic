@@ -32,7 +32,8 @@ release = '0.1'
 # ones.
 extensions = [
     'myst_parser',
-    'sphinx_markdown_tables'
+    'sphinx_markdown_tables',
+    'sphinx.ext.intersphinx',
 ]
 
 source_suffix = ['.rst', '.md']
@@ -86,3 +87,22 @@ html_show_sphinx = False
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
 html_show_copyright = False
+
+
+# Intersphinx
+intersphinx_mapping = {
+    "cheatsheets": ("https://tymyrddin.github.io/cheatsheets/", None),
+    "e2ee-threat-model":("https://tymyrddin.github.io/e2ee-threat-model/", None),
+    "da-threat-model":("https://tymyrddin.github.io/da-threat-model/", None),
+    "se-threat-model":("https://tymyrddin.github.io/se-threat-model/", None),
+    "app-threat-model":("https://tymyrddin.github.io/app-threat-model/", None),
+    "cicd-threat-model":("https://tymyrddin.github.io/cicd-threat-model/", None),
+    "linux-pc-mitigations":("https://tymyrddin.github.io/linux-pc-mitigations/", None),
+    "linux-server-mitigations":("https://tymyrddin.github.io/linux-server-mitigations/", None),
+    "data-mitigations":("https://tymyrddin.github.io/data-mitigations/", None),
+    "webserver-mitigations":("https://tymyrddin.github.io/webserver-mitigations/", None),
+    "mailserver-mitigations":("https://tymyrddin.github.io/mailserver-mitigations/", None),
+    "network-mitigations":("https://tymyrddin.github.io/network-mitigations/", None),
+    "app-mitigations": ("https://tymyrddin.github.io/app-mitigations/", None),
+}
+myst_url_schemes = ["http", "https", ]
