@@ -22,6 +22,6 @@ In all cases you can use testing versions from Microsoft (for 90 days) for the W
 * [Kali iso](https://www.kali.org/get-kali/#kali-bare-metal)
 * [Metasploitable](https://information.rapid7.com/metasploitable-download.html) - Import the `.kvmd`
 
-#### How to
+## How to
 * [How To Install Windows 10 on Ubuntu KVM?](https://getlabsdone.com/install-windows-10-on-ubuntu-kvm/)
 * [Hosting a Kali Linux virtual machine using KVM on an Ubuntu 20.10 box](https://heds.nz/posts/hosting-kali-linux-kvm-ubuntu/)

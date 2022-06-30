@@ -57,7 +57,6 @@ html_theme_options = {
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': True,
-    'github_url': 'https://github.com/tymyrddin/attack-trees',
     # Toc options
     'collapse_navigation': False,
     'sticky_navigation': False,
