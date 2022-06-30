@@ -4,4 +4,4 @@ Use traceroute to perform a detailed analysis of the network paths. The tool wil
 
 ## Cheatsheets
 
-* [Traceroute cheatsheet](https://tymyrddin.github.io/cheatsheets/docs/scanning/Traceroute-cheatsheet.html)
+* [Traceroute cheatsheet](cheatsheets:docs/scanning/Traceroute-cheatsheet)

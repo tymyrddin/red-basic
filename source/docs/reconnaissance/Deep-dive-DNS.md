@@ -21,6 +21,6 @@
 
 ## Cheatsheets
 
-* [DNS registrars](https://tymyrddin.github.io/cheatsheets/docs/reconnaissance/DNS-registrars.html)
-* [Shodan](https://tymyrddin.github.io/cheatsheets/docs/reconnaissance/Shodan-cheatsheet.html)
-* [Shodan CLI](https://tymyrddin.github.io/cheatsheets/docs/reconnaissance/Shodan-CLI-cheatsheet.html)
+* [DNS registrars](cheatsheets:docs/reconnaissance/DNS-registrars)
+* [Shodan](cheatsheets:docs/reconnaissance/Shodan-cheatsheet)
+* [Shodan CLI](cheatsheets:docs/reconnaissance/Shodan-CLI-cheatsheet)

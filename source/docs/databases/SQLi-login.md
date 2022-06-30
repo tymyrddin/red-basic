@@ -11,8 +11,8 @@
 
 
 ## Cheatsheets
-* [SQL injection login bypass](https://tymyrddin.github.io/cheatsheets/docs/application/mysql-login.html)
-* [MySQL commands](https://tymyrddin.github.io/cheatsheets/docs/application/mysql.html)
+* [SQL injection login bypass](cheatsheets:docs/databases/mysql-login)
+* [MySQL commands](cheatsheets:docs/databases/mysql)
 
 ## Mitigations
-* [Remote file inclusion](https://tymyrddin.github.io/app-mitigations/docs/coding/Local-file-inclusion.html)
+* [Remote file inclusion](app-mitigations:docs/coding/Local-file-inclusion)

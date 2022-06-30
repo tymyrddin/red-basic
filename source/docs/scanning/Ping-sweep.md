@@ -40,4 +40,4 @@ Nmap done: 256 IP addresses (3 hosts up) scanned in 2.04 seconds
 
 ## Cheatsheets
 
-* [Nmap cheatsheet](https://tymyrddin.github.io/cheatsheets/docs/scanning/Nmap-cheatsheet.html)
+* [Nmap cheatsheet](cheatsheets:docs/scanning/Nmap-cheatsheet)

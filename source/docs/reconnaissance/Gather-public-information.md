@@ -11,4 +11,4 @@
 
 ## Cheatsheets
 
-* [Search for public information](https://tymyrddin.github.io/cheatsheets/docs/reconnaissance/Search-public-information.html)
+* [Search for public information](cheatsheets:docs/reconnaissance/Search-public-information)

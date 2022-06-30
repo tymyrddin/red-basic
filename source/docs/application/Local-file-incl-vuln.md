@@ -34,10 +34,10 @@ some knowledge on where to find default files and directories on the system.
 * [Burp suite CE proxy](https://portswigger.net/burp/documentation/desktop/getting-started/intercepting-http-traffic)
 
 ## Cheatsheets
-* [Local file inclusion](https://tymyrddin.github.io/cheatsheets/docs/application/lfi.html)
-* [Reverse shell commands](https://tymyrddin.github.io/cheatsheets/docs/application/reverse-shell-commands.html)
+* [Local file inclusion](cheatsheets:docs/application/lfi)
+* [Reverse shell commands](cheatsheets:docs/application/reverse-shell-commands)
 * [Path Traversal Cheat Sheet: Windows](https://www.akimbocore.com/article/windows-path-traversal-cheat-sheet/)
 * [Path Traversal Cheat Sheet: Linux](https://www.akimbocore.com/article/linux-path-traversal-cheat-sheet/)
 
 ## Mitigations
-* [Local file inclusion](https://tymyrddin.github.io/app-mitigations/docs/coding/Local-file-inclusion.html)
+* [Local file inclusion](app-mitigations:docs/coding/Local-file-inclusion)

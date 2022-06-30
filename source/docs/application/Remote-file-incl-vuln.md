@@ -24,10 +24,10 @@ If PHP is configured to `allow_url_fopen` and `allow_url_include` (in `etc/php5/
 If playing with metasploitable2, set these two to `On` and restart apache2: `sudo /etc/init.d/apache2 restart`
 
 ## Cheatsheets
-* [Remote file inclusion](https://tymyrddin.github.io/cheatsheets/docs/application/rfi.html)
-* [Reverse shell commands](https://tymyrddin.github.io/cheatsheets/docs/application/reverse-shell-commands.html)
+* [Remote file inclusion](cheatsheets:docs/application/rfi)
+* [Reverse shell commands](cheatsheets:docs/application/reverse-shell-commands)
 * [Path Traversal Cheat Sheet: Windows](https://www.akimbocore.com/article/windows-path-traversal-cheat-sheet/)
 * [Path Traversal Cheat Sheet: Linux](https://www.akimbocore.com/article/linux-path-traversal-cheat-sheet/)
 
 ## Mitigations
-* [Remote file inclusion](https://tymyrddin.github.io/app-mitigations/docs/coding/Local-file-inclusion.html)
+* [Remote file inclusion](app-mitigations:docs/coding/Local-file-inclusion)
