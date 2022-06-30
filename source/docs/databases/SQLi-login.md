@@ -13,7 +13,7 @@
 
 ## Cheatsheets
 * [SQL injection login bypass](cheatsheets:docs/databases/mysql-login)
-* [MySQL commands](cheatsheets:docs/database/mysql)
+* [MySQL commands](cheatsheets:docs/databases/mysql)
 
 ## Mitigations
-* [Parameterised statements](app-mitigations:docs/databased/parameterised)
+* [Parameterised statements](app-mitigations:docs/databases/parameterised)
