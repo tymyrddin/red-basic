@@ -17,3 +17,4 @@
 
 ## Mitigations
 * [Parameterised statements](app-mitigations:docs/databases/parameterised)
+* [Input validation](app-mitigations:docs/databases/Input-validation)
