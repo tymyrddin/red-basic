@@ -14,7 +14,7 @@
     1.8 various built-in commands and utilities
 ```
 
-## Resources
+## Tools
 
 * [LinEnum](https://github.com/rebootuser/LinEnum) is a basic shell script that performs over 65 checks, getting anything from kernel information to locating possible escalation points such as potentially useful SUID/GUID files and Sudo/rhost mis-configurations and more.
 * [enum4linux](https://labs.portcullis.co.uk/tools/enum4linux/) is a linux alternative to enum.exe for enumerating data from Windows and Samba hosts. It is a wrapper around the Samba tools smbclient, rpclient, net and nmblookup 

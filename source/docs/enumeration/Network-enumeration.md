@@ -13,7 +13,7 @@
     1.7 Network traffic can be sniffed to detect what services are running on the network (AND)
 ```
 
-## Resources
+## Tools
 
 * [Wireshark](https://www.wireshark.org/)
 * [DNSrecon](https://github.com/darkoperator/dnsrecon) was written by Carlos Perez in 2006. It was originally written in Ruby, but now has a Python port, which is what is running in Kali. 
