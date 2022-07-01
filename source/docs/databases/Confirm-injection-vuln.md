@@ -24,4 +24,4 @@
 ## Cheatsheets
 * [Comment syntax](cheatsheets:docs/databases/comments)
 * [Escape context](cheatsheets:docs/databases/escape-context)
-* [Backend functions](cheatsheets:docs/databases/backend-functions)
+* [Identify backend](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection#dbms-identification)

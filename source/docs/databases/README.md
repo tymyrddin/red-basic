@@ -18,6 +18,6 @@ Databases are at the heart of any website or application and hacking into it can
 
 When comfortable with SQL statements and understanding database basics, hack a database by
 
-1. Using an SQL injection. 
-1. Cracking the database root password. 
-1. Using database exploits.
+1. Using an [SQL injection](SQL-injection.md). 
+1. [Cracking the database root password](Crack-root.md). 
+1. Using [known database exploits](DB-exploits.md).
