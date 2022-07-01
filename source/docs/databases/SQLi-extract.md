@@ -37,7 +37,7 @@ more SELECT statements in a SQL query thereby obtaining data illegally from the 
 
 ## Cheatsheets
 * [Detect number of columns](cheatsheets:docs/databases/number-of-columns)
-* [MySQL commands](cheatsheets:docs/databases/mysql-commands)
+* [Union SQLi queries](cheatsheets:docs/databases/union-select)
 
 ## Mitigations
 * [Parameterised statements](app-mitigations:docs/databases/parameterised)

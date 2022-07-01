@@ -60,7 +60,8 @@ Note: For some DBMS, a space needs to be added before and after `--`.
 If the simple login bypass is not working, check with Burp proxy whether there is client side filtering. If so, modify the request.
 
 ## Cheatsheets
-* [MySQL commands](cheatsheets:docs/databases/mysql-commands)
+* [Escape context](cheatsheets:docs/databases/escape-context)
+* [SQLi tips](cheatsheets:docs/databases/sqli-tips)
 
 ## Mitigations
 * [Parameterised statements](app-mitigations:docs/databases/parameterised)
