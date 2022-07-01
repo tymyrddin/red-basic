@@ -9,6 +9,7 @@
     1.2 Build an SQL segment that will modify the WHERE clause and make it true (AND)
         1.2.1 Use login page logic to create an SQL segment on admin 
     1.3 Inject 
+    1.4 Post exploitation
 ```
 
 ## Example building SQL segments to modify the WHERE clause and make it true
