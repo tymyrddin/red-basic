@@ -10,7 +10,7 @@
     1.3 Find which columns accept queries (AND)
     1.4 Build an UNION SELECT SQL segment that will modify the WHERE clause and make it true
     1.5 Inject SQL statements into the column
-    1.4 Post exploitation SQL commands
+    1.4 Post exploitation
 ```
 ## Examples
 
