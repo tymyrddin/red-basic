@@ -9,6 +9,7 @@
     1.3 Use a password auditing tool
         1.3.1 External - run DBPwAudit, Access Passview or specific other tool
         1.3.2 Internal (having an account on the server that hosts the database) - run a hash cracker like John the Ripper against the database’s password file. The location of the hash file is different depending on the database.
+    1.4 If it is Open Source Software, check the source code on the repository host.
 ```
 
 ## Tools
@@ -18,3 +19,8 @@
 ## Resources
 
 * [Collected common password lists](https://github.com/danielmiessler/SecLists/tree/master/Passwords)
+
+## Cheatsheets
+
+* [MySQL enumeration](cheatsheets:docs/enumeration/mysql)
+* [Brute-force MySQL](cheatsheets:docs/databases/brute-force)
