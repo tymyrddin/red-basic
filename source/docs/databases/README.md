@@ -10,7 +10,7 @@ Databases are at the heart of any website or application and hacking into it can
 
 * Login bypass.
 * Extract all the data used in an application, including sensitive data.
-* Read local files outside of www root.
+* Read and write local files outside of www root.
 * Log in as admin and further exploit the system.
 * Upload of files.
 

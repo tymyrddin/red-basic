@@ -7,14 +7,14 @@
     1.1 Intercept request to read the environment file (Burp proxy or similar)
     1.2 Start listener on hacking machine
     1.3 Modify request (for example change user-agent value to reverse shell code)
-    1.4 Send commands
+    1.4 Post exploitation
 2 Using log files (for example /var/logs/auth.log)
     2.1 Check a login attempt gets logged
     2.2 Start listener on hacking machine
     2.2 ssh "<?passthru(base64_decode('base64 encoding of reverse shell code'));?>"@IP-address-server
     2.3 Enter whatever password (not important)
     2.4 Reload browser /var/logs/auth.log page
-    2.4 Send commands
+    2.4 Post exploitation
 ```
 
 ## Notes

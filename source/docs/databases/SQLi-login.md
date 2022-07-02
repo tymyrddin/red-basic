@@ -12,7 +12,7 @@
     1.4 Post exploitation
 ```
 
-## Example building SQL segments to modify the WHERE clause and make it true
+## Example SQL segments
 
 ```text
 SELECT * FROM users WHERE username='$USERNAME' AND password='$PASSWORD'

