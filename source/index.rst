@@ -99,6 +99,7 @@ Attack Trees represent often used movements and can help organise our thoughts a
    docs/databases/SQLi-extract.md
    docs/databases/SQLi-outside.md
    docs/databases/SQLi-get-shell.md
+   docs/databases/Automated-exploitation.md
 
 .. toctree::
    :glob:

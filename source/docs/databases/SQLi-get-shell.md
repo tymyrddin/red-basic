@@ -4,19 +4,19 @@
 
 ```text
 1 Netcat installed on both systems (hacking and target machines) (AND)
-    1.1 Install netcat on both systems
-    1.2 Create a reverse shell (for example with weevely)
+    1.1 Install netcat on both systems (AND)
+    1.2 Create a reverse shell (for example with weevely) (AND)
     1.3 Setup a netcat listener on the hacking machine
-2 SQL injection writing exploit to server (AND)
+2 SQL injection writing payload to server (AND)
     2.1 Find out if the database is vulnerable (AND)
         1.1.1 Inject data in the query without breaking it
     2.2 Find the amount of columns (AND)
     2.3 Find which columns accept queries (AND)
-    2.4 Build an UNION SELECT SQL segment
-    2.5 Inject SQL statements into the column
+    2.4 Build an UNION SELECT SQL segment (AND)
+    2.5 Inject SQL statements into the column (AND)
     2.6 Post exploitation
-3 Use file inclusion vulnerability
-    3.1 Connect to the listener from the target machine
+3 Use file inclusion vulnerability of any website on the server to run the payload
+    3.1 Connect to the listener from the target machine (AND)
     3.2 Post exploitation
 ```
 ## Example SQL segments
