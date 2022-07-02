@@ -18,13 +18,18 @@ Attack Trees represent often used movements and can help organise our thoughts a
    docs/lab/*
 
 .. toctree::
-   :glob:
    :maxdepth: 1
    :includehidden:
    :caption: Reconnaissance
 
    docs/reconnaissance/README.md
-   docs/reconnaissance/*
+   docs/reconnaissance/Hide-your-tracks.md
+   docs/reconnaissance/Gather-public-information.md
+   docs/reconnaissance/Initial-scanning.md
+   docs/reconnaissance/Traceroute-analysis.md
+   docs/reconnaissance/Deep-dive-DNS.md
+   docs/reconnaissance/Gather-app-information.md
+   docs/reconnaissance/Discover-app-vulnerabilities.md
 
 .. toctree::
    :glob:
@@ -81,13 +86,17 @@ Attack Trees represent often used movements and can help organise our thoughts a
    docs/application/*
 
 .. toctree::
-   :glob:
    :maxdepth: 1
    :includehidden:
    :caption: Databases
 
    docs/databases/README.md
-   docs/databases/*
+   docs/databases/Crack-root.md
+   docs/databases/DB-exploits.md
+   docs/databases/SQLi.md
+   docs/databases/Confirm-injection-vuln.md
+   docs/databases/SQLi-login.md
+   docs/databases/SQLi-extract.md
 
 .. toctree::
    :glob:
