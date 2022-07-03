@@ -106,6 +106,11 @@ exploitation may be possible.
 There is JS code that is using unsafely some data which can be controlled, like `location.href`. This can be used to 
 execute arbitrary JavaScript code in DOM based XSS.
 
+## Tools
+
+* [Firefox developer tools (Inspect code)](https://firefox-dev.tools/)
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+
 ## Cheatsheets
 
 * [XSS Filter Evasion Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html)
