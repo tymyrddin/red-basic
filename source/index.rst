@@ -77,13 +77,21 @@ Attack Trees represent often used movements and can help organise our thoughts a
    docs/system/*
 
 .. toctree::
-   :glob:
    :maxdepth: 1
    :includehidden:
    :caption: Application
 
    docs/application/README.md
-   docs/application/*
+   docs/application/Mapping.md
+   docs/application/File-upload.md
+   docs/application/Remote-code-execution.md
+   docs/application/Local-file-inclusion.md
+   docs/application/Remote-file-inclusion.md
+   docs/application/XSS.md
+   docs/application/XSS-context.md
+   docs/application/CSRF.md
+   docs/application/Clickjacking.md
+   docs/application/Hijack-application-session.md
 
 .. toctree::
    :maxdepth: 1
