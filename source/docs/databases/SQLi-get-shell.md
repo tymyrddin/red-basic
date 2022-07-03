@@ -5,7 +5,7 @@
 ```text
 1 Netcat installed on both systems (hacking and target machines) (AND)
     1.1 Install netcat on both systems (AND)
-    1.2 Create a reverse shell (for example with weevely) (AND)
+    1.2 Create a reverse shell (AND)
     1.3 Setup a netcat listener on the hacking machine
 2 SQL injection writing payload to server (AND)
     2.1 Find out if the database is vulnerable (AND)
@@ -28,12 +28,14 @@ PHP (and nc):
 
 ## Notes
 
-Works only in combination with a [local file inclusion vulnerability](../application/Local-file-incl-vuln.md).
+Works only in combination with a [local file inclusion vulnerability](../application/Local-file-inclusion.md).
 
 ## Tools
 * [Burp suite CE proxy](https://portswigger.net/burp/documentation/desktop/getting-started/intercepting-http-traffic)
 
 ## Cheatsheets
+* [Weevely cheatsheet](cheatsheets:docs/application/weevely)
+* [MSFvenom cheatsheet](https://www.offensive-security.com/metasploit-unleashed/Msfvenom/)
 * [Detect number of columns](cheatsheets:docs/databases/number-of-columns)
 * [Union SQLi queries](cheatsheets:docs/databases/union-select)
 * [Local file inclusion](cheatsheets:docs/application/lfi)

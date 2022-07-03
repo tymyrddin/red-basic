@@ -19,7 +19,7 @@ consequences of a successful RFI attack range from sensitive information disclos
 full system compromise.
 
 If PHP is configured to `allow_url_fopen` and `allow_url_include` (in `etc/php5/cgi/php.ini`), then the
-[Local inclusion file attack](Local-file-incl-vuln.md) can be used as a remote file inclusion attack.
+[Local inclusion file attack](Local-file-inclusion.md) can be used as a remote file inclusion attack.
 
 If playing with metasploitable2, set these two to `On` and restart apache2: `sudo /etc/init.d/apache2 restart`
 

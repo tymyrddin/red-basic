@@ -44,6 +44,7 @@ to all (on GitHub).
 
 ## Cheatsheets
 * [Weevely cheatsheet](cheatsheets:docs/application/weevely)
+* [MSFvenom cheatsheet](https://www.offensive-security.com/metasploit-unleashed/Msfvenom/)
 * [OWASP Unrestricted File Upload](https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload)
 * [Web-Sec-CheatSheet](https://github.com/imran-parray/Web-Sec-CheatSheet/blob/master/File-Upload-test.txt)
 
