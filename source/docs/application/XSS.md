@@ -1,15 +1,12 @@
-# Cross-site scripting (XSS) vulnerabilities
+# Cross-site scripting (XSS)
 
 ## Attack tree
 
 ```text
-1 Discover XSS vulnerability
-    1.1 Try to inject JS into the pages (AND)
-    1.2 Test textboxes and url parameters on the form <target site>/page.php (AND)
-    1.3 Check where input is being reflected
-        1.2.1 Stored and reflected: Persistent/stored XSS (OR)
-        1.2.2 Intermediately reflected: Reflected XSS (OR)
-        1.2.3 Accessed via JS: DOM based XSS
+1 Cross-site scripting (XSS)
+    1.1 Stored and reflected: Persistent/stored XSS (OR)
+    1.2 Intermediately reflected: Reflected XSS (OR)
+    1.3 Accessed via JS: DOM based XSS
 ```
 
 ## Notes

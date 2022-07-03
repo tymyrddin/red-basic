@@ -1,26 +1,29 @@
-# Explore XSS context
+# Discover XSS vulnerabilities
 
 ## Attack tree
 
 ```text
-1 Reflected
-    1.1 In Raw HTML
-        1.1.1 Try creating new HTML tags
-        1.1.2 Try using events or attributes supporting javascript: protocol
-        1.1.3 Try bypassing protections
-        1.1.4 Check whether the HTML content is being interpreted by a client side JS engine
-    1.2 Inside an HTML tag
-        1.2.1 Try exiting to raw HTML context
-        1.2.2 Try creating new events/attributes to execute JS code
-        1.2.3 Try bypassing protections
-    1.3 Inside JavaScript code
-        1.3.1 Try escaping the <script> tag
-        1.3.2 Try escaping the string and execute different JS code
-        1.3.3 Check input in template are literals
-        1.3.4 Try bypassing protections
-    1.4 Javascript function being executed
-        1.4.1 Indicate the name of the function to execute
-2 Used
+1 Discover XSS vulnerability
+    1.1 Try to inject JS into the pages (AND)
+    1.2 Test textboxes and url parameters on the form <target site>/page.php (AND)
+    1.3 Check where input is being reflected
+        1.3.1 In Raw HTML
+            1.3.1.1 Try creating new HTML tags
+            1.3.1.2 Try using events or attributes supporting javascript: protocol
+            1.3.1.3 Try bypassing protections
+            1.3.1.4 Check whether the HTML content is being interpreted by a client side JS engine
+        1.3.2 Inside an HTML tag
+            1.3.2.1 Try exiting to raw HTML context
+            1.3.2.2 Try creating new events/attributes to execute JS code
+            1.3.2.3 Try bypassing protections
+        1.3.3 Inside JavaScript code
+            1.3.3.1 Try escaping the <script> tag
+            1.3.3.2 Try escaping the string and execute different JS code
+            1.3.3.3 Check input in template are literals
+            1.3.3.4 Try bypassing protections
+        1.3.4 Javascript function being executed
+            1.3.4.1 Indicate the name of the function to execute
+    1.4 Check used JS code
 ```
 
 ## Examples
@@ -103,7 +106,7 @@ exploitation may be possible.
 ## Notes
 
 ### Used
-There is JS code that is using unsafely some data which can be controlled, like `location.href`. This can be used to 
+There is JS code that is using some data which can be controlled unsafely, like `location.href`. This can be used to 
 execute arbitrary JavaScript code in DOM based XSS.
 
 ## Tools
