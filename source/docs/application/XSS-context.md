@@ -111,7 +111,7 @@ execute arbitrary JavaScript code in DOM based XSS.
 
 ## Tools
 
-* [Firefox developer tools (Inspect code)](https://firefox-dev.tools/)
+* [Firefox developer tools](https://firefox-dev.tools/)
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 
 ## Cheatsheets
