@@ -12,7 +12,7 @@
 2 Stored XSS
     2.1 Create BeEF hook
     2.2 Inject hook script in vulnerable pages
-    2.3 Send link to people
+    2.3 Send link to people (and may the admin often look at pages, heh)
     2.4 Execute commands from BeEF
 ```
 
