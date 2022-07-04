@@ -38,4 +38,4 @@ Just a skeleton, smarter ways to deliver in post exploitation.
 ## Cheatsheets
 
 * [Evading Anti-Virus](cheatsheets:docs/stealth/evading-av)
-* [Why use meterpreter/](https://www.offensive-security.com/metasploit-unleashed/about-meterpreter/#Meterpreter_Design_Goals)
+* [Why use meterpreter](https://www.offensive-security.com/metasploit-unleashed/about-meterpreter/#Meterpreter_Design_Goals)
