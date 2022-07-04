@@ -1,10 +1,10 @@
 # Veiled backdoor
 
-
-
 ## Tools
 
 * [Veil](https://www.kali.org/tools/veil/), but is not pre-installed.
+* [Install veil](https://github.com/Veil-Framework/Veil/)
+* [NoDistribute](https://nodistribute.com/)
 
 ## Troubleshooting
 
