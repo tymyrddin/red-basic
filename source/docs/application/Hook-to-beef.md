@@ -25,3 +25,7 @@ To create a BeEF hook, copy the code given by beEF and replace IP address with a
 ## Tools
 
 * [BeEF XSS](https://www.kali.org/tools/beef-xss/)
+
+## Troubleshooting
+
+* [BeEF unable to load extensions](../trouble/Beef.md)
