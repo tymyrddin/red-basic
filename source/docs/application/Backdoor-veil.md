@@ -12,4 +12,4 @@
 
 ## Cheatsheets
 
-* [Evading Anti-Virus](cheatsheets:docs/application/evading-av)
+* [Evading Anti-Virus](cheatsheets:docs/stealth/evading-av)

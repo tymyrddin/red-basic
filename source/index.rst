@@ -23,7 +23,6 @@ Attack Trees represent often used movements and can help organise our thoughts a
    :caption: Reconnaissance
 
    docs/reconnaissance/README.md
-   docs/reconnaissance/Hide-your-tracks.md
    docs/reconnaissance/Gather-public-information.md
    docs/reconnaissance/Initial-scanning.md
    docs/reconnaissance/Traceroute-analysis.md
