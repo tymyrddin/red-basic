@@ -13,3 +13,4 @@
 ## Cheatsheets
 
 * [Evading Anti-Virus](cheatsheets:docs/stealth/evading-av)
+* [Why use meterpreter/](https://www.offensive-security.com/metasploit-unleashed/about-meterpreter/#Meterpreter_Design_Goals)
