@@ -90,6 +90,7 @@ Attack Trees represent often used movements and can help organise our thoughts a
    docs/application/XSS.md
    docs/application/XSS-context.md
    docs/application/Hook-to-beef.md
+   docs/application/Cookies.md
    docs/application/Hijack-application-session.md
    docs/application/CSRF.md
    docs/application/Clickjacking.md
