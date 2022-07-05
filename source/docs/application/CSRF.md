@@ -6,16 +6,15 @@
 1 Find a relevant action (change password or email, etc) (AND)
 2 Send request to site
     2.1 Create valid request (AND)
-        2.1.1 Analyse real requests of the site (right-click and inspect element) (AND)
-        2.1.2 Use XSS to get session token in use by site (OR)
-        2.1.3 Create a forged form request (login CSRF)
-            2.1.3.1 Analyse html form (AND)
-            2.1.3.2 Forge html form
-        2.1.4 Create a request forging the HTTP Referrer attribute (OR)
-            2.1.4.1 Analyse real requests of the site (AND)
-            2.1.4.2 Forge HTTP request with Flash (OR)
-            2.1.4.3 Forge HTTP request with XMLHTTPRequest 
-    2.2 Social engineering
+        2.1.1 Use XSS to get session token in use by site (OR)
+        2.1.2 Create a forged form request (login CSRF) (OR)
+            2.1.2.1 Analyse html form of te site (right-click and inspect/copy element) (AND)
+            2.1.2.2 Forge html form
+        2.1.3 Create a request forging the HTTP Referrer attribute
+            2.1.3.1 Analyse real requests of the site (AND)
+            2.1.3.2 Forge HTTP request with Flash (OR)
+            2.1.3.3 Forge HTTP request with XMLHTTPRequest 
+    2.2 Social engineer delivery
 ```
 
 ## Notes
