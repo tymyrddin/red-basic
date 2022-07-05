@@ -58,13 +58,14 @@ Attack Trees represent often used movements and can help organise our thoughts a
    docs/network/*
 
 .. toctree::
-   :glob:
    :maxdepth: 1
    :includehidden:
    :caption: Malware
 
    docs/malware/README.md
-   docs/malware/*
+   docs/malware/create-malware.md
+   docs/malware/Target-device.md
+   docs/malware/Backdoor-veil.md
 
 .. toctree::
    :glob:
@@ -89,7 +90,6 @@ Attack Trees represent often used movements and can help organise our thoughts a
    docs/application/XSS.md
    docs/application/XSS-context.md
    docs/application/Hook-to-beef.md
-   docs/application/Backdoor-veil.md
    docs/application/Hijack-application-session.md
    docs/application/CSRF.md
    docs/application/Clickjacking.md
@@ -97,7 +97,7 @@ Attack Trees represent often used movements and can help organise our thoughts a
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: Databases
+   :caption: Database
 
    docs/databases/README.md
    docs/databases/Crack-root.md
@@ -118,6 +118,14 @@ Attack Trees represent often used movements and can help organise our thoughts a
 
    docs/server/README.md
    docs/server/*
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
+   :caption: CI/CD pipeline
+
+   docs/cicd/README.md
+   docs/cicd/Supply-chain.md
 
 .. toctree::
    :glob:
