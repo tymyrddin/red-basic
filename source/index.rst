@@ -12,7 +12,7 @@ Attack Trees represent often used movements and can help organise our thoughts a
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Testlabs
+   :caption: Testlab
 
    docs/lab/README.md
    docs/lab/*
