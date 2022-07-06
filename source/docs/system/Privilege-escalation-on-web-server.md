@@ -1,4 +1,4 @@
-# Unauthorised privilege escalation on a web server
+# Privilege escalation on a web server
 
 ## Attack tree
 
