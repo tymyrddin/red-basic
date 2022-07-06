@@ -92,8 +92,9 @@ Attack Trees represent often used movements and can help organise our thoughts a
    docs/application/Hook-to-beef.md
    docs/application/Cookies.md
    docs/application/Hijack-application-session.md
-   docs/application/CSRF.md
    docs/application/Clickjacking.md
+   docs/application/CSRF.md
+   docs/application/Last-resort.md
 
 .. toctree::
    :maxdepth: 1
