@@ -16,7 +16,7 @@ Web servers became harder to hack, not impossible to hack. Web servers suffer th
 
 ## How?
 
-* Take advantage of vulnerabilities on hosts or hosted applications to gain a shell on the remote server or expose the information in an application database through SQL injection or other techniques.
+* Take advantage of vulnerabilities on hosts or hosted applications to gain or escalate a shell on the remote server or expose the information in an application database through SQL injection or other techniques.
 * Use common vulnerabilities, such as DNS poisoning, weak configurations, and poor patching (but those are becoming rare).
 * Find new vulnerabilities with code analysis or fuzzing.
 

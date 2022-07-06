@@ -107,30 +107,24 @@ Attack Trees represent often used movements and can help organise our thoughts a
    docs/databases/Automated-exploitation.md
 
 .. toctree::
-   :glob:
    :maxdepth: 1
    :includehidden:
    :caption: System
 
    docs/system/README.md
-   docs/system/*
+   docs/system/Gain-unauthorised-access.md
+   docs/system/Privilege-escalation-on-windows.md
+   docs/system/Privilege-escalation-on-linux.md
 
 .. toctree::
-   :glob:
    :maxdepth: 1
    :includehidden:
    :caption: Server
 
    docs/server/README.md
-   docs/server/*
-
-.. toctree::
-   :maxdepth: 1
-   :includehidden:
-   :caption: CI/CD pipeline
-
-   docs/cicd/README.md
-   docs/cicd/Supply-chain.md
+   docs/server/Spoof-webserver.md
+   docs/server/Escalate-reverse-shell.md
+   docs/server/Privilege-escalation-on-web-server.md
 
 .. toctree::
    :glob:
@@ -149,6 +143,14 @@ Attack Trees represent often used movements and can help organise our thoughts a
 
    docs/crypto/README.md
    docs/crypto/*
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
+   :caption: CI/CD pipeline
+
+   docs/cicd/README.md
+   docs/cicd/Supply-chain.md
 
 .. toctree::
    :glob:
