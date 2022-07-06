@@ -3,18 +3,12 @@
 ## Attack tree
 
 ```text
-1 Find a relevant action (change password or email, etc) (AND)
-2 Send request to site
-    2.1 Create valid request (AND)
-        2.1.1 Use XSS to get session token in use by site (OR)
-        2.1.2 Create a forged form request (login CSRF) (OR)
-            2.1.2.1 Analyse html form of te site (right-click and inspect/copy element) (AND)
-            2.1.2.2 Forge html form
-        2.1.3 Create a request forging the HTTP Referrer attribute
-            2.1.3.1 Analyse real requests of the site (AND)
-            2.1.3.2 Forge HTTP request with Flash (OR)
-            2.1.3.3 Forge HTTP request with XMLHTTPRequest 
-    2.2 Social engineer delivery
+1 Target user is logged in
+2 Relevant action (POST request to change password or email, etc) (AND)
+3 Forged code on hacking website (a form with POST method and hidden input field containing the new password)
+4 Deliver 
+    4.1 Autosubmit
+    4.2 Social engineering
 ```
 
 ## Notes
