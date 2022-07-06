@@ -14,7 +14,6 @@
 
 ## Resources
 
-* [OpenWall](ftp://ftp.openwall.com/pub/wordlists/)
 * [Berzerk0: Probable Wordlists](https://github.com/berzerk0/Probable-Wordlists)
 * [OpenWall mirrors](http://www.openwall.com/mirrors/))
 * [Outpost9: Wordlists](http://www.outpost9.com/files/WordLists.html))
@@ -22,3 +21,7 @@
 * [Packet storm: wordlists](http://packetstormsecurity.org/Crackers/wordlists/)
 * [Moby](http://www.ai.uga.edu/ftplib/natural-language/moby/) (HUGE)
 * [SCOWL (Spell Checker Oriented Word Lists)](http://wordlist.aspell.net/)
+
+## Cheatsheets
+
+[Frizb: Hydra cheatsheet](https://github.com/frizb/Hydra-Cheatsheet)
