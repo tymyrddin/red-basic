@@ -101,6 +101,15 @@ Attack Trees represent often used movements and can help organise our thoughts a
    docs/databases/Automated-exploitation.md
 
 .. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Social engineering
+
+   docs/social-engineering/README.md
+   docs/social-engineering/*
+
+.. toctree::
    :maxdepth: 1
    :includehidden:
    :caption: System
@@ -119,15 +128,6 @@ Attack Trees represent often used movements and can help organise our thoughts a
    docs/server/Spoof-webserver.md
    docs/server/Escalate-reverse-shell.md
    docs/server/Privilege-escalation-on-web-server.md
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Social engineering
-
-   docs/social-engineering/README.md
-   docs/social-engineering/*
 
 .. toctree::
    :glob:
