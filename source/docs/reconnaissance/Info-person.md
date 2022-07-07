@@ -7,7 +7,7 @@
     1.1 Enter person
     1.2 Discover entities associated with target
         1.2.1 Websites, links, social networking accounts
-        1.2.2 Twitter friends and associated accounts
+        1.2.2 Social media friends and associated accounts
         1.2.3 Emails of friends
     1.3 Display on a graph
     1.4 Come up with a strategy
