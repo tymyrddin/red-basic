@@ -25,7 +25,6 @@ Attack Trees represent often used movements and can help organise our thoughts a
    docs/reconnaissance/README.md
    docs/reconnaissance/Info-company-website.md
    docs/reconnaissance/Info-person.md
-   docs/reconnaissance/Search-engines.md
    docs/reconnaissance/Deep-dive-DNS.md
    docs/reconnaissance/Gather-app-information.md
    docs/reconnaissance/Discover-app-vulnerabilities.md
