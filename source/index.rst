@@ -100,6 +100,9 @@ Attack Trees represent often used movements and can help organise our thoughts a
    docs/malware/Backdoor-veil.md
    docs/malware/Backdoor-fat-rat.md
    docs/malware/Backdoor-empire.md
+   docs/malware/Zlogger.md
+   docs/malware/LazaGne.md
+   docs/malware/Trojan.md
    docs/malware/Target-device.md
 
 .. toctree::
