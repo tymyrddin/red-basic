@@ -34,7 +34,7 @@ shell. We can still set one up using Bash, Python, Perl, Ruby, PHP.
 
 ## Cheatsheets
 * [Reverse shell commands](cheatsheets:docs/application/reverse-shell-commands)
-* [Weevely cheatsheet](cheatsheets:docs/application/weevely)
+* [Weevely cheatsheet](cheatsheets:docs/payloads/weevely)
 * [MSFvenom cheatsheet](https://www.offensive-security.com/metasploit-unleashed/Msfvenom/)
 
 ## Mitigations

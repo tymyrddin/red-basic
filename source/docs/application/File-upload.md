@@ -43,7 +43,7 @@ to all (on GitHub).
 * [Evil files](https://github.com/tymyrddin/nirridit)
 
 ## Cheatsheets
-* [Weevely cheatsheet](cheatsheets:docs/application/weevely)
+* [Weevely cheatsheet](cheatsheets:docs/payloads/weevely)
 * [MSFvenom cheatsheet](https://www.offensive-security.com/metasploit-unleashed/Msfvenom/)
 * [OWASP Unrestricted File Upload](https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload)
 * [Web-Sec-CheatSheet](https://github.com/imran-parray/Web-Sec-CheatSheet/blob/master/File-Upload-test.txt)

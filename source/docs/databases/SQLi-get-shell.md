@@ -34,7 +34,7 @@ Works only in combination with a [local file inclusion vulnerability](../applica
 * [Burp suite CE proxy](https://portswigger.net/burp/documentation/desktop/getting-started/intercepting-http-traffic)
 
 ## Cheatsheets
-* [Weevely cheatsheet](cheatsheets:docs/application/weevely)
+* [Weevely cheatsheet](cheatsheets:docs/payloads/weevely)
 * [MSFvenom cheatsheet](https://www.offensive-security.com/metasploit-unleashed/Msfvenom/)
 * [Detect number of columns](cheatsheets:docs/databases/number-of-columns)
 * [Union SQLi queries](cheatsheets:docs/databases/union-select)
