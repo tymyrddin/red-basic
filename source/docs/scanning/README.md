@@ -18,3 +18,9 @@ Intelligently select tools and exploitation methods for an attack, scanning and 
 
 Attempt to find open ports on the target system. Key are the Internet Control Message Protocol (ICMP) and Transmission Control Protocol (TCP) (and the available TCP flags).
 
+* Locate network range
+* Discover active machines
+* Determine operating systems
+* Define running services
+* Map the network
+

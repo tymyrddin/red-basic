@@ -1,4 +1,4 @@
-# Gather public information using search engines
+# Using search engines
 
 * Use Search engines to understand what sensitive design and configuration information of the application/system/organisation is exposed both directly (on the organisation's website) or indirectly (on a third party website): 
   * Network diagrams and configurations

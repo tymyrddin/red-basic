@@ -1,4 +1,4 @@
-# Gather DNS information
+# Gathering DNS information
 
 ## Attack tree
 

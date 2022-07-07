@@ -1,4 +1,4 @@
-# Gather application information
+# Gathering application information
 
 ## Attack tree
 
@@ -10,7 +10,7 @@
 
 ## Notes
 
-Use [search engines](Gather-public-information.md), [DNS tools](Deep-dive-DNS.md) to discover IP addresses, 
+Use [search engines](Search-engines.md), [DNS tools](Deep-dive-DNS.md) to discover IP addresses, 
 domain name information, technologies used, other websites on the same server, DNS records, unlisted files, 
 sub-domains, directories, neighbours, ...
 

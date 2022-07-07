@@ -26,11 +26,10 @@ Narrow the scope as much as possible:
 Gather as much information as possible on the target by using public sources. Create a map of the network to determine what operating systems, applications, and address ranges are being used and to identify any accessible open ports.
 
 * Gather information
-* Locate network range
-* Discover active machines
-* Determine operating systems
-* Define running services
-* Map the network
+* Discover associated websites, links, companies
+* Associated people, names, emails, phone numbers, social networks, friends
+* Associated social networking accounts
+
 
 As security and intrusion detection have gotten more sophisticated, so have the reconnaissance tools created and used by adversaries and network engineers. The purpose of scanning during reconnaissance is to find what hosts are currently active on the network. With probing and adversary can gather additional information, such as the OS,, technologies used, other websites on the same server, DNS records, unlisted files, 
 sub-domains, directories, neighbours, ...

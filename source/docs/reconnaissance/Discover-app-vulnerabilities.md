@@ -1,4 +1,4 @@
-# Discover application vulnerabilities
+# Discovering application vulnerabilities
 
 ## Attack tree
 

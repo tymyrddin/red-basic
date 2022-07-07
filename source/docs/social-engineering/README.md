@@ -2,7 +2,7 @@
 
 ## What?
 
-Social engineering targets the weakest link in the security chain: people. It takes advantage of human weakness and trust (which can be strengths in other contexts, like being helpful) and uses several non-technical methods to gather information or circumvent security controls.
+Social engineering targets the weakest (and by many organisations mostly ignored) link in the security chain: people. It takes advantage of human weakness and trust (which can be strengths in other contexts, like being helpful) and uses several non-technical methods to gather information or circumvent security controls.
 
 - Targets people and non-technical processes
 - May target weak physical and operational security

@@ -23,9 +23,9 @@ Attack Trees represent often used movements and can help organise our thoughts a
    :caption: Reconnaissance
 
    docs/reconnaissance/README.md
-   docs/reconnaissance/Gather-public-information.md
-   docs/reconnaissance/Initial-scanning.md
-   docs/reconnaissance/Traceroute-analysis.md
+   docs/reconnaissance/Info-company-website.md
+   docs/reconnaissance/Info-person.md
+   docs/reconnaissance/Search-engines.md
    docs/reconnaissance/Deep-dive-DNS.md
    docs/reconnaissance/Gather-app-information.md
    docs/reconnaissance/Discover-app-vulnerabilities.md
@@ -37,7 +37,11 @@ Attack Trees represent often used movements and can help organise our thoughts a
    :caption: Scanning
 
    docs/scanning/README.md
-   docs/scanning/*
+   docs/scanning/Initial-scanning.md
+   docs/scanning/Ping-sweep.md
+   docs/scanning/Port-scanning.md
+   docs/scanning/Traceroute-analysis.md
+   docs/scanning/Service-and-OS-detection.md
 
 .. toctree::
    :glob:
