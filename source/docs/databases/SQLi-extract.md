@@ -3,7 +3,7 @@
 ## Attack tree
 
 ```text
-1 SQL injection extract data from 
+1 SQL injection to extract data from a database
     1.1 Find out if the database is vulnerable (AND)
         1.1.1 Inject data in the query without breaking it
     1.2 Find the amount of columns (AND)
