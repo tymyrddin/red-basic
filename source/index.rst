@@ -52,15 +52,6 @@ Attack Trees represent often used movements and can help organise our thoughts a
    docs/enumeration/*
 
 .. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Network
-
-   docs/network/README.md
-   docs/network/*
-
-.. toctree::
    :maxdepth: 1
    :includehidden:
    :caption: Malware
@@ -137,6 +128,15 @@ Attack Trees represent often used movements and can help organise our thoughts a
 
    docs/social-engineering/README.md
    docs/social-engineering/*
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Network
+
+   docs/network/README.md
+   docs/network/*
 
 .. toctree::
    :glob:
