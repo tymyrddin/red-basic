@@ -91,6 +91,18 @@ Attack Trees represent often used movements and can help organise our thoughts a
    docs/databases/Automated-exploitation.md
 
 .. toctree::
+   :maxdepth: 1
+   :includehidden:
+   :caption: Malware
+
+   docs/malware/README.md
+   docs/malware/Create-malware.md
+   docs/malware/Backdoor-veil.md
+   docs/malware/Backdoor-fat-rat.md
+   docs/malware/Backdoor-empire.md
+   docs/malware/Target-device.md
+
+.. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
@@ -98,16 +110,6 @@ Attack Trees represent often used movements and can help organise our thoughts a
 
    docs/social-engineering/README.md
    docs/social-engineering/*
-
-.. toctree::
-   :maxdepth: 1
-   :includehidden:
-   :caption: Malware
-
-   docs/malware/README.md
-   docs/malware/create-malware.md
-   docs/malware/Target-device.md
-   docs/malware/Backdoor-veil.md
 
 .. toctree::
    :maxdepth: 1
