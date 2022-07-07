@@ -1,6 +1,6 @@
 # Escalate a reverse shell to a more powerful shell
 
-# Attack tree
+## Attack tree
 
 ```text
 1 Enumerate environment and current privileges (AND)
