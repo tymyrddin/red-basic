@@ -1,4 +1,4 @@
-# Empire: cannot import name 'Mapping' from 'collections'
+# Empire cannot import name 'Mapping' from 'collections'
 
 The `Mapping` type was moved to `collections.abc` in Python 3.10.
 
