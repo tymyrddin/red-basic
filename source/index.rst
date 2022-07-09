@@ -100,6 +100,7 @@ Attack Trees represent often used movements and can help organise our thoughts a
    docs/malware/Create-malware.md
    docs/malware/Windows-backdoor.md
    docs/malware/Linux-backdoor.md
+   docs/malware/Modify-backdoor.md
    docs/malware/Keylogger.md
    docs/malware/Password-recovery.md
    docs/malware/Trojan.md
