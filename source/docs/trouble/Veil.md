@@ -2,7 +2,7 @@
 
 In
 
-# vi /usr/share/veil/config/setup.sh
+    # vi /usr/share/veil/config/setup.sh
 
 Change line 587 to:
 
