@@ -19,4 +19,8 @@
 
 ## Notes
 
-Three web attack vectors are responsible for the majority of computer attacks that involve a web browser. Most browser-based attacks include one or two of these three techniques. Phishing and the gateway techniques are medium and not high risk issues, down to the delivery method of attack and the execution vectors. These vulnerabilities require user interaction and an element of social engineering because for it to succeed users have to voluntarily interact with the malicious pages.
+Three web attack vectors are responsible for the majority of computer attacks that involve a web browser. Most 
+browser-based attacks include one or two of these three techniques. Phishing and the gateway techniques are medium 
+and not high risk issues, down to the delivery method of attack and the execution vectors. These vulnerabilities 
+require user interaction and an element of social engineering because for it to succeed users have to voluntarily 
+interact with the malicious pages.

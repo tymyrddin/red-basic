@@ -54,6 +54,23 @@ Attack Trees represent often used movements and can help organise our thoughts a
 .. toctree::
    :maxdepth: 1
    :includehidden:
+   :caption: Database
+
+   docs/databases/README.md
+   docs/databases/Access-password-database.md
+   docs/databases/Crack-root.md
+   docs/databases/DB-exploits.md
+   docs/databases/SQLi.md
+   docs/databases/Confirm-injection-vuln.md
+   docs/databases/SQLi-login.md
+   docs/databases/SQLi-extract.md
+   docs/databases/SQLi-outside.md
+   docs/databases/SQLi-get-shell.md
+   docs/databases/Automated-exploitation.md
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
    :caption: Application
 
    docs/application/README.md
@@ -69,28 +86,11 @@ Attack Trees represent often used movements and can help organise our thoughts a
    docs/application/Hijack-application-session.md
    docs/application/Clickjacking.md
    docs/application/CSRF.md
+   docs/application/Last-resort.md
    docs/application/MitB.md
    docs/application/Browser-based-attacks.md
-   docs/application/Last-resort.md
    docs/application/ZAP.md
    docs/application/Post-exploitation.md
-
-.. toctree::
-   :maxdepth: 1
-   :includehidden:
-   :caption: Database
-
-   docs/databases/README.md
-   docs/databases/Access-password-database.md
-   docs/databases/Crack-root.md
-   docs/databases/DB-exploits.md
-   docs/databases/SQLi.md
-   docs/databases/Confirm-injection-vuln.md
-   docs/databases/SQLi-login.md
-   docs/databases/SQLi-extract.md
-   docs/databases/SQLi-outside.md
-   docs/databases/SQLi-get-shell.md
-   docs/databases/Automated-exploitation.md
 
 .. toctree::
    :maxdepth: 1

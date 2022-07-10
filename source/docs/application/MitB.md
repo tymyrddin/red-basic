@@ -17,6 +17,10 @@
 
 ## Notes
 
-MitB is a proxy Trojan horse that infects a web browser by taking advantage of vulnerabilities in browser security to modify web pages, modify transaction content or insert additional transactions, invisible to both the user and host web application, regardless of security mechanisms such as SSL/PKI and/or two, three or four factor authentication solutions. Neither encryption nor OTP can protect against a MitB. Authentication is for validation of identity credentials, not transaction verification. An effective mitigation could be using an out-of-band (OOB) transaction verification process.
+MitB is a proxy Trojan horse that infects a web browser by taking advantage of vulnerabilities in browser security to 
+modify web pages, modify transaction content or insert additional transactions, invisible to both the user and host web 
+application, regardless of security mechanisms such as SSL/PKI and/or two, three or four factor authentication solutions. 
+Neither encryption nor OTP can protect against a MitB. Authentication is for validation of identity credentials, not 
+transaction verification. An effective mitigation could be using an out-of-band (OOB) transaction verification process.
 
 
