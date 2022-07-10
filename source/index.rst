@@ -69,8 +69,8 @@ Attack Trees represent often used movements and can help organise our thoughts a
    docs/application/Hijack-application-session.md
    docs/application/Clickjacking.md
    docs/application/CSRF.md
-   docs/application/Browser-based-attacks.md
    docs/application/MitB.md
+   docs/application/Browser-based-attacks.md
    docs/application/Last-resort.md
    docs/application/ZAP.md
    docs/application/Post-exploitation.md

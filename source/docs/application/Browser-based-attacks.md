@@ -5,21 +5,16 @@
 ```text
 1 Phishing (OR)
 2 Use browser as gateway (OR)
-    2.1 Cross-site scripting (XSS): Execute some browser code in the context of a vulnerable web application.
-    2.2 Cross-Site Request Forgery (CSRF): Trick the browser into visiting a site or clicking on a link 
-    that submits a specially-crafted request to the vulnerable web application.
-    2.3 Clickjacking: Design a website that embeds the visitor’s desired web application while floating 
-    invisible HTML elements above the web app’s legitimate user interface. The user will believe he is 
-    interacting with the legitimate site, while the code intercepts the user input. 
-    2.4 Man-in-the-Browser: Design an application that runs directly on the user’s computer and embeds 
-    itself into the browser as an add-on or a DLL to intercept and tamper with traffic sent by the browser.
+    2.1 Cross-site scripting (XSS)
+    2.2 Cross-Site Request Forgery (CSRF)
+    2.3 Clickjacking 
+    2.4 Man-in-the-Browser
 3 Exploit a vulnerability in the browser (OR)
 4 Exploit a vulnerability in software invoked by browser
-    4.1 Flash
-    4.2 Adobe Reader
-    4.3 Java Runtime Environment (JRE)
-    4.4 Browser add-ons/extensions
-    4.5 Other local software that the browser can invoke
+    4.1 Adobe Reader
+    4.2 Java Runtime Environment (JRE)
+    4.3 Browser add-ons/extensions
+    4.4 Other local software that the browser can invoke
 ```
 
 ## Notes
