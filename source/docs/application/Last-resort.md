@@ -15,8 +15,8 @@
 ## Resources
 
 * [Berzerk0: Probable Wordlists](https://github.com/berzerk0/Probable-Wordlists)
-* [OpenWall mirrors](http://www.openwall.com/mirrors/))
-* [Outpost9: Wordlists](http://www.outpost9.com/files/WordLists.html))
+* [OpenWall mirrors](http://www.openwall.com/mirrors/)
+* [Outpost9: Wordlists](http://www.outpost9.com/files/WordLists.html)
 * [Vulnerability assessment: Passwords](http://www.vulnerabilityassessment.co.uk/passwords.htm)
 * [Packet storm: wordlists](http://packetstormsecurity.org/Crackers/wordlists/)
 * [Moby](http://www.ai.uga.edu/ftplib/natural-language/moby/) (HUGE)
