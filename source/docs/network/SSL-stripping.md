@@ -16,6 +16,6 @@ SSL stripping downgrades a HTTPS connection to HTTP by intercepting the TLS auth
 3 Sniff traffic 
 ```
 
-## Scripting
+## Scripts
 * [simple ARP spoofer](https://github.com/tymyrddin/ymrir/tree/master/arp_spoofer)
 * [simple packet sniffer](https://github.com/tymyrddin/ymrir/tree/master/packet_sniffer)
