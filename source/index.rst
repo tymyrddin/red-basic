@@ -6,7 +6,13 @@
 Attack Trees
 =================================
 
-Attack Trees represent often used movements and can help organise our thoughts around which tools and scripts may be reuseful for which type of pentesting and/or various audits (and which mitigations we may need for our own development efforts).
+Attack Trees represent often used movements and can help organise our thoughts around which tools and scripts may be
+reuseful for which type of pentesting and/or various audits (and which mitigations we may need for our own development
+efforts).
+
+These attack trees are meant as a training zone, a story with several entry points to grok systematic hacking concepts
+from. Most trees are example cases and do not completely spell out a hack. There is plenty of room for experimentation
+and further discovery.
 
 .. toctree::
    :glob:
@@ -99,13 +105,13 @@ Attack Trees represent often used movements and can help organise our thoughts a
 
    docs/malware/README.md
    docs/malware/Create-malware.md
-   docs/malware/Backdoor-Windows.md
+   docs/malware/Malware-Windows.md
    docs/malware/Keylogger.md
    docs/malware/Password-recovery.md
    docs/malware/Modify-source.md
    docs/malware/Trojan.md
-   docs/malware/Backdoor-Linux.md
-   docs/malware/Backdoor-macOS.md
+   docs/malware/Malware-Linux.md
+   docs/malware/Malware-macOS.md
    docs/malware/Target-device.md
    docs/malware/C2.md
    docs/malware/Create-botnet.md
