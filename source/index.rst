@@ -49,9 +49,9 @@ With many thanks to `EONRaider <https://github.com/EONRaider>`_, `BlackHat <http
    docs/scanning/README.md
    docs/scanning/Initial-scanning.md
    docs/scanning/Ping-sweep.md
-   docs/scanning/Port-scanning.md
    docs/scanning/Traceroute-analysis.md
    docs/scanning/Service-and-OS-detection.md
+   docs/scanning/Port-scanning.md
 
 .. toctree::
    :glob:
