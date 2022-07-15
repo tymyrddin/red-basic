@@ -1,4 +1,4 @@
-# Port scanning
+# Discovering vulnerabilities using port scanning
 
 ## Attack tree
 
@@ -8,12 +8,13 @@
             1.1.2 Use the default SYN (`-sS`)scans (privileges are required) (OR)
             1.1.3 Use the connect (`-sT`) scan (privileges are not required)
     1.2 Do a UDP scan
-2 Check for potential known problems with found ports
+2 Check for potential known problems and vulnerabilities with found ports
 ```
 ## Notes
 
 * There are many ports scanners that all operate in pretty much the same way. 
 * The most common type of scan in the discovery phase is a `SYN` scan (or SYN stealth scan), named for the `TCP SYN` flag used in the `TCP` connection sequence. To perform the default SYN (`-sS`)scans, privileges are required. If privileges are insufficient a TCP connect (`-sT`) scan is used. 
+* The [Ports Database](https://www.speedguide.net/ports.php) is a comprehensive, searchable database of official and unofficial tcp/udp port assignments, known vulnerabilities, trojans, applications use and more.
 
 ## Cheatsheets
 
