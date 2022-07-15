@@ -111,11 +111,8 @@ With many thanks to `EONRaider <https://github.com/EONRaider>`_, `BlackHat <http
    docs/malware/Password-recovery.md
    docs/malware/Modify-source.md
    docs/malware/Trojan.md
-   docs/malware/Malware-Linux.md
    docs/malware/Malware-macOS.md
-   docs/malware/Target-device.md
-   docs/malware/C2.md
-   docs/malware/Create-botnet.md
+   docs/malware/Malware-Linux.md
 
 .. toctree::
    :glob:
@@ -124,7 +121,14 @@ With many thanks to `EONRaider <https://github.com/EONRaider>`_, `BlackHat <http
    :caption: Social engineering
 
    docs/social-engineering/README.md
-   docs/social-engineering/*
+   docs/social-engineering/Target-device.md
+   docs/social-engineering/Phishing.md
+   docs/social-engineering/Pharming.md
+   docs/social-engineering/SEO-poisoning.md
+   docs/social-engineering/War-dialing-driving-flying-shipping.md
+   docs/social-engineering/Credential-stuffing.md
+   docs/social-engineering/C2.md
+   docs/social-engineering/Create-botnet.md
 
 .. toctree::
    :maxdepth: 1
