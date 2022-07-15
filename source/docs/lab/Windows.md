@@ -1,4 +1,4 @@
-# Windows
+# Windows PC
 
 In all cases you can use testing versions from Microsoft (for 90 days) for the Windows 10 VM. In virtualized machines 
 make a snapshot immediately after install, to return to when time runs out.

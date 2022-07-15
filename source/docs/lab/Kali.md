@@ -8,6 +8,7 @@ information security tasks, such as Penetration Testing, Security Research, Comp
 
 * [Official Kali VM's](https://www.kali.org/get-kali/#kali-virtual-machines)
 * [ZSecurity kali linux VM](https://zsecurity.org/download-custom-kali/) - set it to 4G RAM
+* [OS Box Kali linux](https://www.osboxes.org/kali-linux/)
 
 ## Using KVM
 
