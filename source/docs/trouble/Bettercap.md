@@ -6,7 +6,7 @@
 ------------------------------------
 
 [sudo] password for <user>: 
-bettercap v2.32.0 (built for linux amd64 with go1.15.15) [type 'help' for a list of commands]
+bettercap v2.32.0 (built for Linux amd64 with go1.15.15) [type 'help' for a list of commands]
 
 2022-01-23 14:36:56 inf hstshijack Generating random variable names for this session ...
 ...

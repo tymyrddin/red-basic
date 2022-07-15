@@ -7,13 +7,13 @@ Just a few of the major distributions. More can be found on [Distrowatch](https:
 * [OS Box Debian](https://www.osboxes.org/debian/)
 * [OS Box Ubuntu](https://www.osboxes.org/ubuntu/)
 * [OS Box Fedora](https://www.osboxes.org/fedora/)
-* [OS Box Arch linux](https://www.osboxes.org/arch-linux/)
+* [OS Box Arch Linux](https://www.osboxes.org/arch-linux/)
 
 ## Using KVM
 
 * [Getting Debian](https://www.debian.org/distrib/)
 * [Download Ubuntu Desktop](https://ubuntu.com/download/desktop)
-* [Download Fedora 36 Workstation](https://getfedora.org/en/workstation/download/)
+* [Download Fedora Workstation](https://getfedora.org/en/workstation/download/)
 * [Arch Linux Downloads](https://archlinux.org/download/)
 
 ## Dockers

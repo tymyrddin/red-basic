@@ -1,4 +1,4 @@
-# Kali
+# Kali Linux
 
 Kali Linux (formerly known as BackTrack Linux) is an open-source, Debian-based Linux distribution aimed at advanced 
 Penetration Testing and Security Auditing. Kali Linux contains several hundred tools targeted towards various 
@@ -7,8 +7,8 @@ information security tasks, such as Penetration Testing, Security Research, Comp
 ## Using VMWare
 
 * [Official Kali VM's](https://www.kali.org/get-kali/#kali-virtual-machines)
-* [ZSecurity kali linux VM](https://zsecurity.org/download-custom-kali/) - set it to 4G RAM
-* [OS Box Kali linux](https://www.osboxes.org/kali-linux/)
+* [ZSecurity Kali Linux VM](https://zsecurity.org/download-custom-kali/) - set it to 4G RAM
+* [OS Box Kali Linux](https://www.osboxes.org/kali-linux/)
 
 ## Using KVM
 
