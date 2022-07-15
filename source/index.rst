@@ -6,13 +6,14 @@
 Attack Trees
 =================================
 
-Attack Trees represent often used movements and can help organise our thoughts around which tools and scripts may be
-reuseful for which type of pentesting and/or various audits (and which mitigations we may need for our own development
-efforts).
-
 These attack trees are meant as a training zone, a story with several entry points to grok systematic hacking concepts
-from. Most trees are example cases and do not completely spell out a hack. There is plenty of room for experimentation
-and further discovery.
+from. For educational purposes, most trees are example cases to understand the basics, and do not completely spell out
+a hack. The use of tools is mininised, there is plenty of room for creativity and experimentation, and links for further
+discovery are also given.
+
+With many thanks to `EONRaider <https://github.com/EONRaider>`_, `BlackHat <https://www.blackhat.com/>`_, and
+`ZSecurity <https://zsecurity.org/>`_.
+
 
 .. toctree::
    :glob:
