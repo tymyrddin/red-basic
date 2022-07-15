@@ -1,4 +1,4 @@
-# Discovering vulnerabilities using port scanning
+# Discovering service vulnerabilities
 
 ## Attack tree
 
