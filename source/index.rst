@@ -24,7 +24,7 @@ With many thanks to `EONRaider <https://github.com/EONRaider>`_, `BlackHat <http
    docs/lab/README.md
    docs/lab/Kali.md
    docs/lab/Windows.md
-   docs/lab/MacOS.md
+   docs/lab/Macos.md
    docs/lab/Linux.md
    docs/lab/*
 

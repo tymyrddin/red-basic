@@ -21,7 +21,7 @@ other. Switching is a hassle though.
 * One or two [Windows PC machines](Windows.md), both 10 or a 10 and an 11 machine: 
   * One of the two serves as development machine for scripts that are best developed on the target they are meant for. This machine will need Python installed on it. 
   * The second one, if created, can be used to test binaries, and does not need to have Python installed.
-* A [macOS machine](MacOS.md), choose Catalina, Big Sur or Monterey based on reconnaissance, or just Catalina.
+* A [macOS machine](Macos.md), choose Catalina, Big Sur or Monterey based on reconnaissance, or just Catalina.
 * A [Linux PC machine](Linux.md), choose distro depending on reconnaissance, or just Debian and friends (which include Ubuntu and Mint).
 * A [Metaspoitable machine](Metasploitable.md): The metasploitable provides targets for the most simple (mostly php) attacks.
 * A [Webgoat and wolf machine](Webgoat.md), a deliberately insecure application that allows for testing vulnerabilities commonly found in JS-based applications that use common and popular open source components.
