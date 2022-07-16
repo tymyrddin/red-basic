@@ -11,9 +11,6 @@ from. For educational purposes, most trees are example cases to understand the b
 a hack. The use of tools is mininised, there is plenty of room for creativity and experimentation, and links for further
 discovery are also given.
 
-With many thanks to `EONRaider <https://github.com/EONRaider>`_, `BlackHat <https://www.blackhat.com/>`_, and
-`ZSecurity <https://zsecurity.org/>`_.
-
 
 .. toctree::
    :glob:
