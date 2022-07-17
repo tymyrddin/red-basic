@@ -11,8 +11,6 @@ from. For educational purposes, most trees are example cases to understand the b
 a hack. The use of tools is mininised, there is plenty of room for creativity and experimentation, and links for further
 discovery are also given.
 
-With many thanks to `EONRaider <https://github.com/EONRaider>`_, `BlackHat <https://www.blackhat.com/>`_, and
-`ZSecurity <https://zsecurity.org/>`_.
 
 .. toctree::
    :glob:
@@ -23,7 +21,7 @@ With many thanks to `EONRaider <https://github.com/EONRaider>`_, `BlackHat <http
    docs/lab/README.md
    docs/lab/Kali.md
    docs/lab/Windows.md
-   docs/lab/Macos.md
+   docs/lab/macOS.md
    docs/lab/Linux.md
    docs/lab/*
 
@@ -113,9 +111,11 @@ With many thanks to `EONRaider <https://github.com/EONRaider>`_, `BlackHat <http
    docs/malware/Keylogger.md
    docs/malware/Password-recovery.md
    docs/malware/Modify-source.md
-   docs/malware/Trojan.md
+   docs/malware/Trojan-Windows.md
    docs/malware/Malware-macOS.md
+   docs/malware/Trojan-macOS.md
    docs/malware/Malware-Linux.md
+   docs/malware/Trojan-Linux.md
 
 .. toctree::
    :glob:
