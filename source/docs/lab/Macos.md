@@ -23,7 +23,7 @@ MacOS can be installed on a VMware VM running on ESXi. This can be done after th
 Installing OS X in a virtual machine is not illegal, but unless you’re using a Mac, it is against Apple’s EULA. Most 
 virtual machine software will try to stop you from installing OS X in a VM unless you’re on a Mac. 
 
-A macOS VM is called a Hackintosh. According to Apple, Hackintosh computers are illegal, per the Digital Millennium 
+A macOS on non-mac-hardware is called a [Hackintosh](https://www.reddit.com/r/hackintosh/wiki/faq). According to Apple, Hackintosh computers are illegal, per the Digital Millennium 
 Copyright Act, and creating a Hackintosh computer violates Apple’s end-user license agreement (EULA) for any operating 
 system in the OS X family. But, Apple doesn’t care about stopping Hackintosh as much as they do jailbreaking, because 
 jailbreaking requires that the iOS system be exploited to gain root privileges, these exploits allow for arbitrary code 
