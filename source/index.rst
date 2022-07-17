@@ -116,6 +116,7 @@ discovery are also given.
    docs/malware/Trojan-macOS.md
    docs/malware/Malware-Linux.md
    docs/malware/Trojan-Linux.md
+   docs/malware/Target-device.md
 
 .. toctree::
    :glob:
@@ -124,7 +125,6 @@ discovery are also given.
    :caption: Social engineering
 
    docs/social-engineering/README.md
-   docs/social-engineering/Target-device.md
    docs/social-engineering/Phishing.md
    docs/social-engineering/Pharming.md
    docs/social-engineering/SEO-poisoning.md
