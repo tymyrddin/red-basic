@@ -13,7 +13,7 @@ Social engineering targets the weakest (and by many organisations mostly ignored
 
 ## Why?
 
-Goals are to gather information, gain a foothold in an organisation, and infiltrate security
+Goals are to gather information, gain a foothold in an organisation, and infiltrate security.
 
 ## How?
 
