@@ -13,11 +13,9 @@ security.
 
 ## How?
 
-Including, and not limited to:
+By targeting people, like network administrators, security personnel, senior executives, cleaners, etc, using:
 
-* Using people, like network administrators, security personnel, senior executives, cleaners, etc
-* Blackmail
-* Via email and social media/networking
+* Email and social media/networking
 * Pharming and phishing, including vishing, whaling, and spear phishing
 * Casual contact
 * Eavesdropping and surveillance
