@@ -1,4 +1,4 @@
-# Steal login information with fake login page
+# Steal access info with fake login page
 
 ## Attack tree
 

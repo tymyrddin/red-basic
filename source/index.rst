@@ -128,11 +128,11 @@ discovery are also given.
    docs/social-engineering/Mail-delivery.md
    docs/social-engineering/Fake-login.md
    docs/social-engineering/Beef-hook.md
+   docs/social-engineering/Phishing.md
+   docs/social-engineering/Pharming.md
    docs/social-engineering/Analytics.md
    docs/social-engineering/Fake-prompts.md
-   docs/social-engineering/Phishing.md
    docs/social-engineering/SEO-poisoning.md
-   docs/social-engineering/Pharming.md
    docs/social-engineering/War-dialing-driving-flying-shipping.md
    docs/social-engineering/Credential-stuffing.md
    docs/social-engineering/C2.md

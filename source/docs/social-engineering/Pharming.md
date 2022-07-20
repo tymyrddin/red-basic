@@ -1,25 +1,23 @@
-# Pharming
+# The phrase "Pharming"
 
 ## Attack tree
 
 ```text
-1 Make fake website (AND)
-    1.1 Clone website (AND)
-        1.1.1 Use a tool like cURL or Invoke-WebRequest (powershell)
-    1.2 Add payload (AND)
-        1.2.1 Change login page to a credential stealing script (OR)
-        1.2.2 Implant a malware (Crypted and packed)
-    1.3 Upload the phishing kit
-2 Poison DNS cache (if it is a major DNS server, it can poison the caches of DNS servers maintained by 
+1 Gather information (Reconnaissance) (AND)
+2 Clone website with a tool like cURL, Invoke-WebRequest (powershell), or webscrapbook (AND)
+3 Add payload (AND)
+    3.1 Change login page to a credential stealing script (OR)
+    3.2 Implant a malware (Crypted and packed)
+4 Poison DNS cache (if it is a major DNS server, it can poison the caches of DNS servers maintained by 
 internet service providers) (AND)
-3 Compromise a host and change host file on it to redirect traffic
-    3.1 Make replacement (AND)
-        3.1.1 Use a self-extracting archive (SFX) (OR)
-        3.1.2 Use a batch file
-    3.2 Get a user to run it
-        3.2.1 Email
-        3.2.2 Fake website
-        3.2.3 Other social engineering
+5 Compromise a host and change host file on it to redirect traffic
+    5.1 Make replacement (AND)
+        5.1.1 Use a self-extracting archive (SFX) (OR)
+        5.1.2 Use a batch file
+    5.2 Get a user to run it
+        5.2.1 Spoofing email
+        5.2.2 Fake website
+        5.2.3 Other social engineering
 ```
 
 ## Notes

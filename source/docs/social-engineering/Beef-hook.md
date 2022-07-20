@@ -1,4 +1,4 @@
-# Webpage with Beef hook
+# Webpage with BeEF hook
 
 ## Attack tree
 
