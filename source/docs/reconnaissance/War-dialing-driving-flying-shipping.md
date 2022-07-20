@@ -1,5 +1,7 @@
 # War-dialing-driving-flying-shipping
 
+For the desparate ...
+
 ## Notes
 Large organisations usually have their phone numbers assigned in blocks from a local telephone company, and many have their own dialing prefix. This information can be used in war dialing all the company phone numbers looking for a dial-up server. Once such a server is found, it can be used for guessing account user names.
 

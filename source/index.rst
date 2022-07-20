@@ -36,6 +36,7 @@ discovery are also given.
    docs/reconnaissance/Deep-dive-DNS.md
    docs/reconnaissance/Gather-app-information.md
    docs/reconnaissance/Discover-app-vulnerabilities.md
+   docs/reconnaissance/War-dialing-driving-flying-shipping.md
 
 .. toctree::
    :glob:
@@ -132,11 +133,10 @@ discovery are also given.
    docs/social-engineering/Pharming.md
    docs/social-engineering/Analytics.md
    docs/social-engineering/Fake-prompts.md
-   docs/social-engineering/SEO-poisoning.md
-   docs/social-engineering/War-dialing-driving-flying-shipping.md
-   docs/social-engineering/Credential-stuffing.md
    docs/social-engineering/C2.md
    docs/social-engineering/Create-botnet.md
+   docs/social-engineering/Credential-stuffing.md
+   docs/social-engineering/SEO-poisoning.md
 
 .. toctree::
    :maxdepth: 1

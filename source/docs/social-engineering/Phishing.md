@@ -1,4 +1,4 @@
-# The phrase "Phishing"
+# Phishing
 
 ## Attack tree
 

@@ -1,4 +1,4 @@
-# The phrase "Pharming"
+# Pharming
 
 ## Attack tree
 
