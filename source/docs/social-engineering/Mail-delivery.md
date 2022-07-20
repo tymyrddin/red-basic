@@ -3,7 +3,6 @@
 ## Attack tree
 
 ```text
-
 1 Spoof email using mailserver and sendemail on Kali (OR)
     1.1 Sign up for a mailserver (AND)
         1.1.1 Paid email marketing service (OR)
