@@ -10,7 +10,7 @@
     1.4 Start beef (AND)
     1.5 Go to URL with target machine (AND)
     1.6 Watch IP address and info appear in beef (AND)
-2 Inject hook in a page
+2 Inject hook in a page (AND)
     2.1 Download site with webscrapbook (AND)
     2.2 Extract downloaded archive and rename for easier use (AND)
     2.3 Open a page (like index.html) (AND)

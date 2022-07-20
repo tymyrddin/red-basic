@@ -20,11 +20,11 @@
         2.1.1 Choose domain later (AND)
         2.1.2 Email and other things not needed either
     2.2 Use php mail() function
-        2.2.1 Go to the file manager of the website and public_html or name of website (different on each provider): find it empty or nearly empty
-        2.2.2 Create the send.php file and rename it to .txt for upload
-        2.2.3 Upload and change back extension to .php
-        2.2.4 Bring up the form and enter to, from, name, subject, message
-        2.2.5 Send
+        2.2.1 Go to the file manager of the website and public_html or name of website (different on each provider): find it empty or nearly empty (AND)
+        2.2.2 Create the send.php file and rename it to .txt for upload (AND)
+        2.2.3 Upload and change back extension to .php (AND)
+        2.2.4 Bring up the form and enter to, from, name, subject, message (AND)
+        2.2.5 Send (AND)
         2.2.6 Remove send.php from server
 ```
 ## Notes
