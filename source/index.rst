@@ -125,6 +125,7 @@ discovery are also given.
    :caption: Social engineering
 
    docs/social-engineering/README.md
+   docs/social-engineering/Mail-delivery.md
    docs/social-engineering/Phishing.md
    docs/social-engineering/Pharming.md
    docs/social-engineering/SEO-poisoning.md
