@@ -104,6 +104,16 @@ discovery are also given.
 .. toctree::
    :maxdepth: 1
    :includehidden:
+   :caption: Server
+
+   docs/server/README.md
+   docs/server/Spoof-webserver.md
+   docs/server/Escalate-reverse-shell.md
+   docs/server/Privilege-escalation-on-web-server.md
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
    :caption: Malware
 
    docs/malware/README.md
@@ -133,6 +143,7 @@ discovery are also given.
    docs/social-engineering/Pharming.md
    docs/social-engineering/Analytics.md
    docs/social-engineering/Fake-prompts.md
+   docs/social-engineering/Out-of-the-box.md
    docs/social-engineering/C2.md
    docs/social-engineering/Create-botnet.md
    docs/social-engineering/Credential-stuffing.md
@@ -147,16 +158,6 @@ discovery are also given.
    docs/system/Gain-unauthorised-access.md
    docs/system/Privilege-escalation-on-windows.md
    docs/system/Privilege-escalation-on-linux.md
-
-.. toctree::
-   :maxdepth: 1
-   :includehidden:
-   :caption: Server
-
-   docs/server/README.md
-   docs/server/Spoof-webserver.md
-   docs/server/Escalate-reverse-shell.md
-   docs/server/Privilege-escalation-on-web-server.md
 
 .. toctree::
    :glob:
