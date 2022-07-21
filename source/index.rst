@@ -114,6 +114,14 @@ discovery are also given.
 .. toctree::
    :maxdepth: 1
    :includehidden:
+   :caption: CI/CD pipeline
+
+   docs/cicd/README.md
+   docs/cicd/Supply-chain.md
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
    :caption: Malware
 
    docs/malware/README.md
@@ -201,14 +209,6 @@ discovery are also given.
 
    docs/crypto/README.md
    docs/crypto/*
-
-.. toctree::
-   :maxdepth: 1
-   :includehidden:
-   :caption: CI/CD pipeline
-
-   docs/cicd/README.md
-   docs/cicd/Supply-chain.md
 
 .. toctree::
    :glob:
