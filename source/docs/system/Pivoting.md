@@ -1,4 +1,4 @@
-# Pivoting using Meterpreter Autoroute
+# Pivoting using meterpreter autoroute
 
 ## Attack tree
 
