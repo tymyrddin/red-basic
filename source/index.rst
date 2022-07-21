@@ -159,9 +159,9 @@ discovery are also given.
    docs/system/Escalate-basic-shell.md
    docs/system/Post-meterpreter-windows.md
    docs/system/Post-meterpreter-macos.md
-   docs/system/Post-empire.md
-   docs/system/Privilege-escalation-on-windows.md
-   docs/system/Privilege-escalation-on-linux.md
+   docs/system/PE-macOS.md
+   docs/system/PE-windows.md
+   docs/system/PE-linux.md
    docs/system/Pivoting.md
 
 .. toctree::
