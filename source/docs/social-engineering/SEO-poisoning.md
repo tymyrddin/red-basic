@@ -1,8 +1,8 @@
-# SEO poisoning
+# On steroids: SEO poisoning
+
+From research, what appears to be happening: The below search engine poisoning attack tree can be used for feature extraction.
 
 ## Attack tree
-
-The below search engine poisoning attack tree can be used for feature extraction.
 
 ```text
 1 Set up branching logic (usually PHP script) (AND)

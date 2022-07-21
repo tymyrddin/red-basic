@@ -1,4 +1,6 @@
-# Credential stuffing
+# On steroids: Credential stuffing
+
+From research, what appears to be happening. There's a huge market on the dark side.
 
 ## Attack tree
 
@@ -26,7 +28,6 @@
 ```
 
 ## Notes
-
 
 Credential stuffing is currently one of the most common techniques used to take-over user accounts. Credential spilling is when credentials gained from data breaches are sold to other adversaries. Credential stuffing is the large scale use of automated means to test stolen passwords against other unrelated websites. This is a possible and often successful attack because of the tendency for users to recycle their passwords for multiple accounts.
 

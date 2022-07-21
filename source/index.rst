@@ -145,8 +145,8 @@ discovery are also given.
    docs/social-engineering/Fake-prompts.md
    docs/social-engineering/Out-of-the-box.md
    docs/social-engineering/C2.md
-   docs/social-engineering/Create-botnet.md
    docs/social-engineering/Credential-stuffing.md
+   docs/social-engineering/Create-botnet.md
    docs/social-engineering/SEO-poisoning.md
 
 .. toctree::
