@@ -12,12 +12,27 @@
         1.6 Implant other malware for further remote intrusions (OR)
         1.7 Use an unattended logged-in machine (OR)
         1.8 Steal devices containing credentials of authorised users (OR)
-        1.9 Steal devices or storage containing the information 
-    2 Capture authorised user credentials via vulnerable web application (OR)
-        2.1 Phishing (OR)
-        2.2 Pharming (OR)
-        2.3 Credential stuffing 
-    3 Password-based attacks (OR)
+        1.9 Steal devices or storage containing the information
+    2 Gain access to the data stored in databases (OR)
+        2.1 Using an SQL injection (OR)
+        2.2 Cracking the database root password (OR)
+        2.3 Using known database exploits
+    3 Capture authorised user credentials via vulnerable web application (OR)
+        3.1 Exploit file upload vulnerabilities (OR)
+        3.2 Exploit remote code execution vulnerabilities (OR)
+        3.3 Cross site scripting (XSS) (OR)
+        3.4 Manipulating cookies (OR)
+        3.5 Clickjacking (OR)
+        3.6 Cross-Site Request Forgery (CSRF) (OR)
+    4 Gain access to (web) server
+        3.5 Hijacking session 
+    5 Social engineering for delivering malware (OR)
+        5.1 Email spoofing (OR)
+        5.2 Steal access info with fake login page (OR)
+        5.3 (Fake) Webpage with a hook (OR)
+        5.4 SEO poisoning (OR)
+        5.4 All kinds of creative ways to lure people 
+    3 Password-based attacks on applications, databases, user accounts (OR)
         3.1 Publicly available information (OR)
             3.1.1 Reconnaissance for guessing user names (AND)
             3.1.2 Crack password

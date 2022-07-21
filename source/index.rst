@@ -92,7 +92,6 @@ discovery are also given.
    docs/application/XSS-context.md
    docs/application/Hook-to-beef.md
    docs/application/Cookies.md
-   docs/application/Hijack-application-session.md
    docs/application/Clickjacking.md
    docs/application/CSRF.md
    docs/application/Last-resort.md
@@ -108,6 +107,7 @@ discovery are also given.
 
    docs/server/README.md
    docs/server/Spoof-webserver.md
+   docs/server/Hijack-application-session.md
    docs/server/Escalate-reverse-shell.md
    docs/server/Privilege-escalation-on-web-server.md
 
