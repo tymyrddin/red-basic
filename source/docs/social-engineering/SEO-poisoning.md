@@ -45,10 +45,7 @@ The below search engine poisoning attack tree can be used for feature extraction
             3.1.2.1 Redirect by active content embedded in page (OR)
             3.1.2.2 Only load additional active content in page if request is from a user 
                 3.1.2.2.1 JavaScript (OR)
-                3.1.2.2.2 ActionScript in embedded Flash (OR)
-                
-                navigateToURL( new URLRequest("*yourpage*"), "_self");
-                
+                3.1.2.2.2 ActionScript in embedded Flash (navigateToURL( new URLRequest("*yourpage*"), "_self");) (OR)
                 3.1.2.2.3 Another way of redirecting using active content 
     3.2 Different pages for user and crawler
         3.2.1 Generate SEO page for crawlers (AND)
@@ -57,52 +54,13 @@ The below search engine poisoning attack tree can be used for feature extraction
             3.2.1.3 SEO related sub-domains
         3.2.2 Redirect users (a few times)
             3.2.2.1 Server-side scripting with PHP header() (OR)
- 
-            header('HTTP/1.1 302 Moved Temporary');
-            header('Location: http://www.somedomain.com/');
-            exit;
-
             3.2.2.2 Apache HTTP Server mod_alias
-
-            Redirect temporary /oldlocation.html http://www.example.com/newlocation.html
-            Redirect 302 /oldlocation.html http://www.example.com/newlocation.html
-
             3.2.2.3 Apache HTTP Server mod_rewrite (redirecting requests to a canonical domain name) (OR)
-
-            RewriteEngine on
-            RewriteCond %{HTTP_HOST} ^([^.:]+\.)*oldlocation\.example\.com\.?(:[0-9]*)?$ [NC]
-            RewriteRule ^(.*)$ http://newlocation.example.org/$1 [R=302,L]
-
             3.2.2.4 Nginx rewrite (OR)
-
-            rewrite ^/oldlocation$ http://www.newexample.com/newlocation redirect;
-
             3.2.2.5 Refresh Meta tag in document (add anchor in the “body” section for users whose browsers do not support this feature) (OR)
-
-            <!DOCTYPE html>
-            <html>
-               <head>
-                  <title>HTML Meta Tag</title>
-                  <meta http-equiv = "refresh" content="0"; url = https://www.newexample.com" />
-               </head>
-               <body>
-                  <p>Please follow <a href="http://www.newexample.com/">this link</a></p>
-               </body>
-            </html>
-
             3.2.2.6 HTTP refresh header in a perl or python script (OR)
-
-            print "Refresh: 0; url=http://www.newexample.com/\r\n";
-            print "Content-Type: text/html\r\n";
-            print "\r\n";
-            print "Please follow <a href=\"http://www.newexample.com/\">this link</a>!"
-
             3.2.2.7 JavaScript (OR)
-
-            <body onload="document.location='http://www.newexample.com/'">
-
             3.2.2.8 Another way of redirecting
-
 4 Landing page
     4.1 Adult and pornographic websites (OR)
     4.2 Internet services sites (advertising campaign) (OR)
@@ -126,4 +84,6 @@ Any search engine software can expect the same search fraud problem as on the in
 * Spam web pages will need to be weeded out from the index.
 * Combating spam is intertwined with search engine poisoning as that attack uses SEO fraud techniques.
 
+## Cheatsheets
 
+* [Redirecting](cheatsheets:docs/payloads/redirecting)
