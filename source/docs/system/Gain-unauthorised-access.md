@@ -15,15 +15,14 @@
         1.9 Steal devices or storage containing the information
     2 Gain access to the data stored in databases (OR)
         2.1 Using an SQL injection (OR)
-        2.2 Cracking the database root password (OR)
-        2.3 Using known database exploits
+        2.2 Using known database exploits
     3 Capture authorised user credentials via vulnerable web application (OR)
         3.1 Exploit file upload vulnerabilities (OR)
         3.2 Exploit remote code execution vulnerabilities (OR)
         3.3 Cross site scripting (XSS) (OR)
         3.4 Manipulating cookies (OR)
         3.5 Clickjacking (OR)
-        3.6 Cross-Site Request Forgery (CSRF) (OR)
+        3.6 Cross-Site Request Forgery (CSRF) 
     4 Gain access to (web) server
         3.5 Hijacking session 
     5 Social engineering for delivering malware (OR)
@@ -31,33 +30,33 @@
         5.2 Steal access info with fake login page (OR)
         5.3 (Fake) Webpage with a hook (OR)
         5.4 SEO poisoning (OR)
-        5.4 All kinds of creative ways to lure people 
-    3 Password-based attacks on applications, databases, user accounts (OR)
-        3.1 Publicly available information (OR)
-            3.1.1 Reconnaissance for guessing user names (AND)
-            3.1.2 Crack password
-                3.1.2.1 Brute-force password (OR)
-                3.1.3.2 Dictionary attack
-    4 Steal credentials via vulnerable network
-        4.1 Network reconnaissance (AND)
-            4.1.1 Find where the resources are logically located (AND)
-            4.1.2 Scan the network for alive hosts (AND)
-            4.1.3 Probe ports to discover services (AND)
-            4.1.4 Know, learn or research the vulnerabilities of OSs and the applications they run
-        4.2 Exploit vulnerability (AND)
-        4.3 Vulnerable host (OR)
-            4.3.1 Compromise server (AND)
-            4.3.2 Retrieve password files
-                4.3.2.1 View unencrypted password files (OR)
-                4.3.2.2 Decrypt password files
-        4.4 Sniff network management traffic (AND)
-        4.5 Capture password from router configuration (OR)
-            4.5.1 Compromise router (AND)
-                4.5.1.1 View unencrypted router configuration (OR)
-                4.5.1.2 Decrypt encrypted router configuration
-        4.6 Intercept or modify data with a MitM attack
-    5 Discover implementation flaw in (access control) protocol
-    6 Discover new attack 
+        5.5 All kinds of creative ways to lure people 
+    6 Password-based attacks on applications, databases, user accounts (OR)
+        6.1 Publicly available information (OR)
+            6.1.1 Reconnaissance for guessing user names (AND)
+            6.1.2 Crack password
+                6.1.2.1 Brute-force password (OR)
+                6.1.3.2 Dictionary attack
+    7 Steal credentials via vulnerable network
+        7.1 Network reconnaissance (AND)
+            7.1.1 Find where the resources are logically located (AND)
+            7.1.2 Scan the network for alive hosts (AND)
+            7.1.3 Probe ports to discover services (AND)
+            7.1.4 Know, learn or research the vulnerabilities of OSs and the applications they run
+        7.2 Exploit vulnerability (AND)
+        7.3 Vulnerable host (OR)
+            7.3.1 Compromise server (AND)
+            7.3.2 Retrieve password files
+                7.3.2.1 View unencrypted password files (OR)
+                7.3.2.2 Decrypt password files
+        7.4 Sniff network management traffic (AND)
+        7.5 Capture password from router configuration (OR)
+            7.5.1 Compromise router (AND)
+                7.5.1.1 View unencrypted router configuration (OR)
+                7.5.1.2 Decrypt encrypted router configuration
+        7.6 Intercept or modify data with a MitM attack
+    8 Discover implementation flaw in (access control) protocol
+    9 Discover new attack 
 ```
 
 ## Notes
