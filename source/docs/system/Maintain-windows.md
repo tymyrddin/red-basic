@@ -5,7 +5,7 @@
 ```text
 1 Maintain access on Windows
     1.1 In meterpreter background the current basic shell (AND)
-    1.2  > use exploit/windows/local/persistence (AND)
+    1.2 > use exploit/windows/local/persistence (AND)
     1.3 Set EXE_NAME to something less suspicious (like browser.exe) (AND)
     1.4 Set SESSION to the id of the basic shell just put in the background (AND)
     1.5 > show advanced

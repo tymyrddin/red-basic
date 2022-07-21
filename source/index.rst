@@ -157,8 +157,8 @@ discovery are also given.
    docs/system/README.md
    docs/system/Gain-unauthorised-access.md
    docs/system/Escalate-basic-shell.md
-   docs/system/Post-windows.md
-   docs/system/Post-macos.md
+   docs/system/Maintain-windows.md
+   docs/system/Maintain-macos.md
    docs/system/Upload-exec.md
    docs/system/Backdoor-system.md
    docs/system/PE-macOS.md
