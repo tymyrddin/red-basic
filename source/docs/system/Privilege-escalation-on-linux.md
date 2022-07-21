@@ -1,4 +1,4 @@
-# Privilege escalation on Linux
+# Privilege escalation on *nix and macOS
 
 ## Attack tree
 

@@ -157,10 +157,12 @@ discovery are also given.
    docs/system/README.md
    docs/system/Gain-unauthorised-access.md
    docs/system/Escalate-basic-shell.md
-   docs/system/Post-meterpreter.md
+   docs/system/Post-meterpreter-windows.md
+   docs/system/Post-meterpreter-macos.md
    docs/system/Post-empire.md
    docs/system/Privilege-escalation-on-windows.md
    docs/system/Privilege-escalation-on-linux.md
+   docs/system/Pivoting.md
 
 .. toctree::
    :glob:
