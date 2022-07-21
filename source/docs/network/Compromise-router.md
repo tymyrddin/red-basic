@@ -26,3 +26,8 @@
             2.3.4 Proprietary management protocol 
 ```
 
+## Tools
+
+* [Router Exploitation Toolkit (REXT)](https://github.com/j91321/rext)
+* [Router Pwn](http://routerpwn.com/)
+
