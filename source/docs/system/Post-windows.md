@@ -1,4 +1,4 @@
-# Maintaining access on Windows with Meterpreter
+# Maintaining access on Windows
 
 ## Attack tree
 

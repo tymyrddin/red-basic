@@ -157,8 +157,10 @@ discovery are also given.
    docs/system/README.md
    docs/system/Gain-unauthorised-access.md
    docs/system/Escalate-basic-shell.md
-   docs/system/Post-meterpreter-windows.md
-   docs/system/Post-meterpreter-macos.md
+   docs/system/Post-windows.md
+   docs/system/Post-macos.md
+   docs/system/Upload-exec.md
+   docs/system/Backdoor-system.md
    docs/system/PE-macOS.md
    docs/system/PE-windows.md
    docs/system/PE-linux.md
