@@ -23,8 +23,8 @@
         3.4 Manipulating cookies (OR)
         3.5 Clickjacking (OR)
         3.6 Cross-Site Request Forgery (CSRF) 
-    4 Gain access to (web) server
-        3.5 Hijacking session 
+    4 Gain access to webserver
+        4.1 Hijacking session 
     5 Social engineering for delivering malware (OR)
         5.1 Email spoofing (OR)
         5.2 Steal access info with fake login page (OR)
@@ -56,7 +56,7 @@
                 7.5.1.2 Decrypt encrypted router configuration
         7.6 Intercept or modify data with a MitM attack
     8 Discover implementation flaw in (access control) protocol
-    9 Discover new attack 
+    9 Discover new attack (vector)
 ```
 
 ## Notes

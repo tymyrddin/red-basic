@@ -10,7 +10,7 @@
 3 DDoS attack against a DNS server itself 
 ```
 
-# Notes
+## Notes
 
 * DNS cache poisoning, also known as DNS spoofing, exploits vulnerabilities in the domain name system DNS to divert Internet traffic away from legitimate servers and towards fake ones. This kind of attack is often used for pharming.
 * DNS amplification attacks exploit the open nature of DNS services to strengthen the force of distributed denial of service [DDoS](DDoS.md) attacks.
