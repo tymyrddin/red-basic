@@ -1,7 +1,5 @@
 # SSL Stripping
 
-SSL stripping downgrades a HTTPS connection to HTTP by intercepting the TLS authentication sent from the application to the user. The adversary sends an unencrypted version of the application’s site to the user while maintaining the secured session with the application. The user’s session is visible to the adversary.
-
 ## Attack tree
 
 ```text
@@ -15,6 +13,12 @@ SSL stripping downgrades a HTTPS connection to HTTP by intercepting the TLS auth
     2.2 Configure ARP spoofing (arpspoof –i eth0 –t <targetIP> <gatewayIP>)
 3 Sniff traffic 
 ```
+
+## Notes
+
+* SSL stripping downgrades an HTTPS connection to HTTP by intercepting the TLS authentication sent from the application to the user. The adversary sends an unencrypted version of the application’s site to the user while maintaining the secured session with the application. The user’s session is visible to the adversary.
+* SSL stripping is one of the most potent [MitM attacks](MitM.md) between a client device and a server because it allows for exploitation of services that people assume to be secure.
+
 
 ## Scripts
 * [simple ARP spoofer](https://github.com/tymyrddin/ymrir/tree/master/arp_spoofer)

@@ -193,12 +193,12 @@ discovery are also given.
    docs/network/Replay-attack.md
    docs/network/TCP-sequence-prediction-attack.md
    docs/network/Hijack-BGP.md
+   docs/network/DNS-spoofing.md
+   docs/network/DNS-attacks.md
    docs/network/SSL-BEAST.md
    docs/network/SSL-hijacking.md
    docs/network/SSL-stripping.md
    docs/network/HTTPS-spoofing.md
-   docs/network/DNS-spoofing.md
-   docs/network/DNS-attacks.md
    docs/network/MitM.md
    docs/network/*
 
