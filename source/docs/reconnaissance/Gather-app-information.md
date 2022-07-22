@@ -23,10 +23,5 @@ sub-domains, directories, neighbours, ...
 * [Dirb](https://www.kali.org/tools/dirb/), already installed on Kali, to brute-force find sensitive files
 * [Maltego](https://www.maltego.com), preinstalled in kali
 
-## Scripts
-
-* [Simple crawler](https://github.com/tymyrddin/reomais/blob/main/crawler)
-* [Simple spider](https://github.com/tymyrddin/reomais/blob/main/spider)
-
 
 

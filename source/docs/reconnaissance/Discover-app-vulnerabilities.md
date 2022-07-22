@@ -23,12 +23,6 @@
 
 Use found [technologies used](Gather-app-information.md) to discover application vulnerabilities. 
 
-## Tools
+## Cheatsheets
 
-* [Netcraft: Site Report](https://sitereport.netcraft.com/)
-* [Offensive Security Exploit database](https://www.exploit-db.com/)
-* [Rapid 7 Exploit database](https://www.rapid7.com/db/)
-
-## Articles
-
-* [0 days in the wild](https://googleprojectzero.github.io/0days-in-the-wild/)
+* [Exploits databases](cheatsheets:docs/enumeration/exploits-dbs)

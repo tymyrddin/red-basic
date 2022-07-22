@@ -16,3 +16,7 @@
 ## Notes
 
 Pivoting is the act of moving from host to host through compromise. It is also known as [lateral movement](../network/README.md). 
+
+## Cheatsheets
+
+* [IDS/IPS Evasion](cheatsheets:docs/payloads/evasion-ids)
