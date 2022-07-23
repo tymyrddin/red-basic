@@ -45,11 +45,12 @@ discovery are also given.
    :caption: Scanning
 
    docs/scanning/README.md
-   docs/scanning/Initial-scanning.md
-   docs/scanning/Ping-sweep.md
+   docs/scanning/Hosts-icmp.md
+   docs/scanning/Hosts-tcp.md
+   docs/scanning/Hosts-udp.md
    docs/scanning/Traceroute-analysis.md
    docs/scanning/Service-and-OS-detection.md
-   docs/scanning/Port-scanning.md
+   docs/scanning/Vulnerabilities.md
 
 .. toctree::
    :glob:

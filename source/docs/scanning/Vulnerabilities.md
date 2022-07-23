@@ -1,13 +1,13 @@
-# Discovering service vulnerabilities
+# Discover vulnerabilities
 
 ## Attack tree
 
 ```text
 1 Port scanning (AND)
-    1.1 Do a TCP scan (OR)
-            1.1.2 Use the default SYN (`-sS`)scans (privileges are required) (OR)
-            1.1.3 Use the connect (`-sT`) scan (privileges are not required)
-    1.2 Do a UDP scan
+    1.1 TCP scans (OR)
+            1.1.2 Use the default SYN (-sS) scans (privileges are required) (OR)
+            1.1.3 Use the connect (-sT) scan (privileges are not required)
+    1.2 UDP scans
 2 Check for potential known problems and vulnerabilities with found ports
 ```
 ## Notes
@@ -19,7 +19,10 @@
 ## Cheatsheets
 
 * [Port scanning cheatsheet](cheatsheets:docs/scanning/Port-scanning-cheatsheet)
+* [Ports cheatsheet](cheatsheets:docs/scanning/Ports-cheatsheet)
 * [Nmap cheatsheet](cheatsheets:docs/scanning/Nmap-cheatsheet)
+
+### Alternatives
 * [Nessus cheatsheet](cheatsheets:docs/scanning/Nessus-cheatsheet)
 * [Metasploit cheatsheet](https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/blt2666925c05bfae0c/5e34a63e07e2907e353a2f5b/metasploit-cheat-sheet-2.pdf)
 * [Unicornscan cheatsheet](cheatsheets:docs/scanning/Unicornscan-cheatsheet)
