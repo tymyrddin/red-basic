@@ -59,6 +59,7 @@ discovery are also given.
    :caption: Enumeration
 
    docs/enumeration/README.md
+   docs/enumeration/Network-enumeration.md
    docs/enumeration/*
 
 .. toctree::

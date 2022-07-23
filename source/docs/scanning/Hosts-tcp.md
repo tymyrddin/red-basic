@@ -47,7 +47,7 @@ Some puzzling with indicators will help:
 * TCP port 8080 open can indicate a proxy server, or something like Apache Tomcat, or ...
 * A Windows Active Directory controller will have TCP ports 53 (DNS), 88 (Kerberos), 389 (LDAP), 636 (LDAP/S) and the common NetBIOS and Windows File Sharing ports 135 (used for RPC comms for AD replication), 139 (Authentication) and 445 (used for a whole host of services including file sharing and authentication)
 * Windows systems tend to use TCP port 3389 for Microsoft Remote Desktop Protocol access.
-* Unix-like systems often use text-based protocols on TCP ports 22 (SSH), 23 (Telnet) and 514 (RSH), or network-based Windowing protocols on TCP ports such as 590x (VNC) or 600x (X11)
+* Unix-like systems often use text-based protocols on TCP ports 22 (SSH), 23 (Telnet) and 514 (RSH), or network-based Windowing protocols on TCP ports such as 590x (VNC) or 600x (X11).
 
 ## Examples
 
@@ -63,7 +63,6 @@ Medium TCP port scans:
 ```text
 # nmap -sS -PN -p 1025-32767 -n -iL $TARGETFILE -oA nmap/tcp-med
 ```
-
 
 Remaining TCP port scans:
 ```text
