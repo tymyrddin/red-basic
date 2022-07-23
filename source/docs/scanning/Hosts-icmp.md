@@ -14,8 +14,9 @@ The easiest and fastest way to discover if a host is up or not is by trying to s
 * If pinging a single host works, try a ping-sweep: Send out ICMP echo requests to every system on a particular network 
 or subset of a network to determine which hosts are up.
 * ICMP error messages can be used to mask the source of a Distributed Denial of Service attack, and with such attacks 
-being common, ICMP error rate limiting ensued. 
-* To avoid filters to common ICMP echo request-response, use nmap to send other types of ICMP packets. Scans still take incredibly long. Try [discovering hosts with a TCP scan](Hosts-tcp.md) instead.
+being common, ICMP error rate limiting is often applied. To avoid filters to common ICMP echo request-response, use 
+`nmap` to send other types of ICMP packets. If scans still take incredibly long, try 
+[discovering hosts with a TCP scan](Hosts-tcp.md) instead.
 
 ## Examples
 
