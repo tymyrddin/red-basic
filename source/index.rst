@@ -48,7 +48,7 @@ discovery are also given.
    docs/scanning/Hosts-icmp.md
    docs/scanning/Hosts-tcp.md
    docs/scanning/Hosts-udp.md
-   docs/scanning/Traceroute-analysis.md
+   docs/scanning/Analysis.md
    docs/scanning/Service-and-OS-detection.md
    docs/scanning/Vulnerabilities.md
 
