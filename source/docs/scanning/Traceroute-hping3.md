@@ -1,4 +1,4 @@
-# Traceroute analysis
+# Further analysis with traceroute and hping3
 
 ## Attack tree
 
@@ -7,7 +7,7 @@
     1.1 Traceroute to the gateway or DNS server for each network (AND)
     1.2 Add newly identified networks to the list of subnets
 2 Discover the IP addresses of servers behind a DNS (OR)
-3 Discover how long a server has been up
+3 Discover how long a server has been up (OR)
 4 ...
 ```
 
@@ -21,6 +21,7 @@ There is an ICMP traceroute (tracert.exe, Windows) and a UDP traceroute (tracero
        
 * ICMP traceroute expects all intermediary routers to respond with an ICMP TTL Exceeded message. Most do not (RFC 792)
 * UDP traceroute is not so great where filtering is in place. 
+* Most Unix traceroute implementations now support TCP static port traceroutes out of the box
 
 ### Mapping out DMZ and internal networks
 Because all traceroutes work using ICMP TTL Exceeded messages, which protocol is used as long as there is a known 
@@ -34,13 +35,24 @@ that timeframe.
 
 ## Examples
 
+Traceroute in nmap:
+
+```text
+nmap --traceroute -p 80 [ip_or_hostname]
+```
+
+With Geo resolving:
+```text
+nmap --traceroute --script traceroute-geolocation.nse -p 80 [ip_or_hostname]
+```
+
 The default packet which hping3 will create is a TCP packet:
 ```text
 # hping3 -T -V --tr-stop -S -p 80 [ip_or_hostname]
 # hping3 [ip_or_hostname] -n -S -s 8080 -p 80 --traceroute
 ```
 
-Traceroute using a TCP scan to a specific destination port
+Traceroute using a TCP scan to a specific destination port:
 ```text
 # hping3 --traceroute --verbose --syn --destport [80] [ip_or_hostname]
 ```
@@ -50,7 +62,7 @@ The `-1` or `-icmp` tells it to use an ICMP package:
 # hping3 --traceroute -V -1 [ip_or_hostname]
 ```
 
-Ping a destination with 4 ICMP ping requests
+Ping a destination with 4 ICMP ping requests:
 ```text
 # hping3 --icmp --count [4] [ip_or_hostname]
 ```
