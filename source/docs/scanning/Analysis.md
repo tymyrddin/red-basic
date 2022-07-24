@@ -35,8 +35,7 @@ that timeframe.
 
 ## Examples
 
-Traceroute in nmap:
-
+Traceroute in `nmap`:
 ```text
 nmap --traceroute -p 80 [ip_or_hostname]
 ```
@@ -46,13 +45,12 @@ With Geo resolving:
 nmap --traceroute --script traceroute-geolocation.nse -p 80 [ip_or_hostname]
 ```
 
-The default packet which hping3 will create is a TCP packet:
+The default packet which `hping3` will create is a TCP packet:
 ```text
 # hping3 -T -V --tr-stop -S -p 80 [ip_or_hostname]
-# hping3 [ip_or_hostname] -n -S -s 8080 -p 80 --traceroute
 ```
 
-Traceroute using a TCP scan to a specific destination port:
+Traceroute in `hping3` using a TCP scan to a specific destination port:
 ```text
 # hping3 --traceroute --verbose --syn --destport [80] [ip_or_hostname]
 ```
@@ -60,11 +58,6 @@ Traceroute using a TCP scan to a specific destination port:
 The `-1` or `-icmp` tells it to use an ICMP package:
 ```text
 # hping3 --traceroute -V -1 [ip_or_hostname]
-```
-
-Ping a destination with 4 ICMP ping requests:
-```text
-# hping3 --icmp --count [4] [ip_or_hostname]
 ```
 
 Discover the IP addresses of servers behind a DNS:
