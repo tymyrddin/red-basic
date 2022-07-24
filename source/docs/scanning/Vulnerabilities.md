@@ -13,6 +13,7 @@
 ## Cheatsheets
 
 * [Ports cheatsheet](cheatsheets:docs/scanning/Ports-cheatsheet)
+* [Exploits databases](cheatsheets:docs/enumeration/exploits-dbs)
 
 
 
