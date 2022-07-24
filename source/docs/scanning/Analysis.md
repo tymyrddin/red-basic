@@ -9,8 +9,7 @@
 2 Discover the IP addresses of servers behind a DNS (OR)
 3 Discover how long a server has been up (OR)
 4 Where is a server's physical location (OR)
-5 Discover the IP addresses of servers behind a DNS (OR)
-6 ...
+5 ...
 ```
 
 ## Notes
