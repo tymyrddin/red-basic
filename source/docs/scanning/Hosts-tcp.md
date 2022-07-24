@@ -27,9 +27,9 @@ and nmap accidentally concluding that a host is down.
 
 ### Under the hood
 
-* If a service is listening on a port and someone makes a connection to it (by sending a SYN packet), the service will send a SYN/ACK packet in return. That means that there is a machine at that IP address. Note that Some operating systems will respond with a SYN/ACK to SYNs sent to ports used for outbound TCP connections, while others won’t.
-* If no service is listening on that port but the machine is up and running and on the network, a reset (RST) packet will be sent back. That means there is nothing listening on that port, but having sent something in return means that a machine is at that IP address.
-* If nothing is received after sending a SYN packet, it means there is no host at that IP address OR a firewall is blocking traffic OR the host is down. Port 80 is therefore extremely useful for ping sweeps, because most firewalls and port filters do not block web traffic.
+* If a service is listening on a port and someone makes a connection to it (by sending a `SYN` packet), the service will send a `SYN/ACK` packet in return. That means that there is a machine at that IP address. Note that some operating systems will respond with a `SYN/ACK` to `SYN`s sent to ports used for outbound TCP connections, while others will not.
+* If no service is listening on that port but the machine is up and running and on the network, a reset (`RST`) packet will be sent back. That means there is nothing listening on that port, but having sent something in return means that a machine is at that IP address.
+* If nothing is received after sending a `SYN` packet, it means there is no host at that IP address OR a firewall is blocking traffic OR the host is down. Port 80 is therefore extremely useful for ping sweeps, because most firewalls and port filters do not block web traffic.
 
 | Send  | Receive   | Send                    | Assumption                                                                        |
 |-------|-----------|-------------------------|-----------------------------------------------------------------------------------| 
