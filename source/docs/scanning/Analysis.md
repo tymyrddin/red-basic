@@ -8,7 +8,9 @@
     1.2 Add newly identified networks to the list of subnets
 2 Discover the IP addresses of servers behind a DNS (OR)
 3 Discover how long a server has been up (OR)
-4 ...
+4 Where is a server's physical location (OR)
+5 Discover the IP addresses of servers behind a DNS (OR)
+6 ...
 ```
 
 ## Notes
@@ -35,12 +37,7 @@ that timeframe.
 
 ## Examples
 
-Traceroute in `nmap`:
-```text
-nmap --traceroute -p 80 [ip_or_hostname]
-```
-
-With Geo resolving:
+Traceroute in `nmap` with Geo resolving:
 ```text
 nmap --traceroute --script traceroute-geolocation.nse -p 80 [ip_or_hostname]
 ```
@@ -53,11 +50,6 @@ The default packet which `hping3` will create is a TCP packet:
 Traceroute in `hping3` using a TCP scan to a specific destination port:
 ```text
 # hping3 --traceroute --verbose --syn --destport [80] [ip_or_hostname]
-```
-
-The `-1` or `-icmp` tells it to use an ICMP package:
-```text
-# hping3 --traceroute -V -1 [ip_or_hostname]
 ```
 
 Discover the IP addresses of servers behind a DNS:
