@@ -6,11 +6,12 @@
 Attack Trees
 =================================
 
-These attack trees are meant as a training zone, a story with several entry points to grok systematic hacking concepts
-from. For educational purposes, most trees are example cases to understand the basics, and do not completely spell out
-a hack. The use of tools is mininised, there is plenty of room for creativity and experimentation, and links for further
-discovery are also given.
+This is the story of a forest, more precisely, of a small grove in a forest. The tips of the trees' branches are
+entrypoints to discovering the roots of the trees, and from there the network of infinite and interwoven fungi threads
+and roots that connect trees, the mycorrhizal network or 'wood web'.
 
+By following the plot, one can get an impression of the grove, and by extension of the forest. After reading and
+grokking it, one has ground to stand on and explore more detail, or walk around and visit more trees.
 
 .. toctree::
    :glob:
