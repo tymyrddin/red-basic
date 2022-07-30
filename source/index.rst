@@ -1,17 +1,12 @@
-.. Trees documentation master file, created by
-   sphinx-quickstart on Mon Jun 13 17:53:19 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Attack Trees
 =================================
 
-This is the story of a forest, more precisely, of a small grove in a forest. The tips of the trees' branches are
-entrypoints to discovering the roots of the trees, and from there the network of infinite and interwoven fungi threads
-and roots that connect trees, the mycorrhizal network or 'wood web'.
+To start off the red team, a story of a forest, more precisely, of a small grove in a forest. The tips of the trees'
+branches are entrypoints to discovering the roots of the trees, and from there the network of infinite and interwoven
+fungi threads and roots that connect trees, the mycorrhizal network or 'wood web'.
 
 By following the plot, one can get an impression of the grove, and by extension of the forest. After reading and
-grokking it, one has ground to stand on and explore more detail, or walk around and visit more trees.
+grokking it, one has ground to stand on and explore more detail, or walk around and visit the rest of the forest.
 
 .. toctree::
    :glob:
