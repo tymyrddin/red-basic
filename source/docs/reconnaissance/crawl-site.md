@@ -3,14 +3,9 @@
 ## Attck tree
 
 ```text
-1 Crawl website to gather information from web pages
+1 Crawl website to gather information from web pages like email adresses
 ```
-
-## Notes
-
-Gather as much as possible: email addresses, info on people, ...
 
 ## Scripts
 
-* [Simple crawler](https://github.com/tymyrddin/reomais/blob/main/crawler)
-* [Simple spider](https://github.com/tymyrddin/reomais/blob/main/spider)
+* [Email crawler](https://github.com/tymyrddin/reomais/tree/main/email-crawler)
