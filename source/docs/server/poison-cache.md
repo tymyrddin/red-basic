@@ -27,3 +27,6 @@ it could be an entry point for web cache poisoning.
 ## Mitigations
 
 Web cache poisoning vulnerabilities arise due to general flaws in the design of caches and/or its implementation in an application.
+
+* Turn it off
+* Restrict caching to purely static responses
