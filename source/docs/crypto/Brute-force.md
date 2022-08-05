@@ -12,10 +12,11 @@
 
 ## Notes
 
-In a brute-force attack, an adversary cycles through every possible password combination until they stumble on the correct one. Lists of the most popular passwords and dictionary attacks make the process much quicker than pure trial and error. The more sophisticated a user’s password, however, the longer it will take and the more it will cost to crack it.
+In a brute-force attack, an adversary cycles through every possible password combination until they stumble on the 
+correct one. Lists of the most popular passwords and dictionary attacks make the process much quicker than pure trial 
+and error. The more sophisticated a user’s password, however, the longer it will take and the more it will cost to 
+crack it.
 
 ## Scripts
 
-* [Simple crawler](https://github.com/tymyrddin/reomais/blob/main/crawler)
-* [Simple spider](https://github.com/tymyrddin/reomais/blob/main/spider)
 * [Password guessing](https://github.com/tymyrddin/reomais/blob/main/password_guessing)
