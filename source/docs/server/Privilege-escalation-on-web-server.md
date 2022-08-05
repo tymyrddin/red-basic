@@ -3,13 +3,13 @@
 ## Attack tree
 
 ```text
-    1 Upload the web-shell (AND)
-        1.1 SQL injection
-        1.2 Remote file inclusion (RFI)
-        1.3 FTP
-        1.4 Cross-site scripting (XSS) as part of a social engineering attack 
-        1.5 Other
-    2 Escalate privileges on host 
+1 Upload a web-shell (AND)
+    1.1 SQL injection
+    1.2 Remote file inclusion (RFI)
+    1.3 FTP
+    1.4 Cross-site scripting (XSS) as part of a social engineering attack 
+    1.5 Other
+2 Escalate privileges on host 
 ```
 
 ## Notes

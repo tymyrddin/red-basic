@@ -30,6 +30,8 @@ grokking it, one has ground to stand on and explore more detail, or walk around 
    docs/reconnaissance/Info-company-website.md
    docs/reconnaissance/Info-person.md
    docs/reconnaissance/Deep-dive-DNS.md
+   docs/reconnaissance/Fingerprint-webserver.md
+   docs/reconnaissance/crawl-site.md
    docs/reconnaissance/Gather-app-information.md
    docs/reconnaissance/Discover-app-vulnerabilities.md
    docs/reconnaissance/War-dialing-driving-flying-shipping.md
@@ -55,7 +57,8 @@ grokking it, one has ground to stand on and explore more detail, or walk around 
    :caption: Enumeration
 
    docs/enumeration/README.md
-   docs/enumeration/Network-enumeration.md
+   docs/enumeration/webserver.md
+   docs/enumeration/network.md
    docs/enumeration/*
 
 .. toctree::
@@ -104,8 +107,11 @@ grokking it, one has ground to stand on and explore more detail, or walk around 
    :caption: Server
 
    docs/server/README.md
+   docs/server/poison-cache.md
    docs/server/Spoof-webserver.md
    docs/server/Hijack-application-session.md
+   docs/server/mitm.md
+   docs/server/bruteforce.md
    docs/server/Escalate-reverse-shell.md
    docs/server/Privilege-escalation-on-web-server.md
 

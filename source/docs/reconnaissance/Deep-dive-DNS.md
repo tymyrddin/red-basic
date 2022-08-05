@@ -1,4 +1,4 @@
-# Gathering DNS information
+# Gather DNS information
 
 ## Attack tree
 
@@ -12,6 +12,11 @@
     2.2 Discover subdomains (AND)
     2.3 Discover sensitive files
 ```
+
+## Notes
+
+* Use whois to gather Domain name, IP address, Administrative Details, autonomous system number, DNS
+
 ## Tools
 
 * [WhoIs LookUp DomainTools](https://whois.domaintools.com/)

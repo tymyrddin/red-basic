@@ -1,4 +1,4 @@
-# Gathering info about a company/website
+# Gathering info about an organisation
 
 ## Attack tree
 
@@ -12,8 +12,14 @@
     1.3 Display on a graph
     1.4 Come up with a strategy
 2 Use public information for verification, missing info, and more detail if needed (AND)
-3 Develop attack strategy
+3 Use social social engineering techniques to collect information about HR, Contact Details, and other Social Related information (AND)
+4 Gather DNS information (AND)
+5 Crawl each website (AND)
+5 Develop attack strategy
 ```
+## Notes
+
+* See [Gathering DNS information](Deep-dive-DNS.md)
 
 ## Tools
 

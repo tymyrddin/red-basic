@@ -11,8 +11,7 @@
 ## Notes
 
 Use [DNS tools](Deep-dive-DNS.md) to discover IP addresses, domain name information, technologies used, other websites 
-on the same server, DNS records, unlisted files, 
-sub-domains, directories, neighbours, ...
+on the same server, DNS records, unlisted files, sub-domains, directories, neighbours, ...
 
 ## Tools
 
