@@ -10,10 +10,4 @@
 
 ## Mitigations
 
-* Use HTTPS.
-* Use preloaded HSTS.
-* Harden SSL/TLS ciphers.
-  * Implement forward secrecy
-  * Use authenticated encryption
-  * Disable legacy protocols
-  * [Generate a secure SSL configuration](https://ssl-config.mozilla.org/)
+* [Use TLS/SSL more securely](app-mitigations:docs/protocols/tls-ssl)

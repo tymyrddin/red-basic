@@ -44,6 +44,6 @@ Works only in combination with a [local file inclusion vulnerability](../applica
 * [Path Traversal Cheat Sheet: Linux](https://www.akimbocore.com/article/linux-path-traversal-cheat-sheet/)
 
 ## Mitigations
-* [Parameterised statements](app-mitigations:docs/databases/parameterised)
-* [Input validation](app-mitigations:docs/databases/Input-validation)
-* [Local file inclusion](app-mitigations:docs/coding/Local-file-inclusion)
+* [Parameterised statements](app-mitigations:docs/databases/parameterisation)
+* [Input validation](app-mitigations:docs/databases/input)
+* [Local file inclusion](app-mitigations:docs/coding/lfi)

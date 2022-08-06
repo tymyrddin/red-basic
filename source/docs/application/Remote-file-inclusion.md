@@ -30,4 +30,4 @@ If playing with metasploitable2, set these two to `On` and restart apache2: `sud
 * [Path Traversal Cheat Sheet: Linux](https://www.akimbocore.com/article/linux-path-traversal-cheat-sheet/)
 
 ## Mitigations
-* [Remote file inclusion](app-mitigations:docs/coding/Local-file-inclusion)
+* [Remote file inclusion](app-mitigations:docs/coding/lfi)

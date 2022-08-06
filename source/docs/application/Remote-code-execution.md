@@ -38,4 +38,4 @@ shell. We can still set one up using Bash, Python, Perl, Ruby, PHP.
 * [MSFvenom cheatsheet](https://www.offensive-security.com/metasploit-unleashed/Msfvenom/)
 
 ## Mitigations
-* [Code execution](app-mitigations:docs/coding/Code-exec)
+* [Code execution](app-mitigations:docs/coding/rce)

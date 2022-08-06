@@ -64,5 +64,5 @@ If the simple login bypass is not working, check with Burp proxy whether there i
 * [SQLi tips](cheatsheets:docs/databases/sqli-tips)
 
 ## Mitigations
-* [Parameterised statements](app-mitigations:docs/databases/parameterised)
-* [Input validation](app-mitigations:docs/databases/Input-validation)
+* [Parameterised statements](app-mitigations:docs/databases/parameterisation)
+* [Input validation](app-mitigations:docs/databases/input)

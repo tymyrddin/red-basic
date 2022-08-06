@@ -40,4 +40,4 @@ some knowledge on where to find default files and directories on the system.
 * [Path Traversal Cheat Sheet: Linux](https://www.akimbocore.com/article/linux-path-traversal-cheat-sheet/)
 
 ## Mitigations
-* [Local file inclusion](app-mitigations:docs/coding/Local-file-inclusion)
+* [Local file inclusion](app-mitigations:docs/coding/lfi)

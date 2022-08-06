@@ -52,7 +52,4 @@ access the `/etc/` directory and the protected passwd file.
 
 ## Mitigations
 
-* Validate the user input before processing it. Compare against a whitelist of permitted values. If that is not 
-possible, then verify that the input contains only permitted content (for example only alphanumerics)
-* After validation, append the input to the base directory and use a platform filesystem API to canonicalize the path. 
-Verify the canonicalized path starts with the expected base directory. 
+* [Input validation](app-mitigations:docs/coding/input)

