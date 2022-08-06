@@ -18,3 +18,10 @@ An adversary poses as a legitimate and trusted business using a similar look and
 In so-called spear phishing an adversary creates an email message that appears to be from a trusted sender, the tone of the email way more informal than in a phishing attack, and usually contains some sort of emergency with a request for help, in such a way that a quick, instinctive action is required to help the other (before thinking can intervene). With personal information shared on social networking sites (first and last name, names of family members, and employers), spear-phishing is easier than ever.
 
 Whaling is phishing for executives. The victim is researched more thoroughly with reconnaissance and lured with a fake document from, for example, the tax office, and state that the opening of the document requires the installation of some “security software”, or something similar.
+
+## Mitigations
+
+* [Windows PC operations security](windows-pc-mitigations:docs/opsec/README)
+* [macOS operations security](macos-mitigations:docs/opsec/README)
+* [Linux PC operations security](linux-pc-mitigations:docs/opsec/README)
+* [Mailserver](mailserver-mitigations:index)

@@ -37,3 +37,9 @@
 
 * [sendemail](https://www.kali.org/tools/sendemail/)
 * [SMTP diagnostics](https://mxtoolbox.com/diagnostic.aspx)
+
+## Mitigations
+
+* [Windows PC operations security](windows-pc-mitigations:docs/opsec/README)
+* [macOS operations security](macos-mitigations:docs/opsec/README)
+* [Linux PC operations security](linux-pc-mitigations:docs/opsec/README)
