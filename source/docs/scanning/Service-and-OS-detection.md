@@ -28,3 +28,7 @@ Service and OS detection use different methods to determine the operating system
 
 * [Nmap cheatsheet](cheatsheets:docs/scanning/Nmap-cheatsheet)
 
+## Mitigations
+
+* [Hide Apache version and OS identity](webserver-mitigations:docs/apache/hide-info)
+* [Hide Nginx version and OS identity](webserver-mitigations:docs/nginx/hide-info)
