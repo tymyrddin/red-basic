@@ -109,6 +109,7 @@ grokking it, one has ground to stand on and explore more detail, or walk around 
 
    docs/server/README.md
    docs/server/traversal.md
+   docs/server/response-splitting.md
    docs/server/poison-cache.md
    docs/server/Spoof-webserver.md
    docs/server/Hijack-application-session.md
