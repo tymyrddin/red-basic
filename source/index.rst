@@ -124,7 +124,7 @@ grokking it, one has ground to stand on and explore more detail, or walk around 
    :caption: CI/CD pipeline
 
    docs/cicd/README.md
-   docs/cicd/Supply-chain.md
+   docs/cicd/supply-chain.md
 
 .. toctree::
    :maxdepth: 1
