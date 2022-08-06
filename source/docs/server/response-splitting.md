@@ -3,7 +3,7 @@
 ## Attack tree
 
 ```text
-1 Provide a URL with a complete second response, to be rendered in the browser.
+1 Provide a URL with a complete second response, to be rendered in the browser (OR)
 2 Inject HTTP headers into the response (for example a Set-Cookie header)
 ```
 
