@@ -29,3 +29,6 @@
 * [Backstabber's Knife Collection: A Review of Open Source Software Supply Chain Attacks](https://arxiv.org/abs/2005.09535)
 
 ## Mitigations
+
+* [Hosted repositories](app-mitigations:docs/lockdown/repository-hosts)
+
