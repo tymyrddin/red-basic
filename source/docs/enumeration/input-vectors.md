@@ -9,9 +9,9 @@
 
 ## Examples
 
-1.1 Request parameter https://www.example.com/getUserProfile.jsp?item=whatever.htm
-1.2 File extension https://www.example.com/index.jsp?file=content
-1.3 Variable name https://www.example.com/main.php?home=index.htm
+* (1.1) Request parameter: https://www.example.com/getUserProfile.jsp?item=whatever.htm
+* (1.2) File extension: https://www.example.com/index.jsp?file=content
+* (1.3) Variable name: https://www.example.com/main.php?home=index.htm
 
 
 
