@@ -39,9 +39,6 @@ to all (on GitHub).
 * [Wordpress-webshell-plugin](https://github.com/p0dalirius/Wordpress-webshell-plugin/)
 * [Presshell](https://github.com/scheatkode/presshell)
 
-## Scripts
-* [Evil files](https://github.com/tymyrddin/nirridit)
-
 ## Cheatsheets
 * [Weevely cheatsheet](cheatsheets:docs/payloads/weevely)
 * [MSFvenom cheatsheet](https://www.offensive-security.com/metasploit-unleashed/Msfvenom/)
