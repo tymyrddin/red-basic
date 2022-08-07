@@ -2,13 +2,18 @@
 
 ## What?
 
-Set up and maintain a local testing lab
+Set up and maintain a local test lab for safely playing around in, a grove in the forest.
 
 ## Why?
 
-Provide a convenient way to test new pentesting skills and software, hone skills while staying out of legal trouble, 
-to guarantee that the effects of the testing are limited to the lab hardware and software, and to be able to 
-mimic a specific environment and then pentest the copy, 
+Provide a convenient way to: 
+
+* Grok systematic hacking
+* Build hacking skills
+* Getting to know typical software used
+
+All the while staying out of legal trouble, and guarantee that the effects of the hacking are limited to the lab 
+hardware and software.
 
 ## How?
 

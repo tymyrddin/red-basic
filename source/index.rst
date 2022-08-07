@@ -1,18 +1,20 @@
 Attack Trees
 =================================
 
-To start off the red team, a story of a forest, more precisely, of a small grove in a forest. The tips of the trees'
-branches are entrypoints to discovering the roots of the trees, and from there the network of infinite and interwoven
+To start off the red team, a story of a forest, more precisely, of a small grove in a forest can be used.
+The tips of the trees' branches are entrypoints to discovering the roots of the trees, and from there the network of infinite and interwoven
 fungi threads and roots that connect trees, the mycorrhizal network or 'wood web'.
 
-By following the plot, one can get an impression of the grove, and by extension of the forest. After reading and
+By following the plots, one can get an impression of the grove, and by extension of the forest. After reading and
 grokking it, one has ground to stand on and explore more detail, or walk around and visit the rest of the forest.
+
+Or both. The red team tries out all kinds of details in the forest.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Testlab
+   :caption: Grove
 
    docs/lab/README.md
    docs/lab/Kali.md
@@ -20,6 +22,19 @@ grokking it, one has ground to stand on and explore more detail, or walk around 
    docs/lab/macOS.md
    docs/lab/Linux.md
    docs/lab/*
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Forest
+
+   docs/team/README.md
+   docs/team/msfvenom.md
+   docs/team/koadic.md
+   docs/team/empire.md
+   docs/team/cobaltstrike.md
+   docs/team/c2.md
 
 .. toctree::
    :maxdepth: 1
