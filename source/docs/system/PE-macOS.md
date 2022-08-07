@@ -24,6 +24,10 @@
 * In horizontal privilege escalation an adversary expands privileges by taking over another account.
 * In vertical privilege escalation an attacker attempts to gain more permissions or access with an existing compromised account.
 
+## Tools
+
+* [MacPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS) - Just execute `linpeas.sh` in a MacOS system and the MacPEAS version will be automatically executed
+
 ## Cheatsheets
 
 * [Empire wiki](https://bc-security.gitbook.io/empire-wiki/)
