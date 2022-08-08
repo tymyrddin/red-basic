@@ -221,6 +221,7 @@ applications, and physical security controls can withstand an attack from a role
    :caption: Forest
 
    docs/team/README.md
+   docs/team/caldera.md
    docs/team/msfvenom.md
    docs/team/empire.md
    docs/team/C2.md
