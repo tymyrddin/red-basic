@@ -122,6 +122,7 @@ applications, and physical security controls can withstand an attack from a role
    docs/server/poison-cache.md
    docs/server/Spoof-webserver.md
    docs/server/Hijack-application-session.md
+   docs/server/HTTPS-spoofing.md
    docs/server/mitm.md
    docs/server/bruteforce.md
    docs/server/Escalate-reverse-shell.md
@@ -210,7 +211,6 @@ applications, and physical security controls can withstand an attack from a role
    docs/network/SSL-BEAST.md
    docs/network/SSL-hijacking.md
    docs/network/SSL-stripping.md
-   docs/network/HTTPS-spoofing.md
    docs/network/MitM.md
    docs/network/*
 

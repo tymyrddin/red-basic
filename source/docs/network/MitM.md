@@ -40,7 +40,7 @@ The adversary first subverts the address infrastructure (intercepts traffic). In
 adversary makes, for example, an infected Wi-Fi hotspot available to the public. Active forms use some sort of spoofing. 
 After subverting the address infrastructure, any two-way encrypted traffic needs to be decrypted. This can be done by, 
 for example, [SSL spoofing](SSL-stripping.md) (does not attack SSL itself, but the transition from non-encrypted to 
-encrypted communications), [spoofing HTTPS](HTTPS-spoofing.md), an [SSL BEAST attack](SSL-BEAST.md), or 
+encrypted communications), [spoofing HTTPS](../server/HTTPS-spoofing.md), an [SSL BEAST attack](SSL-BEAST.md), or 
 [hijacking SSL](SSL-hijacking.md). [Session replay](Replay-attack.md) and hijacking attacks can be used to bypass 
 authentication. If a root certificate can be installed on the target, the adversary can replace it and maintain a secure connection.
  
