@@ -36,7 +36,6 @@ applications, and physical security controls can withstand an attack from a role
 
    docs/team/README.md
    docs/team/msfvenom.md
-   docs/team/koadic.md
    docs/team/empire.md
    docs/team/C2.md
 

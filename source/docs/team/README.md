@@ -21,7 +21,6 @@ tools, nmap, and so on for post-exploitation and scanning, and for red teaming i
 set of tools on a *nix-based system ([Kali](../lab/Kali.md) in our case):
 
 * [MSFvenom Payload Creator](msfvenom.md), a simple Metasploit-based payload generator
-* [Koadic](koadic.md), a COM-based Command and Control (C3) server
 * [Empire](empire.md)
 * [More C&C](C2.md)
 
