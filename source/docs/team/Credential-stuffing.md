@@ -1,4 +1,4 @@
-# Red team: Credential stuffing
+# Credential stuffing
 
 From research, what appears to be happening. There's a huge market on the dark side.
 

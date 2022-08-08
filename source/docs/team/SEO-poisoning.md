@@ -1,4 +1,4 @@
-# Red team: SEO poisoning
+# SEO poisoning
 
 From research, what appears to be happening: The below search engine poisoning attack tree can be used for feature extraction.
 
