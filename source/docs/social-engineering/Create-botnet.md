@@ -1,4 +1,4 @@
-# On steroids: A botnet
+# Red team: create a botnet
 
 From research, what appears to be happening.
 

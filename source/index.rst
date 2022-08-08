@@ -30,11 +30,10 @@ Or both. The red team tries out all kinds of details in the forest.
    :caption: Forest
 
    docs/team/README.md
+   docs/team/C2.md
    docs/team/msfvenom.md
-   docs/team/koadic.md
    docs/team/empire.md
-   docs/team/cobaltstrike.md
-   docs/team/c2.md
+   docs/team/koadic.md
 
 .. toctree::
    :maxdepth: 1
@@ -174,7 +173,6 @@ Or both. The red team tries out all kinds of details in the forest.
    docs/social-engineering/Analytics.md
    docs/social-engineering/Fake-prompts.md
    docs/social-engineering/Out-of-the-box.md
-   docs/social-engineering/C2.md
    docs/social-engineering/Credential-stuffing.md
    docs/social-engineering/Create-botnet.md
    docs/social-engineering/SEO-poisoning.md
