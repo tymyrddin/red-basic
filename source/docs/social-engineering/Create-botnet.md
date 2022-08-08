@@ -1,4 +1,4 @@
-# Red team: create a botnet
+# Red team: Create a botnet
 
 From research, what appears to be happening.
 
