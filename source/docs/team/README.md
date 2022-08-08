@@ -27,10 +27,10 @@ which detects the intrusion by a mere execution of the powershell.exe program.
 For red teaming in the wild, we will switch to another set of tools:
 
 * *nix-based system (Kali, Ubuntu, or macOS)
-* [C&C](C2.md)
 * [MSFvenom Payload Creator](msfvenom.md)
 * [Empire](empire.md)
 * [Koadic](koadic.md)
+* [More C&C](C2.md)
 
 
 

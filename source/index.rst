@@ -30,10 +30,10 @@ Or both. The red team tries out all kinds of details in the forest.
    :caption: Forest
 
    docs/team/README.md
-   docs/team/C2.md
    docs/team/msfvenom.md
    docs/team/empire.md
    docs/team/koadic.md
+   docs/team/C2.md
 
 .. toctree::
    :maxdepth: 1
