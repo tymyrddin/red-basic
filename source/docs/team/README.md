@@ -16,13 +16,10 @@ Measure how well people and networks, applications, and physical security contro
 ## How?
 
 By role playing a likely adversary and adopting their ways of thinking, working, and tools. 
+
 [In the grove](../lab/README.md) we have been using tools such as the Metasploit Framework, routersploit, enumeration 
 tools, nmap, and so on for post-exploitation and scanning, and for red teaming in the wild, we will switch to another 
-set of tools on a *nix-based system ([Kali](../lab/Kali.md) in our case):
-
-* [MSFvenom Payload Creator](msfvenom.md), a simple Metasploit-based payload generator
-* [Empire](empire.md)
-* [More C&C](C2.md)
+set of tools on a *nix-based system ([Kali](../lab/Kali.md) in our case).
 
 
 

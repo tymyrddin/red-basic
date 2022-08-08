@@ -29,17 +29,6 @@ applications, and physical security controls can withstand an attack from a role
    docs/lab/*
 
 .. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Forest
-
-   docs/team/README.md
-   docs/team/msfvenom.md
-   docs/team/empire.md
-   docs/team/C2.md
-
-.. toctree::
    :maxdepth: 1
    :includehidden:
    :caption: Reconnaissance
@@ -179,9 +168,6 @@ applications, and physical security controls can withstand an attack from a role
    docs/social-engineering/Analytics.md
    docs/social-engineering/Fake-prompts.md
    docs/social-engineering/Out-of-the-box.md
-   docs/social-engineering/Credential-stuffing.md
-   docs/social-engineering/Create-botnet.md
-   docs/social-engineering/SEO-poisoning.md
 
 .. toctree::
    :maxdepth: 1
@@ -227,6 +213,21 @@ applications, and physical security controls can withstand an attack from a role
    docs/network/HTTPS-spoofing.md
    docs/network/MitM.md
    docs/network/*
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Forest
+
+   docs/team/README.md
+   docs/team/msfvenom.md
+   docs/team/empire.md
+   docs/team/C2.md
+   docs/team/Create-botnet.md
+   docs/team/SEO-poisoning.md
+   docs/team/Credential-stuffing.md
+   docs/team/*
 
 .. toctree::
    :glob:
