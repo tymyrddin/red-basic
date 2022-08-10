@@ -6,7 +6,7 @@
 
 Build the image:
 
-    docker-compose build
+    docker compose build
 
 And run:
 
@@ -38,8 +38,8 @@ and rebuild.
 ### ...
 
 [More in the getting started documentation](https://caldera.readthedocs.io/en/latest/Getting-started.html). And after 
-having played and built knowledge on all kinds of scenarios and existing attacker types, gather 
-the TTPs for an adversary after doing the intelligence gathering, and add.
+having played and built knowledge on all kinds of scenarios and existing attacker types, gather intelligence on a 
+particular adversary's TTP's and add.
 
 ## Graceful termination
 
