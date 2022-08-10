@@ -14,8 +14,11 @@ And run:
 
 `http` interface available on `localhost:8888` with username: red, password: admin.
 
+[Configure the server](https://caldera.readthedocs.io/en/latest/Server-Configuration.html) 
+and rebuild.
+
 Aaaand play! [Mitre Att&ck](https://attack.mitre.org/) provides a list of all the Tactics, Techniques and Procedure 
-(TTPs) for these games.
+(TTPs) for these games. 
 
 ## Implant an agent inside the target system
 
@@ -29,6 +32,10 @@ Aaaand play! [Mitre Att&ck](https://attack.mitre.org/) provides a list of all th
 * Campaigns -> Abilities
 * An ability is a specific ATT&CK tactic/technique implementation which can be executed on running agents. Abilities will include the command(s) to run, the platforms/executors the commands can run on, payloads to include, and a reference to a module to parse the output on the caldera server.
 * Use the filter options to see what is all possible. Also use [Mitre Att&ck](https://attack.mitre.org/).
+
+[More in the getting started documentation](https://caldera.readthedocs.io/en/latest/Getting-started.html). And after 
+having played and built knowledge on all kinds of scenarios and existing attacker types, gather 
+the TTPs for an adversary after doing the intelligence gathering, and add.
 
 ## Graceful termination
 
