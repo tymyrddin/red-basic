@@ -33,13 +33,14 @@ and rebuild.
 
 * Campaigns -> Abilities
 * An ability is a specific ATT&CK tactic/technique implementation which can be executed on running agents. Abilities will include the command(s) to run, the platforms/executors the commands can run on, payloads to include, and a reference to a module to parse the output on the caldera server.
-* Use the filter options to see what is all possible. Also use [Mitre Att&ck](https://attack.mitre.org/).
+* Use the filter options to see what is all possible. 
 
-### ...
+### Get the flags
 
-[More in the getting started documentation](https://caldera.readthedocs.io/en/latest/Getting-started.html). And after 
-having played and built knowledge on all kinds of scenarios and existing attacker types, gather intelligence on a 
-particular adversary's TTP's and add.
+Use [Mitre Att&ck](https://attack.mitre.org/), [the getting started documentation](https://caldera.readthedocs.io/en/latest/Getting-started.html), 
+and your wits and get all the flags. After having played and built knowledge on all kinds of scenarios and existing 
+attacker types in caldera, gather intelligence on a particular real-life adversary's TTP's and add.
+
 
 ## Graceful termination
 
