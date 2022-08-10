@@ -17,21 +17,25 @@ And run:
 [Configure the server](https://caldera.readthedocs.io/en/latest/Server-Configuration.html) 
 and rebuild.
 
-Aaaand play! [Mitre Att&ck](https://attack.mitre.org/) provides a list of all the Tactics, Techniques and Procedure 
+## Aaaand play! 
+
+[Mitre Att&ck](https://attack.mitre.org/) provides a list of all the Tactics, Techniques and Procedure 
 (TTPs) for these games. 
 
-## Implant an agent inside the target system
+### Implant an agent inside the target system
 
 * Campaigns -> Agents -> Deploy an agent
 * Choose an agent (Sandcat)
 * Choose OS (Windows, Linux or Darwin=macOS)
 * Copy the generated script and execute on target
 
-## Abilities
+### Abilities
 
 * Campaigns -> Abilities
 * An ability is a specific ATT&CK tactic/technique implementation which can be executed on running agents. Abilities will include the command(s) to run, the platforms/executors the commands can run on, payloads to include, and a reference to a module to parse the output on the caldera server.
 * Use the filter options to see what is all possible. Also use [Mitre Att&ck](https://attack.mitre.org/).
+
+### ...
 
 [More in the getting started documentation](https://caldera.readthedocs.io/en/latest/Getting-started.html). And after 
 having played and built knowledge on all kinds of scenarios and existing attacker types, gather 
