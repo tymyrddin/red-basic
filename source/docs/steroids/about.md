@@ -1,4 +1,4 @@
-# More C&C
+# About C&C
 
 One could view BeEF as a C&C, but ... BeEF is a tool designed to provide effective client-side attack vectors and to 
 exploit any potential vulnerabilities in the web browser. Ideal for demonstrating and explaining these attack 

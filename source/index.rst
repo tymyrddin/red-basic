@@ -23,10 +23,14 @@ applications, and physical security controls can withstand an attack from a role
 
    docs/lab/README.md
    docs/lab/Kali.md
+   docs/lab/caldera.md
    docs/lab/Windows.md
    docs/lab/macOS.md
    docs/lab/Linux.md
-   docs/lab/*
+   docs/lab/Metasploitable
+   docs/lab/Webgoat
+   docs/lab/msfvenom.md
+   docs/lab/empire.md
 
 .. toctree::
    :maxdepth: 1
@@ -131,14 +135,6 @@ applications, and physical security controls can withstand an attack from a role
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: CI/CD pipeline
-
-   docs/cicd/README.md
-   docs/cicd/supply-chain.md
-
-.. toctree::
-   :maxdepth: 1
-   :includehidden:
    :caption: Malware
 
    docs/malware/README.md
@@ -220,15 +216,43 @@ applications, and physical security controls can withstand an attack from a role
    :includehidden:
    :caption: Forest
 
-   docs/team/README.md
-   docs/team/caldera.md
-   docs/team/msfvenom.md
-   docs/team/empire.md
-   docs/team/C2.md
-   docs/team/Create-botnet.md
-   docs/team/SEO-poisoning.md
-   docs/team/Credential-stuffing.md
-   docs/team/*
+   docs/forest/README.md
+   docs/forest/vpn.md
+   docs/forest/location.md
+   docs/forest/ephemeral.md
+   docs/forest/bouncing-servers.md
+   docs/forest/frontend.md
+   docs/forest/metasploit.md
+   docs/forest/silenttrinity.md
+   docs/forest/masquerading.md
+   docs/forest/automation.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: API's
+
+   docs/api/README.md
+   docs/api/passive-recon.md
+   docs/api/active-recon.md
+   docs/api/endpoints.md
+   docs/api/authentication.md
+   docs/api/fuzzing.md
+   docs/api/authorisation.md
+   docs/api/mass-assignment.md
+   docs/api/traditional.md
+   docs/api/rate-limit.md
+   docs/api/evade.md
+   docs/api/graphql.md
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
+   :caption: CI/CD pipeline
+
+   docs/cicd/README.md
+   docs/cicd/supply-chain.md
 
 .. toctree::
    :glob:
@@ -238,6 +262,19 @@ applications, and physical security controls can withstand an attack from a role
 
    docs/crypto/README.md
    docs/crypto/*
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Malware on steroids
+
+   docs/steroids/README.md
+   docs/steroids/about.md
+   docs/steroids/botnet.md
+   docs/steroids/byob.md
+   docs/steroids/stuffing.md
+   docs/steroids/SEO-poisoning.md
 
 .. toctree::
    :glob:
