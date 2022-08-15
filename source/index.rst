@@ -187,33 +187,6 @@ applications, and physical security controls can withstand an attack from a role
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Network
-
-   docs/network/README.md
-   docs/network/Sniffing.md
-   docs/network/ARP-spoofing.md
-   docs/network/Compromise-router.md
-   docs/network/Attack-domestic-WiFi.md
-   docs/network/IP-spoofing.md
-   docs/network/DoS.md
-   docs/network/DDoS.md
-   docs/network/DrDoS.md
-   docs/network/Hijack-network-session.md
-   docs/network/Replay-attack.md
-   docs/network/TCP-sequence-prediction-attack.md
-   docs/network/Hijack-BGP.md
-   docs/network/DNS-spoofing.md
-   docs/network/DNS-attacks.md
-   docs/network/SSL-BEAST.md
-   docs/network/SSL-hijacking.md
-   docs/network/SSL-stripping.md
-   docs/network/MitM.md
-   docs/network/*
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
    :caption: Forest
 
    docs/forest/README.md
@@ -253,6 +226,33 @@ applications, and physical security controls can withstand an attack from a role
 
    docs/cicd/README.md
    docs/cicd/supply-chain.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Network
+
+   docs/network/README.md
+   docs/network/Sniffing.md
+   docs/network/ARP-spoofing.md
+   docs/network/Compromise-router.md
+   docs/network/Attack-domestic-WiFi.md
+   docs/network/IP-spoofing.md
+   docs/network/DoS.md
+   docs/network/DDoS.md
+   docs/network/DrDoS.md
+   docs/network/Hijack-network-session.md
+   docs/network/Replay-attack.md
+   docs/network/TCP-sequence-prediction-attack.md
+   docs/network/Hijack-BGP.md
+   docs/network/DNS-spoofing.md
+   docs/network/DNS-attacks.md
+   docs/network/SSL-BEAST.md
+   docs/network/SSL-hijacking.md
+   docs/network/SSL-stripping.md
+   docs/network/MitM.md
+   docs/network/*
 
 .. toctree::
    :glob:
