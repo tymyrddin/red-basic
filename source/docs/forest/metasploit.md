@@ -1,4 +1,4 @@
-# Metasploit container for Linux targets
+# Metasploit container for Linux and macOS targets
 
 ## Installation
 

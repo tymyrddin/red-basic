@@ -1,4 +1,4 @@
-# SILENTTRINITY for Windows targets
+# SilentTrinity container for Windows targets
 
 file: ~/SILENTTRINITY/Dockerfile:
 
