@@ -189,9 +189,9 @@ in the forest first. The red team tries out all kinds of details of the forest.
    docs/forest/location.md
    docs/forest/ephemeral.md
    docs/forest/bouncing-servers.md
-   docs/forest/frontend.md
    docs/forest/metasploit.md
    docs/forest/silenttrinity.md
+   docs/forest/frontend.md
    docs/forest/masquerading.md
    docs/forest/automation.md
 

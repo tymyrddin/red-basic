@@ -29,9 +29,9 @@ Windows 10, with PowerShell block logging and AMSI, this is no longer the case.
 * [Location, location, location](location.md)
 * [Ephemeral OS](ephemeral.md)
 * [Bouncing servers](bouncing-servers.md)
-* [Infrastructure frontend](frontend.md)
 * [Metasploit container for Linux and macOS targets](metasploit.md)
 * [SilentTrinity container for Windows targets](silenttrinity.md)
+* [Infrastructure frontend](frontend.md)
 * [IP masquerading](masquerading.md)
 * [Automating the server setup](automation.md)
 

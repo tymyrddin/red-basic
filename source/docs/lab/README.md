@@ -34,9 +34,10 @@ other. Switching is a hassle though.
 * A [macOS machine](macOS.md), choose Catalina, Big Sur or Monterey based on reconnaissance, or just Catalina.
 * A [Linux PC machine](Linux.md), choose distro depending on reconnaissance, or just Debian and friends (which include Ubuntu and Mint).
 
-### Web application targets
-* A [Metaspoitable machine](Metasploitable.md): The metasploitable provides targets for the most simple (mostly php) attacks.
-* A [Webgoat and wolf machine](Webgoat.md), a deliberately insecure application that allows for testing vulnerabilities commonly found in JS-based applications that use common and popular open source components.
+### Targets
+* [Metaspoitable machine](Metasploitable.md): The metasploitable provides targets for the most simple (mostly php) attacks.
+* [Webgoat and wolf machine](Webgoat.md), a deliberately insecure application that allows for testing vulnerabilities commonly found in JS-based applications that use common and popular open source components.
+* [Any of these](https://github.com/sparcflow/awesome-cyber-skills), a curated list of hacking environments where you can train your cyber skills legally and safely.
 
 WARNING 1: While running target machines, the local machine will be extremely vulnerable to attack. Disconnect 
 from the Internet while using. WebGoat’s default configuration binds to localhost to minimize the exposure.
