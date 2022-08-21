@@ -2,13 +2,11 @@ Attack Trees
 =================================
 
 To start off in the red team as someone without hacking experience, we recommend following a story of a small grove
-in the forest first. The red team tries out all kinds of details of the forest.
+in the forest. The tips of the trees' branches are entrypoints to discovering the trunk and then the roots of the
+trees, and from there the network of near-infinite and interwoven fungi threads and roots that connect all the trees,
+the mycorrhizal network or 'wood web'.
 
-.. toctree::
-   :maxdepth: 1
-   :includehidden:
-
-   docs/README.md
+By following the plots in each section, you can get an impression of the grove, and by extension, of the forest.
 
 .. toctree::
    :glob:
@@ -179,42 +177,6 @@ in the forest first. The red team tries out all kinds of details of the forest.
    docs/system/Pivoting.md
 
 .. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Forest
-
-   docs/forest/README.md
-   docs/forest/vpn.md
-   docs/forest/location.md
-   docs/forest/ephemeral.md
-   docs/forest/bouncing-servers.md
-   docs/forest/metasploit.md
-   docs/forest/silenttrinity.md
-   docs/forest/frontend.md
-   docs/forest/masquerading.md
-   docs/forest/automation.md
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: API's
-
-   docs/api/README.md
-   docs/api/passive-recon.md
-   docs/api/active-recon.md
-   docs/api/endpoints.md
-   docs/api/authentication.md
-   docs/api/fuzzing.md
-   docs/api/authorisation.md
-   docs/api/mass-assignment.md
-   docs/api/traditional.md
-   docs/api/rate-limit.md
-   docs/api/evade.md
-   docs/api/graphql.md
-
-.. toctree::
    :maxdepth: 1
    :includehidden:
    :caption: CI/CD pipeline
@@ -279,3 +241,8 @@ in the forest first. The red team tries out all kinds of details of the forest.
 
    docs/trouble/README.md
    docs/trouble/*
+
+.. toctree::
+   :caption: Links
+
+   Red Team <https://tymyrddin.github.io/red/>

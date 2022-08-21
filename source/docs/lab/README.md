@@ -2,8 +2,7 @@
 
 ## What?
 
-Set up and maintain a local test lab for safely playing around in, a grove in the forest. Note that we need some 
-other tools when we go out [exploring into the forest](../forest/README.md).
+Set up and maintain a local test lab for safely playing around in, a grove in the forest. 
 
 ## Why?
 
