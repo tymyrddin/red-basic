@@ -177,14 +177,6 @@ By following the plots in each section, you can get an impression of the grove, 
    docs/system/Pivoting.md
 
 .. toctree::
-   :maxdepth: 1
-   :includehidden:
-   :caption: CI/CD pipeline
-
-   docs/cicd/README.md
-   docs/cicd/supply-chain.md
-
-.. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
