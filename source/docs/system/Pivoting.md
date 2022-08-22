@@ -15,7 +15,7 @@
 
 ## Notes
 
-Pivoting is the act of moving from host to host through compromise. It is also known as [lateral movement](../network/README.md). 
+Pivoting is the act of moving from host to host through compromise. It is also known as lateral movement. 
 
 ## Cheatsheets
 
