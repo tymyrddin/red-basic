@@ -216,19 +216,6 @@ By following the plots in each section, you can get an impression of the grove, 
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Malware on steroids
-
-   docs/steroids/README.md
-   docs/steroids/about.md
-   docs/steroids/botnet.md
-   docs/steroids/byob.md
-   docs/steroids/stuffing.md
-   docs/steroids/SEO-poisoning.md
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
    :caption: Troubleshooting
 
    docs/trouble/README.md
