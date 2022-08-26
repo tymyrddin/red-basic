@@ -24,7 +24,7 @@ other. Switching is a hassle though.
 
 ### Attacker
 * A [Kali machine](Kali.md): The Kali machine serves as attack machine, as development machine for hacking-related scripts, and for using its apache2 webserver to serve hooks and files.
-* [Red and blue teaming with Mitre Att&ck Caldera](caldera.md)
+* [Mitre Att&ck Caldera](caldera.md)
 
 ### PC targets
 * One or two [Windows PC machines](Windows.md), both 10 or a 10 and an 11 machine: 

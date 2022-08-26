@@ -1,4 +1,4 @@
-# Red and blue teaming with Mitre Att&ck Caldera
+# Mitre Att&ck Caldera
 
 ## Installation
 
