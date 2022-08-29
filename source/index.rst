@@ -12,7 +12,7 @@ By following the plots in each section, you can get an impression of the grove, 
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Grove
+   :caption: Build a lab
 
    docs/lab/README.md
    docs/lab/Kali.md
