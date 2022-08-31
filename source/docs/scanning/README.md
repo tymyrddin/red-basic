@@ -28,5 +28,5 @@ Intelligently select tools and exploitation methods for an attack, scanning and 
 * [Host discovery with TCP](tcp.md)
 * [Host discovery with UDP](udp.md)
 * [Discover vulnerabilities](vulns.md)
-* [Service and OS detection](service-and-OS.md)
+* [Service and OS detection](service-and-os.md)
 * [Diving deeper in discovery](analysis.md)

@@ -51,7 +51,7 @@ By following the plots in each section, you can get an impression of the grove, 
    docs/scanning/tcp.md
    docs/scanning/udp.md
    docs/scanning/vulns.md
-   docs/scanning/service-and-OS.md
+   docs/scanning/service-and-os.md
    docs/scanning/analysis.md
 
 .. toctree::
