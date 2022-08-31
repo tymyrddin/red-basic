@@ -18,7 +18,7 @@ Gain as much information as possible before launching attacks.
 
 * [Gathering info about an organisation](organisation.md)
 * [Gathering info about a person](person.md)
-* [Gather DNS information](dns.md)
+* [DNS profiling](dns.md)
 * [Fingerprint webserver](fingerprint-webserver.md)
 * [Crawl website](crawl-site.md)
 * [Gathering application information](app.md)

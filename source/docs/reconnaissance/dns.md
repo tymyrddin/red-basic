@@ -1,4 +1,4 @@
-# Gather DNS information
+# DNS profiling
 
 ## Attack tree
 

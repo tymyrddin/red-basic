@@ -47,12 +47,12 @@ By following the plots in each section, you can get an impression of the grove, 
    :caption: Scanning
 
    docs/scanning/README.md
-   docs/scanning/Hosts-icmp.md
-   docs/scanning/Hosts-tcp.md
-   docs/scanning/Hosts-udp.md
-   docs/scanning/Vulnerabilities.md
-   docs/scanning/Service-and-OS-detection.md
-   docs/scanning/Analysis.md
+   docs/scanning/icmp.md
+   docs/scanning/tcp.md
+   docs/scanning/udp.md
+   docs/scanning/vulns.md
+   docs/scanning/service-and-OS.md
+   docs/scanning/analysis.md
 
 .. toctree::
    :glob:
