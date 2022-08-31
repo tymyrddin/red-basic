@@ -29,7 +29,7 @@
 ```
 ## Notes
 
-* Use [reconnaissance information](../reconnaissance/Info-person.md) for the from and to
+* Use [reconnaissance information](../reconnaissance/person.md) for the from and to
 * Use what you discovered about them and their interests, for the subject and body
 * Have the body contain a link to a downloadable, for example in Dropbox (changing the link values to make it a direct download)
 

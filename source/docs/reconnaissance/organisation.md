@@ -19,7 +19,7 @@
 ```
 ## Notes
 
-* See [Gathering DNS information](Deep-dive-DNS.md)
+* See [Gathering DNS information](dns.md)
 
 ## Tools
 

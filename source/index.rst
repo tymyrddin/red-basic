@@ -31,14 +31,14 @@ By following the plots in each section, you can get an impression of the grove, 
    :caption: Reconnaissance
 
    docs/reconnaissance/README.md
-   docs/reconnaissance/Info-company-website.md
-   docs/reconnaissance/Info-person.md
-   docs/reconnaissance/Deep-dive-DNS.md
-   docs/reconnaissance/Fingerprint-webserver.md
+   docs/reconnaissance/organisation.md
+   docs/reconnaissance/person.md
+   docs/reconnaissance/dns.md
+   docs/reconnaissance/fingerprint-webserver.md
    docs/reconnaissance/crawl-site.md
-   docs/reconnaissance/Gather-app-information.md
-   docs/reconnaissance/Discover-app-vulnerabilities.md
-   docs/reconnaissance/War-dialing-driving-flying-shipping.md
+   docs/reconnaissance/app.md
+   docs/reconnaissance/app-vulns.md
+   docs/reconnaissance/war-dialing-driving-flying-shipping.md
 
 .. toctree::
    :glob:
