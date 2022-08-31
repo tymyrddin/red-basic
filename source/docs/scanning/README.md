@@ -14,13 +14,14 @@ an adversary can gather additional information, such as the OS, technologies use
 
 ## Why?
 
-Intelligently select tools and exploitation methods for an attack, scanning and enumeration can be used to make sure you:
+Scanning and enumeration can be used to make sure you:
 
 * Attack only agreed-upon targets
 * Get as much information as possible before increasing depth of attack
 * Identify purpose and type of targets (what services are provided)
 * Have specific information about versions of services running on target systems
 * Categorise target systems
+* Intelligently select tools and exploitation methods for an attack
 
 ## How?
 
