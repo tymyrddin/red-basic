@@ -44,16 +44,27 @@ nmap --traceroute --script traceroute-geolocation.nse -p 80 [ip_or_hostname]
 ```
 
 The default packet which `hping3` will create is a TCP packet:
+
 ```text
 # hping3 -T -V --tr-stop -S -p 80 [ip_or_hostname]
 ```
 
+Specify the source and destination ports of the packet to help it bypass the firewall. Send three packets out (`-c`) to 
+destination port 53 (`-p`) and set the SYN flag in the packet, so it looks like the first phase of the three-way 
+handshake (`-S`):
+
+```text
+hping3 -c 3 -p 53 -S [ip_or_hostname]
+```
+
 Traceroute in `hping3` using a TCP scan to a specific destination port:
+
 ```text
 # hping3 --traceroute --verbose --syn --destport [80] [ip_or_hostname]
 ```
 
 Discover the IP addresses of servers behind a DNS:
+
 ```text
 # hping3 [big site hostname] -S -p 80 -T –ttl 13 –tr-keep-ttl -n
 ```

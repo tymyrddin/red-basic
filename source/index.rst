@@ -47,6 +47,7 @@ By following the plots in each section, you can get an impression of the grove, 
    :caption: Scanning
 
    docs/scanning/README.md
+   docs/scanning/passive.md
    docs/scanning/icmp.md
    docs/scanning/tcp.md
    docs/scanning/udp.md
@@ -61,8 +62,9 @@ By following the plots in each section, you can get an impression of the grove, 
    :caption: Enumeration
 
    docs/enumeration/README.md
-   docs/enumeration/input-vectors.md
+   docs/enumeration/host.md
    docs/enumeration/webserver.md
+   docs/enumeration/input-vectors.md
    docs/enumeration/network.md
    docs/enumeration/macos.md
    docs/enumeration/linux.md
@@ -164,16 +166,16 @@ By following the plots in each section, you can get an impression of the grove, 
    :caption: System
 
    docs/system/README.md
-   docs/system/Gain-unauthorised-access.md
-   docs/system/Escalate-basic-shell.md
-   docs/system/Maintain-windows.md
-   docs/system/Maintain-macos.md
-   docs/system/Upload-exec.md
-   docs/system/Backdoor-system.md
-   docs/system/PE-macOS.md
-   docs/system/PE-windows.md
-   docs/system/PE-linux.md
-   docs/system/Pivoting.md
+   docs/system/unauthorised-access.md
+   docs/system/escalate-shell.md
+   docs/system/maintain-windows.md
+   docs/system/upload-exec.md
+   docs/system/backdoor-windows.md
+   docs/system/pe-windows.md
+   docs/system/maintain-macos.md
+   docs/system/pe-macOS.md
+   docs/system/pe-linux.md
+   docs/system/pivoting.md
 
 .. toctree::
    :glob:

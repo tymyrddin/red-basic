@@ -2,9 +2,10 @@
 
 ## What?
 
-Enumeration is listing and identifying the specific services and resources that a target offers. Take information 
-already gathered during reconnaissance (like IP addresses) and during scanning (open ports) and gather as much data 
-about the targets and services running on the targets, using a variety of techniques and tools.
+Enumeration is a process of connecting to and interrogating a network or system to retrieve information about that 
+network or system. Take information already gathered during reconnaissance (like IP addresses) and during scanning 
+(open ports) and gather as much data about the targets and services running on the targets, using a variety of 
+techniques and tools. 
 
 ## Why?
 
@@ -13,6 +14,7 @@ in networks that contain unprotected network resources and services.
 
 ## How?
 
+* [Host enumeration](host.md)
 * [Input vectors enumeration](input-vectors.md)
 * [Enumerate webserver directories](webserver.md)
 * [Network enumeration](network.md)
