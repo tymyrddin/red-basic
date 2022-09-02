@@ -67,6 +67,8 @@ To determine the email servers for the organisation:
 * [Robtex](https://www.robtex.com/)
 * [DNSDumpster](https://dnsdumpster.com/)
 * [Knockpy subdomains](https://github.com/guelfoweb/knock), already installed on Kali
+* [Dirb](https://www.kali.org/tools/dirb/), already installed on Kali, to brute-force find sensitive files
+* [Maltego](https://www.maltego.com), preinstalled in kali
 
 ## Cheatsheets
 
