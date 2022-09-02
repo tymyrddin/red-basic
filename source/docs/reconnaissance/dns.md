@@ -29,6 +29,31 @@
 
 If you cannot find any results try some other Whois database search sites.
 
+### Use nslookup
+
+    nslookup www.target.com
+
+Setting the type of query to MX (mail exchange) records:
+
+```text
+nslookup
+set type=MX
+target.com
+```
+
+Then use `nslookup` again to resolve the FQDNs of the mail servers to IP adressess.
+
+Try a DNS zone transfer:
+
+```text
+nslookup
+server <ip_or_fqdn_of_target_DNS_server>
+set type=all
+ls -d <target_domainname>
+```
+
+If successful, make a note of it and add it to the remediation list in the pentest report.
+
 ### Use theHarvester
 
 Use theHarvester to collect email address and IP addresses of public systems for target.com:
@@ -60,6 +85,10 @@ To determine the DNS servers:
 To determine the email servers for the organisation:
 
     dig target.com MX +short
+
+Try a zone transfer with dig:
+
+    dig target.com axfr
 
 ### Use recon-ng
 
