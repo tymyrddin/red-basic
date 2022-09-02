@@ -2,8 +2,8 @@
 
 When starting BeEF the first time:
 
-```shell
-● beef-xss.service - beef-xss
+```text
+beef-xss.service - beef-xss
      Loaded: loaded (/lib/systemd/system/beef-xss.service; disabled; vendor preset: disabled)
      Active: active (running) since Thu 2022-01-20 09:54:46 CET; 5s ago
    Main PID: 98386 (ruby)
@@ -33,21 +33,21 @@ With an error page in browser.
 
 To get BeEF to work on kali:
 
-```shell
+```text
 kali:~$ sudo apt-get -y autoremove beef
 kali:~$ sudo apt-get -y autoremove beef-xss
 ```
 
 And install with:
 
-```shell
+```text
 kali:~$ sudo apt-get install beef-xss
 ```
 
 Then it looks like:
 
-```shell
-● beef-xss.service - beef-xss
+```text
+beef-xss.service - beef-xss
      Loaded: loaded (/lib/systemd/system/beef-xss.service; disabled; vendor preset: disabled)
      Active: active (running) since Thu 2022-01-20 10:01:23 CET; 5s ago
    Main PID: 99666 (ruby)
@@ -75,9 +75,9 @@ Hint: Some lines were ellipsized, use -l to show in full.
 There are still problems regarding `nodejs`, but at least we now get the server.
 Installing `nodejs` (mind that bash is called, so this requires root, sudo is not enough)
 
-```shell
+```text
 kali:~$ sudo -s                                                       
 root@kali:/home/<user># curl -fsSL https://deb.nodesource.com/setup_17.x | bash -
 root@kali:/home/<user># apt-get install -y nodejs
 ```
-Not that BeEF now "sees" `nodejs`. Not even after a re-install. Still, some functionalities are working and I will get back to this.
+Not that BeEF now "sees" `nodejs`. Not even after reinstallation. Still, some functionalities are working and I will get back to this.

@@ -30,4 +30,4 @@ Scanning and enumeration can be used to make sure you:
 * [Host discovery with UDP](udp.md)
 * [Discover vulnerabilities](vulns.md)
 * [Service and OS detection](service-and-os.md)
-* [Diving deeper in discovery](analysis.md)
+* [Diving deeper in discovery](diving.md)
