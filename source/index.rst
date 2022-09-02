@@ -173,7 +173,7 @@ By following the plots in each section, you can get an impression of the grove, 
    docs/system/backdoor-windows.md
    docs/system/pe-windows.md
    docs/system/maintain-macos.md
-   docs/system/pe-macOS.md
+   docs/system/pe-macos.md
    docs/system/pe-linux.md
    docs/system/pivoting.md
 
