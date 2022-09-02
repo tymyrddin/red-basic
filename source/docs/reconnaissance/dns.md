@@ -7,7 +7,7 @@
     1.1 from Registrars (AND)
     1.2 from other web sources (AND)
     1.3 from cli command
-2 Gather wider
+2 Gather deeper and wider
     2.1 Discover websites on the same server (AND)
     2.2 Discover subdomains (AND)
     2.3 Discover email addresses (AND)

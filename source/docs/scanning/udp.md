@@ -22,12 +22,13 @@ specific protocols and scanning those separately. Older versions of Windows (and
 limiting. Knowing beforehand which are Windows systems, these can be put on a separate IP list.
 
 ### Not responding
+
 UDP services are highly unlikely to respond to a regular empty UDP probe datagaram because the underlying 
 application does not receive a packet that causes it to respond. The solution is to send a packet related to the 
 most likely service (based on port number) running under it. For example, brute forcing SNMP on port 161 could be 
 worthwhile and sending a correctly formed DNS query datagram to UDP port 53 will likely give a useful response.
 
-### Port scan outputs
+### Interpreting portscan outputs
 
 `nmap` will report a lot of closed ports, and some as `open|filtered`. The latter means that `nmap` did not receive a 
 response. Use a combination of ICMP and IP to whittle things down:

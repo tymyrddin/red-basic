@@ -25,11 +25,13 @@ There is an ICMP traceroute (tracert.exe, Windows) and a UDP traceroute (tracero
 * Most Unix traceroute implementations now support TCP static port traceroutes out of the box.
 
 ### Mapping out DMZ and internal networks
+
 Because all traceroutes work using ICMP TTL Exceeded messages, which protocol is used is not important as long as there 
 is a known response. Use a TCP traceroute with a `SYN` flag set, and commonly open ports such as 25, 80 or 443 for which 
 you can get a reliable response back once the target is reached. 
 
 ### Uptime
+
 Each time a server is patched or updated, it must also be rebooted. If a server has been up for a long time, we know it 
 has not been patched or updated in that time, and that it will be vulnerable to all vulnerabilities discovered during 
 that timeframe.

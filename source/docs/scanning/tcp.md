@@ -27,6 +27,20 @@ and nmap accidentally concluding that a host is down.
 
 ### Under the hood
 
+TCP SYN (Stealth) scan (`-sS`) is the default and most popular scan option for good reason. It can be performed quickly, 
+scanning thousands of ports per second on a fast network not hampered by intrusive firewalls. SYN scan is relatively 
+unobtrusive and stealthy, since it never completes TCP connections. It works against any compliant TCP stack, and 
+allows clear, reliable differentiation between open, closed, and filtered states.
+
+Nmap starts by sending a TCP packet with the SYN flag set and the target send back a response with the SYN and ACK 
+flags. NMap does not complete the handshake with the expected ACK and the OS suddenly receives a SYN/ACK while it 
+hasn't requested (NMap did). The OS responds to the unexpected SYN/ACK with an RST packet. All RST packets in such 
+scenarios also have the ACK bit set because they are always sent in response to (and acknowledge) a received packet.
+
+![syn-scan](../../_static/images/syn-scan.png)
+
+Because the three-way handshake is never completed, SYN scan is sometimes called half-open scanning.
+
 * If a service is listening on a port and someone makes a connection to it (by sending a `SYN` packet), the service will send a `SYN/ACK` packet in return. That means that there is a machine at that IP address. Note that some operating systems will respond with a `SYN/ACK` to `SYN`s sent to ports used for outbound TCP connections, while others will not.
 * If no service is listening on that port but the machine is up and running and on the network, a reset (`RST`) packet will be sent back. That means there is nothing listening on that port, but having sent something in return means that a machine is at that IP address.
 * If nothing is received after sending a `SYN` packet, it means there is no host at that IP address OR a firewall is blocking traffic OR the host is down. Port 80 is therefore extremely useful for ping sweeps, because most firewalls and port filters do not block web traffic.
@@ -37,7 +51,7 @@ and nmap accidentally concluding that a host is down.
 | `SYN` | `RST`     | -                       | Port is closed, host is up                                                        |
 | `SYN` | Nothing   | -                       | Port is blocked by firewall, host is down, or there is no host at that IP address |
 
-### Portscan outputs
+### Interpreting portscan outputs
 
 Some puzzling with indicators will help:
 
