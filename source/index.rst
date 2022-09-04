@@ -88,15 +88,15 @@ By following the plots in each section, you can get an impression of the grove, 
    :caption: Database
 
    docs/databases/README.md
-   docs/databases/Access-password-database.md
-   docs/databases/Crack-root.md
-   docs/databases/DB-exploits.md
-   docs/databases/SQLi.md
-   docs/databases/Confirm-injection-vuln.md
-   docs/databases/SQLi-login.md
-   docs/databases/SQLi-extract.md
-   docs/databases/SQLi-outside.md
-   docs/databases/SQLi-get-shell.md
+   docs/databases/access-pwd-db.md
+   docs/databases/crack-root.md
+   docs/databases/db-exploits.md
+   docs/databases/sqli.md
+   docs/databases/confirm-vuln.md
+   docs/databases/login-bypass.md
+   docs/databases/extract-info.md
+   docs/databases/outside-www.md
+   docs/databases/get-shell.md
 
 .. toctree::
    :maxdepth: 1
