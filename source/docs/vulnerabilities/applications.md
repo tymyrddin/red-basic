@@ -3,25 +3,35 @@
 ## Attack tree
 
 ```text
-1 Known Vulnerabilities (AND)
+1 Known vulnerabilities (AND)
     1.1 Look up in Exploit databases
+    1.2 Vulnerability scanning
 2 Latent vulnerabilities (AND)
-    2.1 Code reviews 
-    2.2 Code scanning
+    2.1 Security code reviews 
+    2.2 Specific code scanning for vulnerabilities
 3 New vulnerabilities
     3.1 Root cause analysis
     3.2 Variant analysis
     3.3 Patch analysis
     3.4 Exploit technique analysis
 ```
-
 ## Notes
 
-* Known vulnerabilities are the simplest vulnerabilities which have been discovered and disclosed. These are often found in the libraries and frameworks that are part of an application. These vulnerabilities tend to get hit very quickly (hours) after disclosure by automated attacks from all over the world, so response speed is critical.
-* Latent vulnerabilities are instances of typical vulnerability classes.: buffer overflows, cross-site scripting (XSS) and SQL injection for example.These vulnerabilities are not listed in databases -- these are unique to each application. 
-* New vulnerabilities represent a new class of vulnerability. These appear at a slow rate, maybe one or two per year. After discovery, research and confirmations, these turn into latent vulnerabilities. There is a learning curve on these new vulnerabilities for attackers and defenders. This type of research is expensive and for most companies unlikely to produce much payoff in terms of overall risk reduction.
+### Manual security code reviews
 
-## Resources
+Manual security code reviews are usually performed by developers or security experts. Such efforts usually take place 
+during a security push or pentesting engagement and are associated with a final security review. Coding errors can be 
+found using different approaches, but even when compared to sophisticated tools, manual code reviews have clearly 
+proven their value in the areas of precision and quality. Unfortunately, manual code reviews are also the most 
+expensive to execute. It is important the developers are not part of the team that created the code, and a 
+facilitator/security professional is also a good idea.
+
+### New vulnerabilities
+
+New vulnerabilities are usually found through bug bounty programs, or researched by dedicated groups like 
+Google Project Zero.
+
+## Resources known vulnerabilities
 
 * [0-days In-the-Wild](https://googleprojectzero.github.io/0days-in-the-wild/)
 * [Blackhat 2020: Reversing the Root (pdf of slides)](https://i.blackhat.com/USA-20/Wednesday/us-20-Stone-Reversing-The-Root-Identifying-The-Exploited-Vulnerability-In-0-Days-Used-In-The-Wild.pdf)

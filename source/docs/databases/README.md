@@ -18,7 +18,6 @@ To gain access to the data stored in it to:
 * Log in as admin and further exploit the system.
 * Upload and download files.
 
-
 ## How?
 
 * [Using known database exploits](db-exploits.md)
