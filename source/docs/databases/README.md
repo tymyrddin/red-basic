@@ -20,7 +20,6 @@ To gain access to the data stored in it to:
 
 ## How?
 
-* [Access password database](access-pwd-db.md)
 * [Cracking the database root password](crack-root.md)
 * [Using known database exploits](db-exploits.md)
 * [SQL injection](sqli.md)
@@ -29,3 +28,4 @@ To gain access to the data stored in it to:
 * [Extracting data from the database](extract-info.md)
 * [Read and write local files outside of www root](outside-www.md)
 * [Get shell and control target server](get-shell.md)
+* [Access password database](access-pwd-db.md)

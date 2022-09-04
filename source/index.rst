@@ -88,7 +88,6 @@ By following the plots in each section, you can get an impression of the grove, 
    :caption: Database
 
    docs/databases/README.md
-   docs/databases/access-pwd-db.md
    docs/databases/crack-root.md
    docs/databases/db-exploits.md
    docs/databases/sqli.md
@@ -97,6 +96,7 @@ By following the plots in each section, you can get an impression of the grove, 
    docs/databases/extract-info.md
    docs/databases/outside-www.md
    docs/databases/get-shell.md
+   docs/databases/access-pwd-db.md
 
 .. toctree::
    :maxdepth: 1
