@@ -37,7 +37,6 @@ By following the plots in each section, you can get an impression of the grove, 
    docs/reconnaissance/fingerprint-webserver.md
    docs/reconnaissance/crawl-site.md
    docs/reconnaissance/app.md
-   docs/reconnaissance/app-vulns.md
    docs/reconnaissance/war-dialing-driving-flying-shipping.md
 
 .. toctree::
@@ -71,6 +70,19 @@ By following the plots in each section, you can get an impression of the grove, 
    docs/enumeration/windows.md
 
 .. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Vulnerability identification
+
+   docs/vulnerabilities/README.md
+   docs/vulnerabilities/greenbone.md
+   docs/vulnerabilities/nessus.md
+   docs/vulnerabilities/nikto.md
+   docs/vulnerabilities/sqlmap.md
+   docs/vulnerabilities/applications.md
+
+.. toctree::
    :maxdepth: 1
    :includehidden:
    :caption: Database
@@ -85,7 +97,6 @@ By following the plots in each section, you can get an impression of the grove, 
    docs/databases/SQLi-extract.md
    docs/databases/SQLi-outside.md
    docs/databases/SQLi-get-shell.md
-   docs/databases/Automated-exploitation.md
 
 .. toctree::
    :maxdepth: 1

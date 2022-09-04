@@ -45,17 +45,17 @@ Because the three-way handshake is never completed, SYN scan is sometimes called
 * If no service is listening on that port but the machine is up and running and on the network, a reset (`RST`) packet will be sent back. That means there is nothing listening on that port, but having sent something in return means that a machine is at that IP address.
 * If nothing is received after sending a `SYN` packet, it means there is no host at that IP address OR a firewall is blocking traffic OR the host is down. Port 80 is therefore extremely useful for ping sweeps, because most firewalls and port filters do not block web traffic.
 
-| Send  | Receive   | Send                    | Assumption                                                                        |
-|-------|-----------|-------------------------|-----------------------------------------------------------------------------------| 
-| `SYN` | `SYN/ACK` | `ACK` followed by `RST` | Port is open, host is up                                                          |
-| `SYN` | `RST`     | -                       | Port is closed, host is up                                                        |
-| `SYN` | Nothing   | -                       | Port is blocked by firewall, host is down, or there is no host at that IP address |
+| Send  | Receive   | Send                    | Assumption                                                                                |
+|-------|-----------|-------------------------|-------------------------------------------------------------------------------------------| 
+| `SYN` | `SYN/ACK` | `ACK` followed by `RST` | Port is open, host is up                                                                  |
+| `SYN` | `RST`     | -                       | Port is closed, host is up                                                                |
+| `SYN` | Nothing   | -                       | Port is blocked by firewall, host is down, <br/>or there is no host at that IP address    |
 
 ### Interpreting portscan outputs
 
 Some puzzling with indicators will help:
 
-* Anything from 40000 onwards could anything and only be temporary
+* Anything from 40000 onwards could be anything and only be temporary
 * NFS can run on any port, but the Linux NFS Kernel server implementation always runs on port 2049 by default. 
 * VNC clients typically are on port 5900+ If port 5900 AND 5901 are open, most likely 5901 is a second VNC service. If port 5901 is open and 5900 closed, who knows?
 * TCP port 8080 open can indicate a proxy server, or something like Apache Tomcat, or ...

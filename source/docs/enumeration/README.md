@@ -21,4 +21,3 @@ in networks that contain unprotected network resources and services.
 * [macOS enumeration](macos.md)
 * [Linux enumeration](linux.md)
 * [Windows enumeration](windows.md)
-
