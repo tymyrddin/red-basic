@@ -80,8 +80,8 @@ By following the plots in each section, you can get an impression of the grove, 
    docs/vulnerabilities/nessus.md
    docs/vulnerabilities/nikto.md
    docs/vulnerabilities/sqlmap.md
-   docs/vulnerabilities/applications.md
    docs/vulnerabilities/mapping.md
+   docs/vulnerabilities/more.md
 
 .. toctree::
    :maxdepth: 1

@@ -1,9 +1,9 @@
-# Discovering more vulnerabilities
+# Discovering more exploits
 
 ## Attack tree
 
 ```text
-1 Known vulnerabilities (AND)
+1 Known vulnerabilities/exploits (AND)
     1.1 Look up in Exploit databases
     1.2 Vulnerability scanning
 2 Latent vulnerabilities (AND)
@@ -14,6 +14,11 @@
     3.2 Variant analysis
     3.3 Patch analysis
     3.4 Exploit technique analysis
+4 New exploits
+    4.1 Proof-of-concept development (exploit development)
+    4.2 Cross-compiling
+    4.3 Modifying an existing exploit
+    4.4 A new exploit chain (a new on-path)
 ```
 ## Notes
 
@@ -30,6 +35,15 @@ facilitator/security professional is also a good idea.
 
 New vulnerabilities are usually found through bug bounty programs, or researched by dedicated groups like 
 Google Project Zero.
+
+### New exploits
+
+* Developing your own exploit is a great way to demonstrate proof of concept that 
+the exploit can happen without focusing on performing malicious activity on the
+target system.
+* Cross-compiling by downloading the source code of an existing exploit and compiling it for another platform.
+* Modifying the exploit to fit your needs before compiling the exploit is also a good option.
+* Exploit chaining uses a combination of different exploits run one after the other.
 
 ## Resources known vulnerabilities
 
