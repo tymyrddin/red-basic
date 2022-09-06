@@ -28,8 +28,12 @@
 
 ## Notes
 
-### Alternatives
+### Alternatives for pentesting
 
-* Installing Kali/Tools in the cloud
 * Port forwarding using an SSH server
 * Tunneling services
+* Proxy chaining
+
+### Alternatives for red teaming
+
+* [A foothold in the cloud](https://tymyrddin.github.io/red-iac/) using Infrastructure as Code.

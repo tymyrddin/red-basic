@@ -15,11 +15,11 @@
 Using remote file inclusion (RFI), an adversary can cause a web application to include a remote file. 
 This is possible for web applications that dynamically include external files or scripts. Potential web security 
 consequences of a successful RFI attack range from sensitive information disclosure and 
-[Cross-site Scripting (XSS)](XSS.md) to [remote code execution](Remote-code-execution.md) and, as a final result, 
+[Cross-site Scripting (XSS)](xss.md) to [remote code execution](rce.md) and, as a final result, 
 full system compromise.
 
 If PHP is configured to `allow_url_fopen` and `allow_url_include` (in `etc/php5/cgi/php.ini`), then the
-[Local inclusion file attack](Local-file-inclusion.md) can be used as a remote file inclusion attack.
+[Local inclusion file attack](lfi.md) can be used as a remote file inclusion attack.
 
 If playing with metasploitable2, set these two to `On` and restart apache2: `sudo /etc/init.d/apache2 restart`
 

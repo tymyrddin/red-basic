@@ -81,6 +81,7 @@ By following the plots in each section, you can get an impression of the grove, 
    docs/vulnerabilities/nikto.md
    docs/vulnerabilities/sqlmap.md
    docs/vulnerabilities/applications.md
+   docs/vulnerabilities/mapping.md
 
 .. toctree::
    :maxdepth: 1
@@ -104,22 +105,22 @@ By following the plots in each section, you can get an impression of the grove, 
    :caption: Application
 
    docs/application/README.md
-   docs/application/Mapping.md
-   docs/application/File-upload.md
-   docs/application/Remote-code-execution.md
-   docs/application/Local-file-inclusion.md
-   docs/application/Remote-file-inclusion.md
-   docs/application/XSS.md
-   docs/application/XSS-context.md
-   docs/application/Hook-to-beef.md
-   docs/application/Cookies.md
-   docs/application/Clickjacking.md
-   docs/application/CSRF.md
-   docs/application/Last-resort.md
-   docs/application/MitB.md
-   docs/application/Browser-based-attacks.md
-   docs/application/ZAP.md
-   docs/application/Post-exploitation.md
+   docs/application/mapping.md
+   docs/application/file-upload.md
+   docs/application/rce.md
+   docs/application/lfi.md
+   docs/application/rfi.md
+   docs/application/xss.md
+   docs/application/xss-context.md
+   docs/application/hook-to-beef.md
+   docs/application/cookies.md
+   docs/application/clickjacking.md
+   docs/application/csrf.md
+   docs/application/last-resort.md
+   docs/application/mitb.md
+   docs/application/browser-based.md
+   docs/application/zap.md
+   docs/application/post-exploitation.md
 
 .. toctree::
    :maxdepth: 1
@@ -162,14 +163,17 @@ By following the plots in each section, you can get an impression of the grove, 
    :caption: Social engineering
 
    docs/social-engineering/README.md
-   docs/social-engineering/Mail-delivery.md
-   docs/social-engineering/Fake-login.md
-   docs/social-engineering/Beef-hook.md
-   docs/social-engineering/Phishing.md
-   docs/social-engineering/Pharming.md
-   docs/social-engineering/Analytics.md
-   docs/social-engineering/Fake-prompts.md
-   docs/social-engineering/Out-of-the-box.md
+   docs/social-engineering/interrogation.md
+   docs/social-engineering/mail-delivery.md
+   docs/social-engineering/c2.md
+   docs/social-engineering/usb.md
+   docs/social-engineering/fake-login.md
+   docs/social-engineering/beef-hook.md
+   docs/social-engineering/phishing.md
+   docs/social-engineering/pharming.md
+   docs/social-engineering/analytics.md
+   docs/social-engineering/fake-prompts.md
+   docs/social-engineering/out-of-the-box.md
 
 .. toctree::
    :maxdepth: 1
