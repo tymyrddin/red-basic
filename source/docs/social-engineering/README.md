@@ -24,11 +24,8 @@ security.
 
 By targeting people, like website and network administrators, security personnel, senior executives, cleaners, etc.
 
-
-* [Use social engineering tactics used in interrogation](interrogation.md)
 * [Mail delivery](mail-delivery.md)
 * [C2](c2.md)
-* [USB key drop](usb.md)
 * [Steal access info with fake login page](fake-login.md)
 * [Webpage with BeEF hook](beef-hook.md)
 * [Phishing](phishing.md)

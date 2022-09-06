@@ -163,10 +163,8 @@ By following the plots in each section, you can get an impression of the grove, 
    :caption: Social engineering
 
    docs/social-engineering/README.md
-   docs/social-engineering/interrogation.md
    docs/social-engineering/mail-delivery.md
    docs/social-engineering/c2.md
-   docs/social-engineering/usb.md
    docs/social-engineering/fake-login.md
    docs/social-engineering/beef-hook.md
    docs/social-engineering/phishing.md
