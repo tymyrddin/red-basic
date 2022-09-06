@@ -1,4 +1,4 @@
-# Discovering more exploits
+# Discovering more vulnerabilities/exploits
 
 ## Attack tree
 

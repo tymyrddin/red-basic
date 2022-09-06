@@ -19,7 +19,7 @@ To compromise the security of the system and potentially gain full access to the
 * [Scanning a webserver with Nikto](nikto.md)
 * [Scanning a webserver with SQLMap](sqlmap.md)
 * [Mapping vulnerabilities to exploits](mapping.md)
-* [Discovering more exploits](more.md)
+* [Discovering more vulnerabilities/exploits](more.md)
 
 
 
