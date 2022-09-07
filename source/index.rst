@@ -131,12 +131,12 @@ By following the plots in each section, you can get an impression of the grove, 
    docs/server/traversal.md
    docs/server/response-splitting.md
    docs/server/poison-cache.md
-   docs/server/Spoof-webserver.md
-   docs/server/Hijack-application-session.md
+   docs/server/spoof.md
+   docs/server/hijack-app-session.md
    docs/server/mitm.md
    docs/server/bruteforce.md
-   docs/server/Escalate-reverse-shell.md
-   docs/server/Privilege-escalation-on-web-server.md
+   docs/server/escalate-shell.md
+   docs/server/privesc.md
 
 .. toctree::
    :maxdepth: 1
