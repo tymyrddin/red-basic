@@ -84,6 +84,17 @@ By following the plots in each section, you can get an impression of the grove, 
    docs/vulnerabilities/more.md
 
 .. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Passwords
+
+   docs/passwords/README.md
+   docs/passwords/brute-force.md
+   docs/passwords/password-spraying.md
+   docs/passwords/hash-cracking.md
+
+.. toctree::
    :maxdepth: 1
    :includehidden:
    :caption: Database

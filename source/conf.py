@@ -92,6 +92,7 @@ html_show_copyright = False
 # Intersphinx
 intersphinx_mapping = {
     "cheatsheets": ("https://tymyrddin.github.io/cheatsheets/", None),
+    "red-network":("https://tymyrddin.github.io/red-network/", None),
     "e2ee-threat-model":("https://tymyrddin.github.io/e2ee-threat-model/", None),
     "da-threat-model":("https://tymyrddin.github.io/da-threat-model/", None),
     "se-threat-model":("https://tymyrddin.github.io/se-threat-model/", None),
