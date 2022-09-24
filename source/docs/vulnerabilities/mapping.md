@@ -3,11 +3,13 @@
 ## Attack tree
 
 ```text
-1 List exploitable vulnerabilities by CVSS score
-    1.1 Calculate Exploitability
-    1.2 Calculate Impact
-    1.3 f(Impact)
-    1.4 BaseScore
+1 List and score exploitable vulnerabilities 
+    1.1 by Common Vulnerability Scoring System (CVSS) (OR)
+        1.1.1 Calculate Exploitability
+        1.1.2 Calculate Impact
+        1.1.3 f(Impact)
+        1.1.4 BaseScore
+    1.2 by Vulnerability Priority Rating (VPR)
 2 Prioritisation possibilities
     2.1 Severity level
     2.2 Vulnerability exposure
@@ -16,25 +18,18 @@
 
 ## Notes
 
-### Nessus
-
-In Nessus, the Vulnerability Information includes whether known exploits are available for a vulnerability. 
-The section labeled “Exploitable With” even shows what tools can be used to exploit the vulnerability.
-
-### Common Vulnerability Scoring System
+### Common Vulnerability Scoring System (CVSS)
 
 The Common Vulnerability Scoring System (CVSS) is a standard vulnerability scoring
 system used by vulnerability scanners to identify the severity of the vulnerability.
 A CVSS base score can be a number from 0 to 10, with 0 being the least severe, and
 10 being the most severe.
-            
+
 The format of the base score for CVSS2:
 
 ```text
 CVSS2#AV:N/AC:L/Au:N/C:C/I:C/A:C
 ```
-
-### Exploitability
 
 Three metrics are used to calculate the exploitability of a vulnerability: 
 
@@ -47,8 +42,6 @@ to the system, be in an adjacent network and use pivoting, or is the vulnerabili
 Exploitability = 20 * AV * AC * Au
 ```
 
-### Impact metrics
-
 Impact metrics are used to identify what the impact of the exploit is on the confidentiality (C), integrity (I), and 
 availability (A) of systems and their data. The values can be None (N), Partial (P) or Complete (C)
 
@@ -56,13 +49,36 @@ availability (A) of systems and their data. The values can be None (N), Partial 
 Impact = 10.41 * (1-(1-C)*(1-I)*(1-A))
 f(Impact) = 0 if Impact = 0, 1.176 otherwise.
 ```
-### End score
+
+End score:
 
 ```text
 BaseScore = roundToOneDecimal(( (0.6*Impact) + (0.4*Exploitability)-1.5) * f(Impact))
 ```
 
+### Vulnerability Priority Rating (VPR)
+
+The VPR framework is a more modern framework in vulnerability management - developed by Tenable, an industry 
+solutions provider for vulnerability management. This framework is considered to be risk-driven; meaning that 
+vulnerabilities are given a score with a heavy focus on the risk a vulnerability poses to the organisation itself, 
+rather than factors such as impact (like with CVSS).
+
+Unlike CVSS, VPR scoring takes into account the relevancy of a vulnerability. For example, no risk is considered 
+regarding a vulnerability if that vulnerability does not apply to the organisation. VPR is also considerably 
+dynamic in its scoring, where the risk that a vulnerability may pose can change almost daily as it ages.
+
+VPR uses a similar scoring range as CVSS, which I have also put into the table below. Two notable differences are 
+that VPR does not have a `None/Informational` category, and because 
+[VPR uses a different scoring method (youtube)](https://www.youtube.com/watch?v=XYIsBeRV1YQ), the same 
+vulnerability will have a different score using VPR than when using CVSS.
+
+### Nessus
+
+In Nessus, the Vulnerability Information includes whether known exploits are available for a vulnerability. 
+The section labeled “Exploitable With” even shows what tools can be used to exploit the vulnerability.
+
 ## Resources
 
 * [NVD CVSS v2 Calculator](https://nvd.nist.gov/vuln-metrics/cvss/v2-calculator)
 * [NVD CVSS v3 Calculator](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator) 
+* [Vulnerability Priority Rating (VPR) Summary](https://www.tenable.com/sc-dashboards/vulnerability-priority-rating-vpr-summary)
