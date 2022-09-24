@@ -1,4 +1,4 @@
-# Hijack session (application)
+# Hijack session
 
 A web server needs a method to recognize every user’s connections. The most useful method depends on a token that the Web Server sends to the client browser after a successful client authentication. A session token is composed of a string of variable width and can be used in different ways, like in the URL, in the header of the http requisition as a cookie, in other parts of the header of the http request, or in the body of the http requisition.
 

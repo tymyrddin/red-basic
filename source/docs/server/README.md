@@ -20,4 +20,15 @@ Web servers became harder to hack, not impossible to hack. Web servers suffer th
 * Use common vulnerabilities, such as DNS poisoning, weak configurations, and poor patching (but those are becoming rare).
 * Find new vulnerabilities with code analysis or fuzzing.
 
+* [Directory traversal](traversal.md)
+* [HTTP Response splitting](response-splitting.md)
+* [Poison cache](poison-cache.md)
+* [Spoof webserver](spoof.md)
+* [Hijack session](hijack-app-session.md)
+* [MitM between users and webserver](mitm.md)
+* [Bruteforce available services](bruteforce.md)
+* [Escalate a reverse shell to a more powerful shell](escalate-shell.md)
+* [Privilege escalation on a web server](privesc.md)
+* [Pickle Rick](picklerick.md)
+
 
