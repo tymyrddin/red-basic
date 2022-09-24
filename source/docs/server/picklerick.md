@@ -18,7 +18,7 @@ three secret ingredients in order to turn Rick back to his old self.
 
 Enumerate the machine by using Nmap scanner.
 
-    nmap -Pn -Sv -A -v <Machine IP>
+    nmap -Pn -sV -A <Machine IP> -vv
 
 Two ports are open on the machine: 80 (HTTP) and 22 (SSH). Try view the site on <Machine IP> and the source code 
 for more information. Owww, a note to self with a username: `R1ckRul3s`.
@@ -27,7 +27,7 @@ Using gobuster to enumerate:
 
     gobuster dir -u <Machine IP> -w /usr/share/dirb/wordlists/common.txt
 
-Visiting many places and files. The `robots.txt` file inside the webserver contains `Wubbalubbadubdub`. 
+Visiting many places and files. The `Machine IP/robots.txt` file inside the webserver contains `Wubbalubbadubdub`. 
 Could be a password. Or just nonsense.
 
 [Enumerating the webserver using dirbuster](https://git.mst.edu/slbnmc/ici-wiki/-/wikis/Enumerating-Web-Server-Files-and-Directories-with-DirBuster) 
@@ -44,6 +44,7 @@ Boom!
 And the `clue.txt` file indicates there is another ingredient file hidden inside the file system. 
 
     ls -la /home/rick
+    less '/home/rick/second ingredients'
 
 Ha!
 
@@ -58,6 +59,7 @@ results:
 No password on sudo, sooo:
 
     sudo ls -la /root
+    sudo less '/root/3rd.txt'
 
 Found.
 
