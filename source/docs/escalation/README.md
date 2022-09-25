@@ -16,10 +16,9 @@ To be able to take action, like install software, get user data that can possibl
 
 ## How?
 
+* [Gain unauthorised access](unauthorised-access.md)
 * [Bind and reverse shells](shells.md)
 * [Common shell payloads](payloads.md)
-* [MSFvenom payload creator](msfvenom.md)
-* [Gain unauthorised access](unauthorised-access.md)
 * [Upgrade basic shell access to meterpreter/empire access](escalate-shell.md)
 * [Maintaining access on Windows](maintain-windows.md)
 * [Upload and execute using empire](upload-exec.md)

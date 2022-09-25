@@ -189,10 +189,9 @@ By following the plots in each section, you can get an impression of the grove, 
    :caption: Privilege escalation
 
    docs/escalation/README.md
+   docs/escalation/unauthorised-access.md
    docs/escalation/shells.md
    docs/escalation/payloads.md
-   docs/escalation/msfvenom.md
-   docs/escalation/unauthorised-access.md
    docs/escalation/escalate-shell.md
    docs/escalation/maintain-windows.md
    docs/escalation/upload-exec.md
