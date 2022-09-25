@@ -1,4 +1,4 @@
-# Shells
+# Bind and reverse shells
 
 ## Attack tree
 
@@ -137,5 +137,3 @@ protecting the target.
 * [Socat](https://www.kali.org/tools/socat/)
 * [Socat binaries](https://github.com/3ndG4me/socat/releases)
 * [Metasploit -- multi/handler](https://www.infosecmatter.com/metasploit-module-library/?mm=exploit/multi/handler)
-
-## Resources

@@ -16,8 +16,8 @@ To be able to take action, like install software, get user data that can possibl
 
 ## How?
 
-* [Shells](shells.md)
-* [Payloads](payloads.md)
+* [Bind and reverse shells](shells.md)
+* [Common shell payloads](payloads.md)
 * [MSFvenom payload creator](msfvenom.md)
 * [Gain unauthorised access](unauthorised-access.md)
 * [Upgrade basic shell access to meterpreter/empire access](escalate-shell.md)
