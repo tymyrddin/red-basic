@@ -113,23 +113,23 @@ By following the plots in each section, you can get an impression of the grove, 
    :includehidden:
    :caption: Application
 
-   docs/application/README.md
-   docs/application/mapping.md
-   docs/application/file-upload.md
-   docs/application/rce.md
-   docs/application/lfi.md
-   docs/application/rfi.md
-   docs/application/xss.md
-   docs/application/xss-context.md
-   docs/application/hook-to-beef.md
-   docs/application/cookies.md
-   docs/application/clickjacking.md
-   docs/application/csrf.md
-   docs/application/last-resort.md
-   docs/application/mitb.md
-   docs/application/browser-based.md
-   docs/application/zap.md
-   docs/application/post-exploitation.md
+   docs/app/README.md
+   docs/app/mapping.md
+   docs/app/file-upload.md
+   docs/app/rce.md
+   docs/app/lfi.md
+   docs/app/rfi.md
+   docs/app/xss.md
+   docs/app/xss-context.md
+   docs/app/hook-to-beef.md
+   docs/app/cookies.md
+   docs/app/clickjacking.md
+   docs/app/csrf.md
+   docs/app/last-resort.md
+   docs/app/mitb.md
+   docs/app/browser-based.md
+   docs/app/zap.md
+   docs/app/post-exploitation.md
 
 .. toctree::
    :maxdepth: 1
