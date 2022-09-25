@@ -20,10 +20,8 @@ By following the plots in each section, you can get an impression of the grove, 
    docs/lab/Windows.md
    docs/lab/macOS.md
    docs/lab/Linux.md
-   docs/lab/Metasploitable
-   docs/lab/Webgoat
-   docs/lab/msfvenom.md
-   docs/lab/empire.md
+   docs/lab/Metasploitable.md
+   docs/lab/Webgoat.md
 
 .. toctree::
    :maxdepth: 1
@@ -188,19 +186,22 @@ By following the plots in each section, you can get an impression of the grove, 
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: System
+   :caption: Privilege escalation
 
-   docs/system/README.md
-   docs/system/unauthorised-access.md
-   docs/system/escalate-shell.md
-   docs/system/maintain-windows.md
-   docs/system/upload-exec.md
-   docs/system/backdoor-windows.md
-   docs/system/pe-windows.md
-   docs/system/maintain-macos.md
-   docs/system/pe-macos.md
-   docs/system/pe-linux.md
-   docs/system/pivoting.md
+   docs/escalation/README.md
+   docs/escalation/shells.md
+   docs/escalation/payloads.md
+   docs/escalation/msfvenom.md
+   docs/escalation/unauthorised-access.md
+   docs/escalation/escalate-shell.md
+   docs/escalation/maintain-windows.md
+   docs/escalation/upload-exec.md
+   docs/escalation/backdoor-windows.md
+   docs/escalation/pe-windows.md
+   docs/escalation/maintain-macos.md
+   docs/escalation/pe-macos.md
+   docs/escalation/pe-linux.md
+   docs/escalation/pivoting.md
 
 .. toctree::
    :glob:
