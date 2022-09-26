@@ -11,7 +11,7 @@
     1.5 Services
 ```
 
-# Examples
+## Examples
 
 Try to enumerate users, or list the users:
 
