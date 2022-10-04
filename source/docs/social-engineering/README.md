@@ -25,11 +25,8 @@ security.
 By targeting people, like website and network administrators, security personnel, senior executives, cleaners, etc.
 
 * [Mail delivery](mail-delivery.md)
-* [C2](c2.md)
 * [Steal access info with fake login page](fake-login.md)
 * [Webpage with BeEF hook](beef-hook.md)
-* [Phishing](phishing.md)
-* [Pharming](pharming.md)
 * [Use analytics to lure a target](analytics.md)
 * [Fake prompts everywhere](fake-prompts.md)
 * [Getting out of the box](out-of-the-box.md)
