@@ -71,20 +71,6 @@ By following the plots in each section, you can get an impression of the grove, 
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Vulnerability identification
-
-   docs/vulnerabilities/README.md
-   docs/vulnerabilities/greenbone.md
-   docs/vulnerabilities/nessus.md
-   docs/vulnerabilities/nikto.md
-   docs/vulnerabilities/sqlmap.md
-   docs/vulnerabilities/mapping.md
-   docs/vulnerabilities/more.md
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
    :caption: Passwords
 
    docs/passwords/README.md
