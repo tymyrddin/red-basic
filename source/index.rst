@@ -204,15 +204,6 @@ By following the plots in each section, you can get an impression of the grove, 
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Crypto
-
-   docs/crypto/README.md
-   docs/crypto/*
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
    :caption: Troubleshooting
 
    docs/trouble/README.md
