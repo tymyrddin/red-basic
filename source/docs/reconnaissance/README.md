@@ -22,4 +22,4 @@ Gain as much information as possible before launching attacks.
 * [Fingerprint webserver](fingerprint-webserver.md)
 * [Crawl website](crawl-site.md)
 * [Gathering application information](app.md)
-* [War-dialing-driving-flying-shipping](war-dialing-driving-flying-shipping.md)
+
