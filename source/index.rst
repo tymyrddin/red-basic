@@ -2,11 +2,8 @@ Grove
 =================================
 
 To start off in the red team as someone without hacking experience, we recommend following a story of a small grove
-in the forest. The tips of the trees' branches are entrypoints to discovering the trunk and then the roots of the
-trees, and from there the network of near-infinite and interwoven fungi threads and roots that connect all the trees,
-the mycorrhizal network or 'wood web'.
-
-By following the plots in each section, you can get an impression of the grove, and by extension, of the forest.
+in the forest. By following the plots in each section, you can get an impression of the grove, and by extension, of
+the forest.
 
 .. toctree::
    :glob:
