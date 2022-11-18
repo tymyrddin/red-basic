@@ -21,7 +21,3 @@
 * [Netcat](https://sectools.org/tool/netcat/) is network debugging and investigation tool that can assist with port scanning, transferring files, and port listening, and it can also be used as a backdoor. 
 * [OpenVAS](https://www.openvas.org/)
 * [NMap](https://nmap.org/) 
-
-## Cheatsheets
-
-* [Linux enumeration cheatsheet](cheatsheets:docs/enumeration/linux)

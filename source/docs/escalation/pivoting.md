@@ -1,5 +1,7 @@
 # Pivoting using meterpreter autoroute
 
+Pivoting is the act of moving from host to host through compromise. It is also known as lateral movement.
+
 ## Attack tree
 
 ```text
@@ -13,10 +15,3 @@
 2 Enumerate network on a hacked machine in the other network (port scanning, sniffing, ...)
 ```
 
-## Notes
-
-Pivoting is the act of moving from host to host through compromise. It is also known as lateral movement. 
-
-## Cheatsheets
-
-* [IDS/IPS Evasion](cheatsheets:docs/payloads/evasion-ids)

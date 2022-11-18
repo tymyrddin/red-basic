@@ -47,6 +47,6 @@ onwards.
 * [Nishang](https://www.kali.org/tools/nishang/) includes a number of payloads and scripts used by PowerShell for offense security or red team testing. It also allows for customization to allow evasion by malware detection and end-point management agents to execute processes within memory, running stealthily against targets.
 * [MacPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS) - Just execute `linpeas.sh` in a macOS system and the MacPEAS version will be automatically executed.
 
-## Cheatsheets
+## Resources
 
 * [Empire wiki](https://bc-security.gitbook.io/empire-wiki/)

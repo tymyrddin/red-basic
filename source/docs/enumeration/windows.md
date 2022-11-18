@@ -28,8 +28,5 @@ NetBIOS is outdated but still lives on in some older systems, sometimes for back
 * [Nbtstat](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/nbtstat) shows NetBIOS statistics. It is not that important, but if you are enumerating from within, on a network which includes older boxes, it has its use.
 * [NMap](https://nmap.org/)
 
-## Cheatsheets
-
-* [Windows enumeration cheatsheet](cheatsheets:docs/enumeration/windows)
 
 

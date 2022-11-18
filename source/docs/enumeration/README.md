@@ -15,9 +15,6 @@ in networks that contain unprotected network resources and services.
 ## How?
 
 * [Host enumeration](host.md)
-* [Input vectors enumeration](input-vectors.md)
-* [Enumerate webserver directories](webserver.md)
-* [Network enumeration](network.md)
 * [macOS enumeration](macos.md)
 * [Linux enumeration](linux.md)
 * [Windows enumeration](windows.md)

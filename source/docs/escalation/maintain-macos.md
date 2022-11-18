@@ -28,8 +28,7 @@
 
 * The empire method reports it is not opsec safe. A forensics artist may be able to tell we were there.
 
-## Cheatsheets
+## Resources
 
-* [Linux post exploitation enumeration](cheatsheets:docs/enumeration/linux-post)
 * [Offensive security: Meterpreter Basic Commands](https://www.offensive-security.com/metasploit-unleashed/meterpreter-basics/)
 * [Metasploit documentation](https://docs.metasploit.com/)

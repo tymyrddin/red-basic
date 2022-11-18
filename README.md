@@ -1,12 +1,12 @@
 # Attack Trees
 
-![Publish Attack Trees using Sphinx](https://github.com/tymyrddin/attack-trees/workflows/Publish%20Attack%20Trees%20using%20Sphinx/badge.svg?branch=main)
- Deployed: https://tymyrddin.github.io/attack-trees/
+![Publish Grove using Sphinx](https://github.com/tymyrddin/red-basic/workflows/Publish%20Grove%20using%20Sphinx/badge.svg?branch=main)
+ Deployed: https://tymyrddin.github.io/red-basic/
 
 Built with [Sphinx](https://www.sphinx-doc.org) using a [theme](https://github.com/readthedocs/sphinx_rtd_theme) provided
 by [Read the Docs](https://readthedocs.org/).
 
-With many thanks to [EONRaider](https://github.com/EONRaider) and [ZSecurity](https://zsecurity.org/).
+With many thanks to [ZSecurity](https://zsecurity.org/).
 
 ## Requirements
 
@@ -28,7 +28,7 @@ $ make html
 
 This project welcomes contributions and suggestions. 
 
-[Open an issue here](https://github.com/tymyrddin/attack-trees/issues)
+[Open an issue here](https://github.com/tymyrddin/red-basic/issues)
 
 ## Mind
 Where you stand depends on where you sit, and all threats are cross-vector threats. Without a clear mandate for testing, measuring and reporting actual improvements in security, attempts at improving security makes absolutely no sense, not even for the low-hanging fruit.  

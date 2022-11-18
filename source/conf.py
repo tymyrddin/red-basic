@@ -91,23 +91,6 @@ html_show_copyright = False
 
 # Intersphinx
 intersphinx_mapping = {
-    "cheatsheets": ("https://tymyrddin.github.io/cheatsheets/", None),
-    "red-network":("https://tymyrddin.github.io/red-network/", None),
-    "e2ee-threat-model":("https://tymyrddin.github.io/e2ee-threat-model/", None),
-    "da-threat-model":("https://tymyrddin.github.io/da-threat-model/", None),
-    "se-threat-model":("https://tymyrddin.github.io/se-threat-model/", None),
-    "app-threat-model":("https://tymyrddin.github.io/app-threat-model/", None),
-    "cicd-threat-model":("https://tymyrddin.github.io/cicd-threat-model/", None),
-    "linux-pc-mitigations":("https://tymyrddin.github.io/linux-pc-mitigations/", None),
-    "linux-server-mitigations":("https://tymyrddin.github.io/linux-server-mitigations/", None),
-    "data-mitigations":("https://tymyrddin.github.io/data-mitigations/", None),
-    "webserver-mitigations":("https://tymyrddin.github.io/webserver-mitigations/", None),
-    "mailserver-mitigations":("https://tymyrddin.github.io/mailserver-mitigations/", None),
-    "network-mitigations":("https://tymyrddin.github.io/network-mitigations/", None),
-    "app-mitigations": ("https://tymyrddin.github.io/app-mitigations/", None),
-    "android-mitigations": ("https://tymyrddin.github.io/android-mitigations/", None),
-    "windows-pc-mitigations": ("https://tymyrddin.github.io/windows-pc-mitigations/", None),
-    "macos-mitigations": ("https://tymyrddin.github.io/macos-mitigations/", None),
-    "ios-mitigations": ("https://tymyrddin.github.io/ios-mitigations/", None),
+    "red":("https://tymyrddin.github.io/red", None),
 }
 myst_url_schemes = ["http", "https", ]

