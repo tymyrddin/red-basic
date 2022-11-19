@@ -2,7 +2,7 @@
 
 ## What?
 
-Delivering malware (backdoors, keyloggers, password recovery tools, trojans, ...).
+Prepare an exploit (backdoors, keyloggers, password recovery tools, trojans, ...), and deliver it.
 
 ## Why?
 

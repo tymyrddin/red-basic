@@ -6,50 +6,38 @@ in the forest. By following the plots in each section, you can get an impression
 the forest.
 
 .. toctree::
-   :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Enumeration
+   :caption: In
 
-   docs/enumeration/README.md
-   docs/enumeration/host.md
-   docs/enumeration/macos.md
-   docs/enumeration/linux.md
-   docs/enumeration/windows.md
+   docs/in/README.md
+   docs/in/overview.md
+   docs/in/windows.md
+   docs/in/keylogger.md
+   docs/in/pwrecovery.md
+   docs/in/modify-source.md
+   docs/in/trojan-windows.md
+   docs/in/macos.md
+   docs/in/trojan-macos.md
+   docs/in/linux.md
+   docs/in/trojan-linux.md
+   docs/in/target.md
 
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: Weaponisation
+   :caption: Through
 
-   docs/malware/README.md
-   docs/malware/Create-malware.md
-   docs/malware/Malware-Windows.md
-   docs/malware/Keylogger.md
-   docs/malware/Password-recovery.md
-   docs/malware/Modify-source.md
-   docs/malware/Trojan-Windows.md
-   docs/malware/Malware-macOS.md
-   docs/malware/Trojan-macOS.md
-   docs/malware/Malware-Linux.md
-   docs/malware/Trojan-Linux.md
-   docs/malware/Target-device.md
-
-.. toctree::
-   :maxdepth: 1
-   :includehidden:
-   :caption: Privilege escalation
-
-   docs/escalation/README.md
-   docs/escalation/escalate-shell.md
-   docs/escalation/maintain-windows.md
-   docs/escalation/upload-exec.md
-   docs/escalation/backdoor-windows.md
-   docs/escalation/pe-windows.md
-   docs/escalation/maintain-macos.md
-   docs/escalation/pe-macos.md
-   docs/escalation/pe-linux.md
-   docs/escalation/pivoting.md
+   docs/through/README.md
+   docs/through/escalate-shell.md
+   docs/through/maintain-windows.md
+   docs/through/upload-exec.md
+   docs/through/backdoor-windows.md
+   docs/through/pe-windows.md
+   docs/through/maintain-macos.md
+   docs/through/pe-macos.md
+   docs/through/pe-linux.md
+   docs/through/pivoting.md
 
 .. toctree::
    :caption: Links
