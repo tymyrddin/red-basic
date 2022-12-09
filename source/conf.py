@@ -91,6 +91,6 @@ html_show_copyright = False
 
 # Intersphinx
 intersphinx_mapping = {
-    "red":("https://tymyrddin.github.io/red", None),
+    "red":("https://red.tymyrddin.dev/en/latest/", None),
 }
 myst_url_schemes = ["http", "https", ]
