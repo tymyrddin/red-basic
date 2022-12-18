@@ -5,6 +5,13 @@ To start off in the red team as someone without hacking experience, we recommend
 in the forest. By following the plots in each section, you can get an impression of the grove, and by extension, of
 the forest.
 
+----
+
+.. image:: _static/images/penetration-testing.png
+  :alt: Useful books
+
+----
+
 .. toctree::
    :maxdepth: 1
    :includehidden:
