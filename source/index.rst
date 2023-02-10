@@ -7,11 +7,6 @@ the forest.
 
 ----
 
-.. image:: _static/images/penetration-testing.png
-  :alt: Useful books
-
-----
-
 .. toctree::
    :maxdepth: 1
    :includehidden:
@@ -46,7 +41,7 @@ the forest.
    docs/through/pe-linux.md
    docs/through/pivoting.md
 
-.. toctree::
-   :caption: Links
+----
 
-   Red Team <https://red.tymyrddin.dev/>
+.. image:: _static/images/penetration-testing.png
+  :alt: Useful books
