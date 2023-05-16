@@ -3,7 +3,7 @@
 Built with [Sphinx](https://www.sphinx-doc.org) using a [theme](https://github.com/readthedocs/sphinx_rtd_theme) provided
 by [Read the Docs](https://readthedocs.org/).
 
-[![Documentation Status](https://readthedocs.org/projects/red-basic/badge/?version=latest)](https://red.tymyrddin.dev/projects/basic/en/latest/?badge=latest)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f786f10a-9fed-4507-be3d-1e4e876ea93d/deploy-status)](https://app.netlify.com/sites/nimble-profiterole-58a395/deploys)
 
 ## Requirements
 
